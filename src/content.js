@@ -9,7 +9,7 @@ const gamas = [
       img: 'casa-joy', w: 869, h: 900,
       productos: {
         es: ['Sérum con Ácido hialurónico + B5', 'Crema con Ácido hialurónico + Hibiscus', 'Sérum Cica Recovery'],
-        en: ['HA + B5 Serum', 'HA + Hibiscus Cream', 'Cica Recovery Serum'],
+        en: ['Hyaluronic Acid + B5 Serum', 'Hyaluronic Acid + Hibiscus Cream', 'Cica Recovery Serum'],
       },
     },
     cabina: {
@@ -18,7 +18,7 @@ const gamas = [
         { n: 'Hydra Volume', es: 'Hidratación, volumen y elasticidad', en: 'Hydration, volume and elasticity' },
         { n: 'Cell Energy', es: 'Nutrición y revitalización', en: 'Nourishing and revitalizing' },
         { n: 'Skin Repair', es: 'Textura y regeneración', en: 'Skin texture and regeneration' },
-        { n: 'Lacto Renewal', es: 'Peeling', en: 'Peel' },
+        { n: 'Lacto Renewal', es: 'Peeling. Hidratación y renovación', en: 'Peel. Moisturizing and renewal' },
       ],
     },
   },
@@ -47,7 +47,7 @@ const gamas = [
       img: 'casa-blur', w: 868, h: 900,
       productos: {
         es: ['Sérum con Niacinamida', 'Crema antimanchas Niolac'],
-        en: ['Niacinamide Serum', 'Niolac Cream'],
+        en: ['Niacinamide Serum', 'Dark Spots Cream Niolac'],
       },
     },
     cabina: {
@@ -55,7 +55,7 @@ const gamas = [
       productos: [
         { n: 'Spot Corrector', es: 'Antimanchas y unificación del tono', en: 'Dark spots correction and tone unification' },
         { n: 'Pigment Balance', es: 'Control de la melanina', en: 'Melanin harmony' },
-        { n: 'Pigment Control', es: 'Peeling', en: 'Peel' },
+        { n: 'Pigment Control', es: 'Peeling. Reducción de manchas y tono uniforme', en: 'Peel. Dark spot reduction and even tone' },
       ],
     },
   },
@@ -65,8 +65,8 @@ const gamas = [
     casa: {
       img: 'casa-silk', w: 869, h: 900,
       productos: {
-        es: ['Sérum con Retinol 0.15%', 'Crema con Retinol 0.3%', 'Crema con Ceramidas', 'Crema solar fluida SPF50'],
-        en: ['Retinol 0.15% Serum', 'Retinol 0.3% Cream', 'Ceramides Cream', 'Fluid SPF 50'],
+        es: ['Retinol 0.15% Sérum', 'Crema con Retinol 0.3%', 'Crema con Ceramidas', 'Crema solar fluida SPF50'],
+        en: ['Retinol 0.15% Serum', '0.3% Retinol Cream', 'Ceramides Cream', 'Fluid Sunscreen SPF50 Proage'],
       },
     },
     cabina: {
@@ -85,14 +85,14 @@ const gamas = [
     casa: {
       img: 'casa-pure', w: 614, h: 636,
       productos: {
-        es: ['Sérum con Salicílico', 'Crema con Salicílico que cuida el microbioma', 'Gel con Ácido glicólico + AHAs'],
-        en: ['Salicylic Serum', 'Salicylic Biome Cream', 'Glycolic + AHAs Gel'],
+        es: ['Sérum con Ácido Salicílico', 'Crema con Salicílico que Cuida el Microbioma', 'Gel con Ácido Glicólico + AHAs'],
+        en: ['Salicylic Acid Serum', 'Salicylic Acid Cream that Supports the Microbiome', 'Glycolic Acid + AHA Gel'],
       },
     },
     cabina: {
       img: 'peel-pure', w: 900, h: 652,
       productos: [
-        { n: 'Salicylic Balance', es: 'Peeling', en: 'Peel' },
+        { n: 'Salicylic Balance', es: 'Peeling. Purificación y control del sebo', en: 'Peel. Purifying and sebum control' },
       ],
     },
   },

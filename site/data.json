@@ -19,8 +19,8 @@
             "Sérum Cica Recovery"
           ],
           "en": [
-            "HA + B5 Serum",
-            "HA + Hibiscus Cream",
+            "Hyaluronic Acid + B5 Serum",
+            "Hyaluronic Acid + Hibiscus Cream",
             "Cica Recovery Serum"
           ]
         }
@@ -45,8 +45,8 @@
           },
           {
             "n": "Lacto Renewal",
-            "es": "Peeling",
-            "en": "Peel"
+            "es": "Peeling. Hidratación y renovación",
+            "en": "Peel. Moisturizing and renewal"
           }
         ]
       }
@@ -111,7 +111,7 @@
           ],
           "en": [
             "Niacinamide Serum",
-            "Niolac Cream"
+            "Dark Spots Cream Niolac"
           ]
         }
       },
@@ -130,8 +130,8 @@
           },
           {
             "n": "Pigment Control",
-            "es": "Peeling",
-            "en": "Peel"
+            "es": "Peeling. Reducción de manchas y tono uniforme",
+            "en": "Peel. Dark spot reduction and even tone"
           }
         ]
       }
@@ -150,16 +150,16 @@
         "h": 900,
         "productos": {
           "es": [
-            "Sérum con Retinol 0.15%",
+            "Retinol 0.15% Sérum",
             "Crema con Retinol 0.3%",
             "Crema con Ceramidas",
             "Crema solar fluida SPF50"
           ],
           "en": [
             "Retinol 0.15% Serum",
-            "Retinol 0.3% Cream",
+            "0.3% Retinol Cream",
             "Ceramides Cream",
-            "Fluid SPF 50"
+            "Fluid Sunscreen SPF50 Proage"
           ]
         }
       },
@@ -203,14 +203,14 @@
         "h": 636,
         "productos": {
           "es": [
-            "Sérum con Salicílico",
-            "Crema con Salicílico que cuida el microbioma",
-            "Gel con Ácido glicólico + AHAs"
+            "Sérum con Ácido Salicílico",
+            "Crema con Salicílico que Cuida el Microbioma",
+            "Gel con Ácido Glicólico + AHAs"
           ],
           "en": [
-            "Salicylic Serum",
-            "Salicylic Biome Cream",
-            "Glycolic + AHAs Gel"
+            "Salicylic Acid Serum",
+            "Salicylic Acid Cream that Supports the Microbiome",
+            "Glycolic Acid + AHA Gel"
           ]
         }
       },
@@ -221,8 +221,8 @@
         "productos": [
           {
             "n": "Salicylic Balance",
-            "es": "Peeling",
-            "en": "Peel"
+            "es": "Peeling. Purificación y control del sebo",
+            "en": "Peel. Purifying and sebum control"
           }
         ]
       }
