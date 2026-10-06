@@ -199,7 +199,7 @@ function page(L) {
   <section class="puertas">
     <div class="w">
       <h2 class="h-sec">${s.puertasH}</h2>
-      <div class="puertas-grid">${[['tienda', 'puerta-tienda', 1080, 1080, url(L, 'shop'), s.ctaTienda], ['pro', 'silk-movimiento', 1040, 1300, url(L, 'pro'), s.ctaPro], ['dist', 'puerta-dist', 1358, 1080, url(L, 'dist'), s.ctaDist]].map(([k, im, w, h, href, cta]) => `
+      <div class="puertas-grid">${[['tienda', 'puerta-tienda', 1080, 1080, url(L, 'shop'), s.ctaTienda], ['pro', 'puerta-pro', 1040, 1300, url(L, 'pro'), s.ctaPro], ['dist', 'puerta-dist', 1358, 1080, url(L, 'dist'), s.ctaDist]].map(([k, im, w, h, href, cta]) => `
         <a class="puerta puerta-${k}" href="${href}">
           <span class="puerta-img">${img(im, w, h, '')}</span>
           <strong>${s.puertas[k][0]}</strong>

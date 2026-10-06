@@ -61,7 +61,7 @@ module.exports = (c) => {
     const dl = arr => `<dl class="soporte">${arr.map(([a, b]) => `<div><dt>${a}</dt><dd>${b}</dd></div>`).join('')}</dl>`;
     const pcard = p => { const g = gama(p.gama); return `
         <li data-gama="${p.gama}" data-pre="${p.preocupacion.join(' ')}"><a class="pc" href="${url(L, 'prod', p.id)}" style="--c:var(--${p.gama},var(--line))">
-          <span class="pc-i">${img('prod-' + p.id, 1000, 1000, '')}${p.fotos[1] ? img(p.fotos[1], 1000, 1000, '', 'pc-b') : ''}</span>
+          <span class="pc-i">${img('prod-' + p.id, 1000, 1000, '')}${p.hover ? img(p.hover, 1000, 1000, '', 'pc-b') : ''}</span>
           <span class="pc-g">${g.nombre} <em>${g.desc}</em></span>
           <span class="pc-n">${p.nombre[L]}</span>
           <span class="pc-m">${p.formato || ''}${p.precio ? ` · ${eur(p.precio)}` : ''}</span>

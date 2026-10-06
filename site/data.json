@@ -2359,8 +2359,10 @@
       "h": 1000,
       "fotos": [
         "prod-osmolyte-cleanser",
-        "prod-osmolyte-cleanser-2"
-      ]
+        "prod-osmolyte-cleanser-2",
+        "prod-osmolyte-cleanser-v"
+      ],
+      "hover": "prod-osmolyte-cleanser-v"
     },
     {
       "id": "glycilac-toner",
@@ -2433,7 +2435,8 @@
       "h": 1000,
       "fotos": [
         "prod-glycilac-toner"
-      ]
+      ],
+      "hover": null
     },
     {
       "id": "ha-b5-serum",
@@ -2517,8 +2520,10 @@
       "h": 1000,
       "fotos": [
         "prod-ha-b5-serum",
-        "prod-ha-b5-serum-2"
-      ]
+        "prod-ha-b5-serum-2",
+        "prod-ha-b5-serum-v"
+      ],
+      "hover": "prod-ha-b5-serum-v"
     },
     {
       "id": "cica-recovery-serum",
@@ -2612,8 +2617,10 @@
       "w": 1000,
       "h": 1000,
       "fotos": [
-        "prod-cica-recovery-serum"
-      ]
+        "prod-cica-recovery-serum",
+        "prod-cica-recovery-serum-s"
+      ],
+      "hover": "prod-cica-recovery-serum-s"
     },
     {
       "id": "ha-hibiscus-cream",
@@ -2711,7 +2718,8 @@
         "prod-ha-hibiscus-cream-2",
         "prod-ha-hibiscus-cream-3",
         "prod-ha-hibiscus-cream-4"
-      ]
+      ],
+      "hover": "prod-ha-hibiscus-cream-4"
     },
     {
       "id": "ha-b5-silicium-mask",
@@ -2787,7 +2795,8 @@
         "prod-ha-b5-silicium-mask",
         "prod-ha-b5-silicium-mask-2",
         "prod-ha-b5-silicium-mask-3"
-      ]
+      ],
+      "hover": "prod-ha-b5-silicium-mask-3"
     },
     {
       "id": "vit-c-gag-serum",
@@ -2849,8 +2858,10 @@
       "h": 1000,
       "fotos": [
         "prod-vit-c-gag-serum",
-        "prod-vit-c-gag-serum-2"
-      ]
+        "prod-vit-c-gag-serum-2",
+        "prod-vit-c-gag-serum-v"
+      ],
+      "hover": "prod-vit-c-gag-serum-v"
     },
     {
       "id": "c-age-defense-serum",
@@ -2931,8 +2942,11 @@
       "w": 1000,
       "h": 1000,
       "fotos": [
-        "prod-c-age-defense-serum"
-      ]
+        "prod-c-age-defense-serum",
+        "prod-c-age-defense-serum-s",
+        "prod-c-age-defense-serum-v"
+      ],
+      "hover": "prod-c-age-defense-serum-v"
     },
     {
       "id": "multivitamin-cocktail-concentrate",
@@ -3029,7 +3043,8 @@
       "fotos": [
         "prod-multivitamin-cocktail-concentrate",
         "prod-multivitamin-cocktail-concentrate-2"
-      ]
+      ],
+      "hover": "prod-multivitamin-cocktail-concentrate-2"
     },
     {
       "id": "curcumin-bloom-scrub",
@@ -3120,8 +3135,10 @@
       "w": 1000,
       "h": 1000,
       "fotos": [
-        "prod-curcumin-bloom-scrub"
-      ]
+        "prod-curcumin-bloom-scrub",
+        "prod-curcumin-bloom-scrub-s"
+      ],
+      "hover": "prod-curcumin-bloom-scrub-s"
     },
     {
       "id": "niacinamide-serum",
@@ -3195,8 +3212,10 @@
       "h": 1000,
       "fotos": [
         "prod-niacinamide-serum",
-        "prod-niacinamide-serum-2"
-      ]
+        "prod-niacinamide-serum-2",
+        "prod-niacinamide-serum-v"
+      ],
+      "hover": "prod-niacinamide-serum-v"
     },
     {
       "id": "niolac-dark-spots-cream",
@@ -3280,8 +3299,10 @@
       "h": 1000,
       "fotos": [
         "prod-niolac-dark-spots-cream",
-        "prod-niolac-dark-spots-cream-2"
-      ]
+        "prod-niolac-dark-spots-cream-2",
+        "prod-niolac-dark-spots-cream-v"
+      ],
+      "hover": "prod-niolac-dark-spots-cream-v"
     },
     {
       "id": "salicylic-serum",
@@ -3366,7 +3387,8 @@
         "prod-salicylic-serum",
         "prod-salicylic-serum-2",
         "prod-salicylic-serum-3"
-      ]
+      ],
+      "hover": "prod-salicylic-serum-3"
     },
     {
       "id": "glycolic-aha-gel",
@@ -3463,8 +3485,10 @@
       "fotos": [
         "prod-glycolic-aha-gel",
         "prod-glycolic-aha-gel-2",
-        "prod-glycolic-aha-gel-3"
-      ]
+        "prod-glycolic-aha-gel-3",
+        "prod-glycolic-aha-gel-v"
+      ],
+      "hover": "prod-glycolic-aha-gel-v"
     },
     {
       "id": "salicylic-biome-gel-cream",
@@ -3561,7 +3585,8 @@
         "prod-salicylic-biome-gel-cream",
         "prod-salicylic-biome-gel-cream-2",
         "prod-salicylic-biome-gel-cream-3"
-      ]
+      ],
+      "hover": "prod-salicylic-biome-gel-cream-3"
     },
     {
       "id": "retinol-015-serum",
@@ -3645,7 +3670,8 @@
       "fotos": [
         "prod-retinol-015-serum",
         "prod-retinol-015-serum-2"
-      ]
+      ],
+      "hover": "prod-retinol-015-serum-2"
     },
     {
       "id": "retinol-03-cream",
@@ -3729,8 +3755,10 @@
       "h": 1000,
       "fotos": [
         "prod-retinol-03-cream",
-        "prod-retinol-03-cream-2"
-      ]
+        "prod-retinol-03-cream-2",
+        "prod-retinol-03-cream-v"
+      ],
+      "hover": "prod-retinol-03-cream-v"
     },
     {
       "id": "ceramides-cream",
@@ -3827,7 +3855,8 @@
         "prod-ceramides-cream",
         "prod-ceramides-cream-2",
         "prod-ceramides-cream-3"
-      ]
+      ],
+      "hover": "prod-ceramides-cream-2"
     },
     {
       "id": "sun-care-spf50-fluid-cream",
@@ -3889,8 +3918,10 @@
       "h": 1000,
       "fotos": [
         "prod-sun-care-spf50-fluid-cream",
-        "prod-sun-care-spf50-fluid-cream-2"
-      ]
+        "prod-sun-care-spf50-fluid-cream-2",
+        "prod-sun-care-spf50-fluid-cream-v"
+      ],
+      "hover": "prod-sun-care-spf50-fluid-cream-v"
     },
     {
       "id": "vit-k-eye-cream",
@@ -3986,8 +4017,10 @@
         "prod-vit-k-eye-cream",
         "prod-vit-k-eye-cream-2",
         "prod-vit-k-eye-cream-3",
-        "prod-vit-k-eye-cream-4"
-      ]
+        "prod-vit-k-eye-cream-4",
+        "prod-vit-k-eye-cream-v"
+      ],
+      "hover": "prod-vit-k-eye-cream-v"
     }
   ]
 }
