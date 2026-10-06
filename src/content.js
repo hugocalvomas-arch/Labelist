@@ -463,5 +463,23 @@ Object.assign(t.en, {
 t.en.cifras[2] = ['20', '', 'volunteers in each study'];
 t.en.form.pais = 'Country or territory of interest';
 
+// La home habla al consumidor; profesional y distribuidores quedan como accesos discretos.
+Object.assign(t.es, {
+  heroSub: 'Dermocosmética de Barcelona con la concentración de cada activo declarada y eficacia medida. La misma gama que usa el profesional en cabina, para tu rutina en casa.',
+  ctaGamas: 'Encuentra tu gama', heroPro: 'Soy profesional: ver MedLine',
+  casaH: 'La línea de casa', casaVer: 'Ver los 20 productos',
+  b2bPro: ['Para profesionales', 'MedLine: 12 mesocócteles y 3 peelings con su protocolo de cabina.'],
+  b2bDist: ['Distribución internacional', 'Labelist trabaja con un distribuidor por territorio.', 'Información para distribuidores'],
+});
+t.es.metaDesc = 'Dermocosmética de Barcelona con concentraciones declaradas y eficacia medida en estudios. Línea de casa y línea profesional MedLine con las mismas gamas.';
+Object.assign(t.en, {
+  heroSub: 'Dermocosmetics from Barcelona with every active concentration declared and efficacy measured. The same range professionals use in the clinic, for your routine at home.',
+  ctaGamas: 'Find your range', heroPro: 'I am a professional: view MedLine',
+  casaH: 'The homecare line', casaVer: 'View all 20 products',
+  b2bPro: ['For professionals', 'MedLine: 12 mesococktails and 3 peels, each with its clinic protocol.'],
+  b2bDist: ['International distribution', 'Labelist works with one distributor per territory.', 'Information for distributors'],
+});
+t.en.metaDesc = 'Dermocosmetics from Barcelona with declared concentrations and efficacy measured in studies. A homecare line and the MedLine professional line sharing the same ranges.';
+
 module.exports = { gamas, estudios, mercados, medline, prensa, activos, t };
 

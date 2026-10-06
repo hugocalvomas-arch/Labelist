@@ -58,9 +58,10 @@ ${ld.map(x => `<script type="application/ld+json">${JSON.stringify(x)}</script>`
     <a href="${url(L, 'home')}#eficacia">${es ? 'Estudios' : 'Studies'}</a>
     <a href="${url(L, 'about')}"${cur('about')}>${s.nav.sobre}</a>
     <span class="nav-end">
+      <a href="${url(L, 'dist')}"${cur('dist')}>${s.nav.dist}</a>
       <a href="${there}" lang="${o}" hreflang="${o}">${s.otherLabel}</a>
       <a href="${url(L, 'shop')}" class="cart">${s.nav.carrito} (<span data-cart>0</span>)</a>
-      <a class="btn btn-solid btn-s" href="${url(L, 'dist')}"${cur('dist')}>${s.ctaDist}</a>
+
     </span>
   </nav>
 </header>
@@ -175,8 +176,8 @@ function page(L) {
       <h1>${s.h1}</h1>
       <div class="hero-txt">
         <p class="lead">${s.heroSub}</p>
-        <div class="actions"><a class="btn btn-solid" href="${url(L, 'dist')}">${s.ctaDist}</a></div>
-        <p class="hero-alt">${s.heroO} <a href="${url(L, 'pro')}">${s.heroPro}</a> <a href="${url(L, 'shop')}">${s.heroCasa}</a></p>
+        <div class="actions"><a class="btn btn-solid" href="${url(L, 'shop')}">${s.ctaTienda}</a><a class="btn btn-line" href="#sistema">${s.ctaGamas}</a></div>
+        <p class="hero-alt"><a href="${url(L, 'pro')}">${s.heroPro}</a></p>
       </div>
     </div>
     <div class="vid hero-wide">
@@ -194,17 +195,17 @@ function page(L) {
     </div>
   </section>
 
-  <section class="puertas">
+  <section class="casa-h">
     <div class="w">
-      <h2 class="h-sec">${s.puertasH}</h2>
-      <div class="puertas-grid">${[['tienda', 'puerta-tienda', 1080, 1080, url(L, 'shop'), s.ctaTienda], ['pro', 'puerta-pro', 1040, 1300, url(L, 'pro'), s.ctaPro], ['dist', 'puerta-dist', 1358, 1080, url(L, 'dist'), s.ctaDist]].map(([k, im, w, h, href, cta]) => `
-        <a class="puerta puerta-${k}" href="${href}">
-          <span class="puerta-img">${img(im, w, h, '')}</span>
-          <strong>${s.puertas[k][0]}</strong>
-          <span class="puerta-p">${s.puertas[k][1]}</span>
-          <span class="puerta-cta">${cta}</span>
-        </a>`).join('')}
-      </div>
+      <div class="casa-top"><h2 class="h-sec">${s.casaH}</h2><a class="ev-link" href="${url(L, 'shop')}">${s.casaVer}</a></div>
+      <ul class="pgrid">${['ha-hibiscus-cream', 'c-age-defense-serum', 'niacinamide-serum', 'retinol-03-cream', 'salicylic-serum', 'ha-b5-serum', 'sun-care-spf50-fluid-cream', 'vit-k-eye-cream'].map(id => { const p = retail.find(x => x.id === id); const g = gamas.find(x => x.id === p.gama) || { nombre: 'WINK', desc: 'eye care' }; return `
+        <li><a class="pc" href="${url(L, 'prod', p.id)}" style="--c:var(--${p.gama},var(--line))">
+          <span class="pc-i">${img('prod-' + p.id, 1000, 1000, '')}${p.hover ? img(p.hover, 1000, 1000, '', 'pc-b') : ''}</span>
+          <span class="pc-g">${g.nombre} <em>${g.desc}</em></span>
+          <span class="pc-n">${p.nombre[L]}</span>
+          <span class="pc-m">${p.formato}${p.precio ? ' · ' + (es ? p.precio.toFixed(2).replace('.', ',') + '&nbsp;€' : '€' + p.precio.toFixed(2)) : ''}</span>
+        </a></li>`; }).join('')}
+      </ul>
     </div>
   </section>
 
@@ -229,15 +230,9 @@ function page(L) {
         <p>${s.proP}</p>
         <div class="actions">
           <a class="btn btn-solid" href="${url(L, 'pro')}">${s.ctaPro}</a>
-          <a class="btn btn-line" href="#contacto" data-rol="pro">${s.ctaPrecio}</a>
+          <a class="btn btn-line" href="${url(L, 'contact')}?rol=pro">${s.ctaPrecio}</a>
         </div>
       </div>
-    </div>
-    <div class="w cat" id="catalogo">
-      <h3 class="cat-h">${s.catH} ${pend(s.reg)}</h3>
-      <p class="sec-p">${s.catP}</p>
-      <ul class="cat-rows">${cat}
-      </ul>
     </div>
   </section>
 
@@ -265,49 +260,10 @@ function page(L) {
     </div>
   </section>
 
-  <section class="dist" id="distribuidores">
-    <div class="w">
-      <h2 class="h-sec">${s.distH}</h2>
-      <p class="sec-p">${s.distP}</p>
-      <div class="merc">
-        <div class="merc-mapa">${mapaSvg}
-          <p class="leyenda"><span><i class="l-on"></i>${s.mercH}</span><span><i class="l-bcn"></i>${s.bcn}</span></p>
-        </div>
-        <div class="merc-l">
-          <h3>${s.mercH}</h3>
-          <ul>${mercados[L].map(m => `<li>${m}</li>`).join('')}</ul>
-          <p>${pend(s.mercPend)}</p>
-        </div>
-      </div>
-      <div class="pasos">
-        <h3 class="h-sub">${s.pasosH} ${pend(s.pasosPend)}</h3>
-        <ol>${s.pasos.map(([a, b]) => `<li><strong>${a}</strong><span>${b}</span></li>`).join('')}</ol>
-      </div>
-      <div class="dist-b">
-        <div>
-          <h3 class="h-sub">${s.recibeH}</h3>
-          <dl class="soporte">${s.soporte.map(([a, b]) => `<div><dt>${a}</dt><dd>${b}</dd></div>`).join('')}</dl>
-          <h3 class="h-sub h-sub2">${s.socioH}</h3>
-          <dl class="soporte">${s.socio.map(([a, b]) => `<div><dt>${a}</dt><dd>${b}</dd></div>`).join('')}</dl>
-        </div>
-        <form class="form" id="contacto" novalidate>
-          <h3>${s.formH}</h3>
-          <fieldset class="rol">
-            <legend>${f.rol}</legend>
-            <label><input type="radio" name="rol" value="dist" checked> ${f.rolDist}</label>
-            <label><input type="radio" name="rol" value="pro"> ${f.rolPro}</label>
-          </fieldset>
-          <div class="fields">${field('nombre', f.nombre, 'text', true, 'name')}${field('empresa', f.empresa, 'text', true, 'organization')}${field('pais', f.pais, 'text', true, 'country-name')}${field('email', f.email, 'email', true, 'email')}
-          </div>${field('web', s.webL + ' <span class="opt">' + f.msgHelp + '</span>', 'url', false, 'url')}
-          <div class="field">
-            <label for="msg">${f.msg} <span class="opt">${f.msgHelp}</span></label>
-            <textarea id="msg" name="msg" rows="3"></textarea>
-          </div>
-          <button class="btn btn-solid" type="submit">${f.enviar}</button>
-          <p class="ok" role="status" hidden>${f.ok}</p>
-          <template id="msgs" data-req="${f.errReq}" data-email="${f.errEmail}" data-precio="${s.ctaPrecio}"></template>
-        </form>
-      </div>
+  <section class="b2b">
+    <div class="w b2b-g">
+      <div><h2>${s.b2bPro[0]}</h2><p>${s.b2bPro[1]}</p><a class="ev-link" href="${url(L, 'pro')}">${s.ctaPro}</a></div>
+      <div><h2>${s.b2bDist[0]}</h2><p>${s.b2bDist[1]}</p><a class="ev-link" href="${url(L, 'dist')}">${s.b2bDist[2]}</a></div>
     </div>
   </section>
 `;
