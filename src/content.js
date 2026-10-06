@@ -249,4 +249,112 @@ const t = {
   },
 };
 
-module.exports = { gamas, estudios, mercados, t };
+// ---- Segunda versión de la home ----
+const vida = { joy: 'vida-joy', glow: 'vida-glow', blur: 'vida-blur', silk: 'vida-silk', pure: 'vida-pure' };
+gamas.forEach(g => { g.vida = vida[g.id] || null; });
+
+// Catálogo MedLine completo. Sin precios.
+const medline = [
+  { id: 'hydra-volume', n: 'Hydra Volume', gama: 'joy', tipo: 'm' },
+  { id: 'cell-energy', n: 'Cell Energy', gama: 'joy', tipo: 'm' },
+  { id: 'skin-repair', n: 'Skin Repair', gama: 'joy', tipo: 'm' },
+  { id: 'radiance', n: 'Radiance', gama: 'glow', tipo: 'm' },
+  { id: 'glow-boost', n: 'Glow Boost', gama: 'glow', tipo: 'm' },
+  { id: 'spot-corrector', n: 'Spot Corrector', gama: 'blur', tipo: 'm' },
+  { id: 'pigment-balance', n: 'Pigment Balance', gama: 'blur', tipo: 'm' },
+  { id: 'youth-restore', n: 'Youth Restore', gama: 'silk', tipo: 'm' },
+  { id: 'firming-essence', n: 'Firming Essence', gama: 'silk', tipo: 'm' },
+  { id: 'expression-relax', n: 'Expression Relax', gama: 'silk', tipo: 'm' },
+  { id: 'eye-flash', n: 'Eye Flash', gama: 'silk', tipo: 'm' },
+  { id: 'hair-density', n: 'Hair Density', gama: 'root', tipo: 'm' },
+  { id: 'lacto-renewal', n: 'Lacto Renewal', gama: 'joy', tipo: 'p' },
+  { id: 'pigment-control', n: 'Pigment Control', gama: 'blur', tipo: 'p' },
+  { id: 'salicylic-balance', n: 'Salicylic Balance', gama: 'pure', tipo: 'p' },
+];
+const estImg = { silk: ['est-silk', 520, 207], joy: ['est-joy', 520, 218], glow: ['est-glow', 346, 520], pure: ['est-pure', 502, 520], blur: ['est-blur', 502, 520] };
+estudios.forEach(e => { e.img = estImg[e.gama]; });
+
+// Fuente: CRM de distribuidores, cuentas con pedido (etapas 9 y 10). Pendiente de confirmar para publicación.
+mercados.es = ['Bulgaria', 'Dinamarca', 'Emiratos Árabes Unidos', 'Irak', 'Letonia', 'México', 'Rusia', 'Ucrania'];
+mercados.en = ['Bulgaria', 'Denmark', 'Iraq', 'Latvia', 'Mexico', 'Russia', 'Ukraine', 'United Arab Emirates'];
+
+const prensa = ['ABC', 'Marie Claire', 'Mujer Hoy', 'Mía', 'Expansión y Negocios', 'El País de los Negocios'];
+
+Object.assign(t.es, {
+  verProducto: 'Ver el producto', verUso: 'Ver en uso',
+  heroAlt: 'Manos sosteniendo el tarro de crema JOY hydrat HA + Hibiscus', heroAlt2: 'Crema JOY hydrat HA + Hibiscus con su caja',
+  heroCap: 'JOY hydrat, crema con ácido hialurónico e hibiscus.',
+  cifras: [
+    ['ISO 22716', 'ISO 13485', 'Fabricado en Barcelona en instalaciones certificadas'],
+    ['5', '', 'estudios de eficacia con medición instrumental'],
+    ['20', '', 'voluntarios en cada estudio'],
+    ['12 + 3', '', 'mesocócteles y peelings en la línea MedLine'],
+  ],
+  prensaH: 'Han hablado de Labelist',
+  vidaAlt: 'Producto de la gama',
+  catH: 'El catálogo MedLine', catP: 'Viales de 5 ml en cajas de cinco y peelings de cabina. Precio bajo solicitud.',
+  tipoM: 'Mesocóctel', tipoP: 'Peeling',
+  eficNota: 'Cada estudio se hizo con 20 voluntarios adultos. La cifra es la mejora media frente al valor inicial.',
+  eficRef: 'Informe',
+  fabH: 'Fórmulas que declaran lo que llevan',
+  fabP1: 'El catálogo indica la concentración de los activos principales de cada producto: niacinamida al 13&nbsp;%, vitamina C al 15&nbsp;%, retinol al 0,3&nbsp;%.',
+  videoLabel: 'Vídeo de la marca Labelist', videoMed: 'Vídeo de la línea MedLine',
+  pausa: 'Pausar vídeo', play: 'Reproducir vídeo',
+  tex: [['tex-ha', 'Sérum con Ácido hialurónico + B5'], ['tex-niacinamida', 'Sérum con Niacinamida'], ['tex-vitc', 'Sérum con Vitamina C + GAG'], ['tex-retinol', 'Retinol 0.15% Sérum']],
+  texAlt: 'Textura del producto con sus activos señalados',
+  pasosH: 'Cómo empezamos',
+  pasos: [
+    ['Solicitud', 'Nos cuentas tu canal y tu territorio.'],
+    ['Fase de entrada', 'Seis meses con pedido mínimo flexible para probar el mercado.'],
+    ['Exclusividad', 'Un socio por territorio, con un compromiso anual.'],
+  ],
+  pasosPend: 'Pendiente: confirmar condiciones publicables',
+  mercPend: 'Pendiente: confirmar qué países se publican',
+  mapaT: 'Mapa del mundo con los países donde se vende Labelist',
+  bcn: 'Barcelona, origen',
+  footCols: {
+    lineas: ['Líneas', [['Tienda', '#sistema'], ['MedLine', '#profesional'], ['Estudios de eficacia', '#eficacia']]],
+    marca: ['Labelist', [['Fórmulas y fabricación', '#fabricacion'], ['Distribuidores', '#distribuidores'], ['Contacto', '#contacto']]],
+  },
+  contactoH: 'Contacto', horario: 'De lunes a viernes, de 9:00 a 15:00',
+});
+Object.assign(t.en, {
+  verProducto: 'See the product', verUso: 'See it in use',
+  heroAlt: 'Hands holding the jar of JOY hydrat HA + Hibiscus cream', heroAlt2: 'JOY hydrat HA + Hibiscus cream with its box',
+  heroCap: 'JOY hydrat, cream with hyaluronic acid and hibiscus.',
+  cifras: [
+    ['ISO 22716', 'ISO 13485', 'Made in Barcelona in certified facilities'],
+    ['5', '', 'efficacy studies with instrumental measurement'],
+    ['20', '', 'volunteers in each study'],
+    ['12 + 3', '', 'mesococktails and peels in the MedLine range'],
+  ],
+  prensaH: 'Labelist in the press',
+  vidaAlt: 'Product from the range',
+  catH: 'The MedLine catalogue', catP: '5 ml vials in boxes of five, and clinic peels. Pricing on request.',
+  tipoM: 'Mesococktail', tipoP: 'Peel',
+  eficNota: 'Each study had 20 adult volunteers. The figure is the mean improvement against baseline.',
+  eficRef: 'Report',
+  fabH: 'Formulas that state what is in them',
+  fabP1: 'The catalogue lists the concentration of the main actives in each product: niacinamide at 13%, vitamin C at 15%, retinol at 0.3%.',
+  videoLabel: 'Labelist brand video', videoMed: 'MedLine range video',
+  pausa: 'Pause video', play: 'Play video',
+  tex: [['tex-ha', 'Hyaluronic Acid + B5 Serum'], ['tex-niacinamida', 'Niacinamide Serum'], ['tex-vitc', 'Vitamin C + GAG Serum'], ['tex-retinol', 'Retinol 0.15% Serum']],
+  texAlt: 'Product texture with its actives labelled',
+  pasosH: 'How we start',
+  pasos: [
+    ['Enquiry', 'Tell us about your channel and your territory.'],
+    ['Entry phase', 'Six months with a flexible minimum order to test the market.'],
+    ['Exclusivity', 'One partner per territory, with an annual commitment.'],
+  ],
+  pasosPend: 'Pending: confirm which terms can be published',
+  mercPend: 'Pending: confirm which countries are published',
+  mapaT: 'World map showing the countries where Labelist is sold',
+  bcn: 'Barcelona, origin',
+  footCols: {
+    lineas: ['Ranges', [['Shop', '#sistema'], ['MedLine', '#profesional'], ['Efficacy studies', '#eficacia']]],
+    marca: ['Labelist', [['Formulas and manufacturing', '#fabricacion'], ['Distributors', '#distribuidores'], ['Contact', '#contacto']]],
+  },
+  contactoH: 'Contact', horario: 'Monday to Friday, 9:00 to 15:00',
+});
+
+module.exports = { gamas, estudios, mercados, medline, prensa, t };

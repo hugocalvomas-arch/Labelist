@@ -49,7 +49,8 @@
             "en": "Peel. Moisturizing and renewal"
           }
         ]
-      }
+      },
+      "vida": "vida-joy"
     },
     {
       "id": "glow",
@@ -90,7 +91,8 @@
             "en": "Skin luminosity"
           }
         ]
-      }
+      },
+      "vida": "vida-glow"
     },
     {
       "id": "blur",
@@ -134,7 +136,8 @@
             "en": "Peel. Dark spot reduction and even tone"
           }
         ]
-      }
+      },
+      "vida": "vida-blur"
     },
     {
       "id": "silk",
@@ -187,7 +190,8 @@
             "en": "Periocular biorevitalization"
           }
         ]
-      }
+      },
+      "vida": "vida-silk"
     },
     {
       "id": "pure",
@@ -225,7 +229,8 @@
             "en": "Peel. Purifying and sebum control"
           }
         ]
-      }
+      },
+      "vida": "vida-pure"
     },
     {
       "id": "root",
@@ -245,7 +250,8 @@
             "en": "Hair reinforcement"
           }
         ]
-      }
+      },
+      "vida": null
     }
   ],
   "estudios": [
@@ -258,7 +264,12 @@
       "valorEn": "18.23",
       "plazoEs": "28 días",
       "plazoEn": "28 days",
-      "informe": "M23d4737"
+      "informe": "M23d4737",
+      "img": [
+        "est-silk",
+        520,
+        207
+      ]
     },
     {
       "gama": "joy",
@@ -269,7 +280,12 @@
       "valorEn": "21.64",
       "plazoEs": "72 horas",
       "plazoEn": "72 hours",
-      "informe": "M23d4753"
+      "informe": "M23d4753",
+      "img": [
+        "est-joy",
+        520,
+        218
+      ]
     },
     {
       "gama": "glow",
@@ -280,7 +296,12 @@
       "valorEn": "21.00",
       "plazoEs": "28 días",
       "plazoEn": "28 days",
-      "informe": "M23d4752"
+      "informe": "M23d4752",
+      "img": [
+        "est-glow",
+        346,
+        520
+      ]
     },
     {
       "gama": "pure",
@@ -291,7 +312,12 @@
       "valorEn": "20.73",
       "plazoEs": "28 días",
       "plazoEn": "28 days",
-      "informe": "M23d4747"
+      "informe": "M23d4747",
+      "img": [
+        "est-pure",
+        502,
+        520
+      ]
     },
     {
       "gama": "blur",
@@ -302,29 +328,126 @@
       "valorEn": "11.71",
       "plazoEs": "28 días",
       "plazoEn": "28 days",
-      "informe": "M23d4754"
+      "informe": "M23d4754",
+      "img": [
+        "est-blur",
+        502,
+        520
+      ]
     }
   ],
   "mercados": {
     "es": [
-      "Rusia",
-      "Ucrania",
-      "Países Bálticos",
-      "México",
-      "Polonia",
+      "Bulgaria",
+      "Dinamarca",
       "Emiratos Árabes Unidos",
-      "Chipre",
-      "Vietnam"
+      "Irak",
+      "Letonia",
+      "México",
+      "Rusia",
+      "Ucrania"
     ],
     "en": [
+      "Bulgaria",
+      "Denmark",
+      "Iraq",
+      "Latvia",
+      "Mexico",
       "Russia",
       "Ukraine",
-      "Baltic countries",
-      "Mexico",
-      "Poland",
-      "United Arab Emirates",
-      "Cyprus",
-      "Vietnam"
+      "United Arab Emirates"
     ]
-  }
+  },
+  "medline": [
+    {
+      "id": "hydra-volume",
+      "n": "Hydra Volume",
+      "gama": "joy",
+      "tipo": "m"
+    },
+    {
+      "id": "cell-energy",
+      "n": "Cell Energy",
+      "gama": "joy",
+      "tipo": "m"
+    },
+    {
+      "id": "skin-repair",
+      "n": "Skin Repair",
+      "gama": "joy",
+      "tipo": "m"
+    },
+    {
+      "id": "radiance",
+      "n": "Radiance",
+      "gama": "glow",
+      "tipo": "m"
+    },
+    {
+      "id": "glow-boost",
+      "n": "Glow Boost",
+      "gama": "glow",
+      "tipo": "m"
+    },
+    {
+      "id": "spot-corrector",
+      "n": "Spot Corrector",
+      "gama": "blur",
+      "tipo": "m"
+    },
+    {
+      "id": "pigment-balance",
+      "n": "Pigment Balance",
+      "gama": "blur",
+      "tipo": "m"
+    },
+    {
+      "id": "youth-restore",
+      "n": "Youth Restore",
+      "gama": "silk",
+      "tipo": "m"
+    },
+    {
+      "id": "firming-essence",
+      "n": "Firming Essence",
+      "gama": "silk",
+      "tipo": "m"
+    },
+    {
+      "id": "expression-relax",
+      "n": "Expression Relax",
+      "gama": "silk",
+      "tipo": "m"
+    },
+    {
+      "id": "eye-flash",
+      "n": "Eye Flash",
+      "gama": "silk",
+      "tipo": "m"
+    },
+    {
+      "id": "hair-density",
+      "n": "Hair Density",
+      "gama": "root",
+      "tipo": "m"
+    },
+    {
+      "id": "lacto-renewal",
+      "n": "Lacto Renewal",
+      "gama": "joy",
+      "tipo": "p"
+    },
+    {
+      "id": "pigment-control",
+      "n": "Pigment Control",
+      "gama": "blur",
+      "tipo": "p"
+    },
+    {
+      "id": "salicylic-balance",
+      "n": "Salicylic Balance",
+      "gama": "pure",
+      "tipo": "p"
+    }
+  ]
 }
