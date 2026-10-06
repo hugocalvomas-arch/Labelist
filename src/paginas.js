@@ -61,7 +61,7 @@ module.exports = (c) => {
     const dl = arr => `<dl class="soporte">${arr.map(([a, b]) => `<div><dt>${a}</dt><dd>${b}</dd></div>`).join('')}</dl>`;
     const pcard = p => { const g = gama(p.gama); return `
         <li data-gama="${p.gama}" data-pre="${p.preocupacion.join(' ')}"><a class="pc" href="${url(L, 'prod', p.id)}" style="--c:var(--${p.gama},var(--line))">
-          ${img('prod-' + p.id, p.w, p.h, '')}
+          <span class="pc-i">${img('prod-' + p.id, 1000, 1000, '')}${p.fotos[1] ? img(p.fotos[1], 1000, 1000, '', 'pc-b') : ''}</span>
           <span class="pc-g">${g.nombre} <em>${g.desc}</em></span>
           <span class="pc-n">${p.nombre[L]}</span>
           <span class="pc-m">${p.formato || ''}${p.precio ? ` · ${eur(p.precio)}` : ''}</span>
@@ -324,7 +324,10 @@ module.exports = (c) => {
         body: `
   <section class="ficha" style="--c:var(--${p.gama},var(--line))">
     <div class="w ficha-g">
-      <div class="ficha-img">${img('prod-' + p.id, p.w, p.h, `${p.nombre[L]}, ${g.nombre} ${g.desc}`, '', false)}</div>
+      <div class="galeria">
+        <div class="ficha-img">${img('prod-' + p.id, 1000, 1000, `${p.nombre[L]}, ${g.nombre} ${g.desc}`, '', false)}</div>
+        ${p.fotos.length > 1 ? `<div class="miniaturas" role="group" aria-label="${T('Más fotos del producto', 'More product photos')}">${p.fotos.map((f, i) => `<button type="button" aria-pressed="${i === 0}" data-src="/img/${f}.webp"><img src="/img/${f}.webp" width="120" height="120" alt="${T('Foto', 'Photo')} ${i + 1}" loading="lazy"></button>`).join('')}</div>` : ''}
+      </div>
       <div class="ficha-txt">
         ${migas([['Labelist', url(L, 'home')], [s.nav.tienda, url(L, 'shop')], [p.nombre[L]]])}
         <p class="ficha-g1"><span class="dot"></span> ${lockup(g)} · ${g.necesidad[L]}</p>

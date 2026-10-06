@@ -87,3 +87,10 @@ if (form) {
     if (first) { ok.hidden = true; first.focus(); } else { ok.hidden = false; form.reset(); rol($('input[name="rol"]:checked', form).value); }
   });
 }
+
+// Galería de la ficha: las miniaturas cambian la foto principal
+$$('.miniaturas').forEach(g => g.addEventListener('click', e => {
+  const b = e.target.closest('button'); if (!b) return;
+  $('.ficha-img img', g.parentElement).src = b.dataset.src;
+  $$('button', g).forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+}));

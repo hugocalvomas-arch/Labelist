@@ -460,3 +460,18 @@ main>.ficha{padding:clamp(1.5rem,3vw,2.5rem) 0 var(--sec)}
 .sec-p+.actions,.otras+.actions,.nota+.actions{margin-top:1.75rem}
 .sec span::first-letter{text-transform:uppercase}
 .ph-fig video{object-position:0 50%}
+
+/* Fotos de producto: recortadas al producto, segunda foto al pasar el ratón y galería en la ficha */
+.pc-i{position:relative;display:block;aspect-ratio:1;overflow:hidden;border-radius:var(--r-surf);border-bottom:3px solid var(--c);background:#f6f6f6}
+.pc .pc-i img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border:0;border-radius:0;transition:opacity .45s var(--ease),transform .9s var(--ease)}
+.pc .pc-b{opacity:0}
+.pc:hover img,.pc:focus-visible img{transform:none}
+@media (hover:hover){.pc:hover .pc-b,.pc:focus-visible .pc-b{opacity:1}.pc:hover .pc-i img{transform:scale(1.03)}}
+.galeria{position:sticky;top:5.5rem}
+.galeria .ficha-img{position:static;background:#f6f6f6}
+.galeria .ficha-img img{object-fit:cover;mix-blend-mode:normal}
+.miniaturas{display:flex;gap:.6rem;margin-top:.75rem}
+.miniaturas button{width:4.5rem;height:4.5rem;padding:0;border:1px solid var(--line);border-radius:var(--r-surf);overflow:hidden;background:#f6f6f6;cursor:pointer}
+.miniaturas button[aria-pressed=true]{border-color:var(--ink)}
+.miniaturas img{width:100%;height:100%;object-fit:cover}
+@media (max-width:60rem){.galeria{position:static}}
