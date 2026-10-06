@@ -17,7 +17,7 @@ const url = (L, key, id) => { const r = RUTAS[key === 'med' ? 'pro' : key === 'p
 const orgLd = L => ({ '@context': 'https://schema.org', '@type': 'Organization', name: 'Labelist Cosmetics', legalName: 'Skin and Soul SL', url: BASE + url(L, 'home'), logo: BASE + '/img/logo-labelist.svg', email: 'hello@labelistcosmetics.com', address: { '@type': 'PostalAddress', streetAddress: 'Pg. Manuel Girona 71', postalCode: '08034', addressLocality: 'Barcelona', addressCountry: 'ES' } });
 const crumbLd = (L, items) => ({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: items.map(([n, u], i) => ({ '@type': 'ListItem', position: i + 1, name: n, item: BASE + u })) });
 
-function shell(L, { key, id, title, desc, body, ld = [], ogImg = 'marca-poster' }) {
+function shell(L, { key, id, title, desc, body, ld = [], ogImg = 'portada-poster' }) {
   const s = t[L]; const es = L === 'es'; const o = s.other; const here = url(L, key, id), there = url(o, key, id);
   const cur = k => (k === key || (k === 'pro' && key === 'med') || (k === 'shop' && key === 'prod')) ? ' aria-current="page"' : '';
   return `<!doctype html>
@@ -170,19 +170,19 @@ function page(L) {
       </div>`;
   const mapaSvg = mapa.replace('__TITLE__', s.mapaT).replace(/<path class="on"([^>]*)><title>[^<]*<\/title>/g, '<path class="on"$1>');
   const body = `
-  <section class="hero">
-    <div class="hero-txt">
+  <section class="hero hero2">
+    <div class="w hero2-g">
       <h1>${s.h1}</h1>
-      <p class="lead">${s.heroSub}</p>
-      <div class="actions">
-        <a class="btn btn-solid" href="${url(L, 'dist')}">${s.ctaDist}</a>
+      <div class="hero-txt">
+        <p class="lead">${s.heroSub}</p>
+        <div class="actions"><a class="btn btn-solid" href="${url(L, 'dist')}">${s.ctaDist}</a></div>
+        <p class="hero-alt">${s.heroO} <a href="${url(L, 'pro')}">${s.heroPro}</a> <a href="${url(L, 'shop')}">${s.heroCasa}</a></p>
       </div>
-      <p class="hero-alt">${s.heroO} <a href="${url(L, 'pro')}">${s.heroPro}</a> <a href="${url(L, 'shop')}">${s.heroCasa}</a></p>
     </div>
-    <div class="vid hero-fig hero-vid">
-        <video src="/img/marca.mp4" poster="/img/marca-poster.webp" muted loop playsinline preload="metadata" aria-label="${s.videoLabel}"></video>
-        <button class="vid-btn" type="button" data-pausa="${s.pausa}" data-play="${s.play}">${s.play}</button>
-      </div>
+    <div class="vid hero-wide">
+      <video src="/img/portada.mp4" poster="/img/portada-poster.webp" muted loop playsinline preload="metadata" aria-label="${s.videoLabel}"></video>
+      <button class="vid-btn" type="button" data-pausa="${s.pausa}" data-play="${s.play}">${s.play}</button>
+    </div>
   </section>
 
   <section class="cifras" aria-label="${es ? 'Datos de la marca' : 'Brand facts'}">
