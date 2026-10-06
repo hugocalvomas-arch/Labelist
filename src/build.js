@@ -17,7 +17,7 @@ const url = (L, key, id) => { const r = RUTAS[key === 'med' ? 'pro' : key === 'p
 const orgLd = L => ({ '@context': 'https://schema.org', '@type': 'Organization', name: 'Labelist Cosmetics', legalName: 'Skin and Soul SL', url: BASE + url(L, 'home'), logo: BASE + '/img/logo-labelist.svg', email: 'hello@labelistcosmetics.com', address: { '@type': 'PostalAddress', streetAddress: 'Pg. Manuel Girona 71', postalCode: '08034', addressLocality: 'Barcelona', addressCountry: 'ES' } });
 const crumbLd = (L, items) => ({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: items.map(([n, u], i) => ({ '@type': 'ListItem', position: i + 1, name: n, item: BASE + u })) });
 
-function shell(L, { key, id, title, desc, body, ld = [], ogImg = 'hero-manos' }) {
+function shell(L, { key, id, title, desc, body, ld = [], ogImg = 'marca-poster' }) {
   const s = t[L]; const es = L === 'es'; const o = s.other; const here = url(L, key, id), there = url(o, key, id);
   const cur = k => (k === key || (k === 'pro' && key === 'med') || (k === 'shop' && key === 'prod')) ? ' aria-current="page"' : '';
   return `<!doctype html>
@@ -179,12 +179,10 @@ function page(L) {
       </div>
       <p class="hero-alt">${s.heroO} <a href="${url(L, 'pro')}">${s.heroPro}</a> <a href="${url(L, 'shop')}">${s.heroCasa}</a></p>
     </div>
-    <figure class="hero-fig">
-      ${img('hero-manos', 1080, 1080, s.heroAlt, 'hero-a', false)}
-      ${img('hero-producto', 1300, 544, s.heroAlt2, 'hero-b')}
-      <button class="hero-sw" type="button" aria-pressed="false" data-on="${s.verUso}" data-off="${s.verProducto}">${s.verProducto}</button>
-      <figcaption>${s.heroCap}</figcaption>
-    </figure>
+    <div class="vid hero-fig hero-vid">
+        <video src="/img/marca.mp4" poster="/img/marca-poster.webp" muted loop playsinline preload="metadata" aria-label="${s.videoLabel}"></video>
+        <button class="vid-btn" type="button" data-pausa="${s.pausa}" data-play="${s.play}">${s.play}</button>
+      </div>
   </section>
 
   <section class="cifras" aria-label="${es ? 'Datos de la marca' : 'Brand facts'}">
@@ -260,7 +258,6 @@ function page(L) {
           <h2 class="h-sec">${s.fabH}</h2>
           <p>${s.fabP1}</p>
         </div>
-        ${video('marca', s.videoLabel)}
       </div>
       <ul class="act">${activos.map(a => `
         <li style="--c:var(--${a.gama})"><span class="act-n">${a.pct[es ? 0 : 1]}${es ? '&nbsp;' : ''}%</span><strong>${a[L]}</strong><span>${a.prod[L]}</span></li>`).join('')}
