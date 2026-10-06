@@ -444,91 +444,3465 @@
       "id": "hydra-volume",
       "n": "Hydra Volume",
       "gama": "joy",
-      "tipo": "m"
+      "tipo": "m",
+      "resumen": {
+        "es": "Cóctel hidratante profesional con 2% de ácido hialurónico en dos pesos moleculares, para una hidratación multinivel y una apariencia más tersa.",
+        "en": "Professional hydrating cocktail with 2% hyaluronic acid in two molecular weights, for multi-level hydration and a plumper, smoother-looking appearance."
+      },
+      "indicaciones": {
+        "es": [
+          "Deshidratación",
+          "Líneas finas",
+          "Pérdida de turgencia",
+          "Piel cansada o apagada",
+          "Protocolos progresivos de hidratación y volumen"
+        ],
+        "en": [
+          "Dehydration",
+          "Fine lines",
+          "Loss of plumpness",
+          "Tired or dull skin",
+          "Progressive hydration and volume protocols"
+        ]
+      },
+      "activos": [
+        {
+          "n": {
+            "es": "Ácido hialurónico de bajo peso molecular (100-400 kDa)",
+            "en": "Low molecular weight hyaluronic acid (100-400 kDa)"
+          },
+          "pct": "1"
+        },
+        {
+          "n": {
+            "es": "Ácido hialurónico de alto peso molecular (1300-1500 kDa)",
+            "en": "High molecular weight hyaluronic acid (1300-1500 kDa)"
+          },
+          "pct": "1"
+        }
+      ],
+      "formato": {
+        "es": "Caja de 5 viales de 5 ml",
+        "en": "Box of 5 vials of 5 ml"
+      },
+      "protocolo": {
+        "sesiones": "4-6",
+        "intervalo": {
+          "es": "cada 10-14 días",
+          "en": "every 10-14 days"
+        },
+        "mantenimiento": {
+          "es": "cada 3-6 meses",
+          "en": "every 3-6 months"
+        },
+        "tecnica": {
+          "es": "Se carga el cóctel en una jeringa y se aplica gota a gota sobre la zona a tratar con la técnica transdérmica elegida (microneedling, electroporación o ultrasonidos).",
+          "en": "The cocktail is drawn into a syringe and applied drop by drop to the treatment area with the selected transdermal technique (microneedling, electroporation or ultrasound)."
+        }
+      },
+      "pasos": {
+        "es": [
+          "Preparar: Osmolyte Cleanser y/o Glycilac Toner; desengrasado con solución alcohólica (opcional)",
+          "Activar: 2-3 pulsaciones de Glycolic + AHAs, esperar unos 5 minutos y retirar con una toalla húmeda",
+          "Tratar: aplicar el mesocóctel seleccionado gota a gota con la técnica elegida",
+          "Potenciar (opcional): Silk Retinol 0.3% Cream, dejar 5 minutos y retirar con una toalla húmeda",
+          "Reparar: HA + B5 + Silicium Mask, masajear, dejar actuar 10 minutos y retirar el exceso con agua",
+          "Finalizar y proteger: HA + Hibiscus Cream y Silk Proage SPF 50 Fluid"
+        ],
+        "en": [
+          "Prepare: Osmolyte Cleanser and/or Glycilac Toner; degreasing with alcoholic solution (optional)",
+          "Activate: 2-3 pumps of Glycolic + AHAs, wait about 5 minutes and remove with a damp towel",
+          "Treat: apply the selected mesococktail drop by drop with the chosen technique",
+          "Boost (optional): Silk Retinol 0.3% Cream, leave on for 5 minutes and remove with a damp towel",
+          "Repair: HA + B5 + Silicium Mask, massage in, leave on for 10 minutes and remove any excess with water",
+          "Finish and protect: HA + Hibiscus Cream and Silk Proage SPF 50 Fluid"
+        ]
+      },
+      "combinado": {
+        "nombre": "Exo-Restore",
+        "con": [
+          "youth-restore"
+        ]
+      },
+      "precauciones": {
+        "es": [
+          "Puede contener trazas de lecitina de soja: precaución en personas alérgicas o sensibles a las proteínas de soja",
+          "Infecciones cutáneas activas, inflamación cutánea o heridas abiertas",
+          "Embarazo o lactancia",
+          "Enfermedades autoinmunes de la piel o alergias graves",
+          "Rellenos o toxina botulínica recientes (esperar 2 semanas)",
+          "Puede aparecer un enrojecimiento leve o pápulas que desaparecen en las primeras 24 horas",
+          "Vial estéril de un solo uso: una vez abierto, usar en la misma sesión y desechar el sobrante"
+        ],
+        "en": [
+          "May contain traces of soy lecithin: exercise caution with people allergic or sensitive to soy proteins",
+          "Active skin infections, skin inflammation or open wounds",
+          "Pregnancy or breastfeeding",
+          "Autoimmune skin diseases or severe allergies",
+          "Recent fillers or botulinum toxin (wait 2 weeks)",
+          "Mild redness or papules may appear and fade within the first 24 hours",
+          "Sterile single-use vial: once opened, use in the same session and discard any excess"
+        ]
+      },
+      "fuente": "1._Commercial_Files__Skin_Boosters.pdf p.4; Professional__Homecare_Protocols.pdf (68 p.) p.23, 29-30"
     },
     {
       "id": "cell-energy",
       "n": "Cell Energy",
       "gama": "joy",
-      "tipo": "m"
+      "tipo": "m",
+      "resumen": {
+        "es": "Cóctel revitalizante profesional con vitaminas, aminoácidos, coenzimas, antioxidantes y péptidos para mejorar la piel apagada y la luminosidad.",
+        "en": "Professional revitalizing cocktail with vitamins, amino acids, coenzymes, antioxidants and peptides to improve dullness and enhance radiance."
+      },
+      "indicaciones": {
+        "es": [
+          "Deshidratación",
+          "Primeros signos de envejecimiento",
+          "Piel cansada o desvitalizada",
+          "Líneas finas e irregularidades de textura",
+          "Protocolos progresivos de revitalización"
+        ],
+        "en": [
+          "Dehydration",
+          "Early signs of aging",
+          "Tired or devitalized skin",
+          "Fine lines and texture irregularities",
+          "Progressive revitalization protocols"
+        ]
+      },
+      "activos": [
+        {
+          "n": {
+            "es": "11 vitaminas",
+            "en": "11 vitamins"
+          },
+          "pct": null
+        },
+        {
+          "n": {
+            "es": "24 aminoácidos",
+            "en": "24 amino acids"
+          },
+          "pct": null
+        },
+        {
+          "n": {
+            "es": "4 coenzimas",
+            "en": "4 coenzymes"
+          },
+          "pct": null
+        },
+        {
+          "n": {
+            "es": "1 nucleótido",
+            "en": "1 nucleotide"
+          },
+          "pct": null
+        },
+        {
+          "n": {
+            "es": "1 mineral",
+            "en": "1 mineral"
+          },
+          "pct": null
+        },
+        {
+          "n": {
+            "es": "3 antioxidantes",
+            "en": "3 antioxidants"
+          },
+          "pct": null
+        },
+        {
+          "n": {
+            "es": "7 péptidos",
+            "en": "7 peptides"
+          },
+          "pct": null
+        },
+        {
+          "n": {
+            "es": "Ácido hialurónico (0,3 mg/ml)",
+            "en": "Hyaluronic acid (0.3 mg/ml)"
+          },
+          "pct": null
+        }
+      ],
+      "formato": {
+        "es": "Caja de 5 viales de 5 ml",
+        "en": "Box of 5 vials of 5 ml"
+      },
+      "protocolo": {
+        "sesiones": "4-6",
+        "intervalo": {
+          "es": "cada 7-15 días",
+          "en": "every 7-15 days"
+        },
+        "mantenimiento": {
+          "es": "cada 3-6 meses",
+          "en": "every 3-6 months"
+        },
+        "tecnica": {
+          "es": "Se carga el cóctel en una jeringa y se aplica gota a gota sobre la zona a tratar con la técnica transdérmica elegida (microneedling, electroporación o ultrasonidos).",
+          "en": "The cocktail is drawn into a syringe and applied drop by drop to the treatment area with the selected transdermal technique (microneedling, electroporation or ultrasound)."
+        }
+      },
+      "pasos": {
+        "es": [
+          "Preparar: Osmolyte Cleanser y/o Glycilac Toner; desengrasado con solución alcohólica (opcional)",
+          "Activar: 2-3 pulsaciones de Glycolic + AHAs, esperar unos 5 minutos y retirar con una toalla húmeda",
+          "Tratar: aplicar el mesocóctel seleccionado gota a gota con la técnica elegida",
+          "Potenciar (opcional): Silk Retinol 0.3% Cream, dejar 5 minutos y retirar con una toalla húmeda",
+          "Reparar: HA + B5 + Silicium Mask, masajear, dejar actuar 10 minutos y retirar el exceso con agua",
+          "Finalizar y proteger: HA + Hibiscus Cream y Silk Proage SPF 50 Fluid"
+        ],
+        "en": [
+          "Prepare: Osmolyte Cleanser and/or Glycilac Toner; degreasing with alcoholic solution (optional)",
+          "Activate: 2-3 pumps of Glycolic + AHAs, wait about 5 minutes and remove with a damp towel",
+          "Treat: apply the selected mesococktail drop by drop with the chosen technique",
+          "Boost (optional): Silk Retinol 0.3% Cream, leave on for 5 minutes and remove with a damp towel",
+          "Repair: HA + B5 + Silicium Mask, massage in, leave on for 10 minutes and remove any excess with water",
+          "Finish and protect: HA + Hibiscus Cream and Silk Proage SPF 50 Fluid"
+        ]
+      },
+      "combinado": {
+        "nombre": "CEF-Radiance",
+        "con": [
+          "radiance"
+        ]
+      },
+      "precauciones": {
+        "es": [
+          "Puede contener trazas de lecitina de soja: precaución en personas alérgicas o sensibles a las proteínas de soja",
+          "Infecciones cutáneas activas o heridas abiertas",
+          "Embarazo o lactancia",
+          "Enfermedades autoinmunes de la piel o alergias graves",
+          "Rellenos o toxina botulínica recientes (esperar 2 semanas) o peeling reciente (esperar 1 semana)",
+          "Puede aparecer eritema leve o pápulas en los puntos de aplicación (temporal y normal)",
+          "Vial estéril de un solo uso: una vez abierto, usar en la misma sesión y desechar el sobrante"
+        ],
+        "en": [
+          "May contain traces of soy lecithin: exercise caution with people allergic or sensitive to soy proteins",
+          "Active skin infections or open wounds",
+          "Pregnancy or breastfeeding",
+          "Autoimmune skin diseases or severe allergies",
+          "Recent fillers or botulinum toxin (wait 2 weeks) or recent peeling (wait 1 week)",
+          "Mild erythema or papules may appear at the application points (temporary and normal)",
+          "Sterile single-use vial: once opened, use in the same session and discard any excess"
+        ]
+      },
+      "fuente": "1._Commercial_Files__Skin_Boosters.pdf p.2-3; Professional__Homecare_Protocols.pdf (68 p.) p.23, 27-28"
     },
     {
       "id": "skin-repair",
       "n": "Skin Repair",
       "gama": "joy",
-      "tipo": "m"
+      "tipo": "m",
+      "resumen": {
+        "es": "Cóctel biorrevitalizante profesional para mejorar la apariencia de marcas postacné, textura irregular y zonas con tendencia a estrías.",
+        "en": "Professional biorevitalizing cocktail to improve the appearance of post-acne marks, uneven texture and stretch mark-prone areas."
+      },
+      "indicaciones": {
+        "es": [
+          "Marcas postacné",
+          "Textura irregular",
+          "Zonas con tendencia a estrías",
+          "Piel con elasticidad reducida",
+          "Piel sensibilizada o con tendencia a rojeces"
+        ],
+        "en": [
+          "Post-acne marks",
+          "Uneven skin texture",
+          "Stretch mark-prone areas",
+          "Skin with reduced elasticity",
+          "Sensitized or redness-prone skin"
+        ]
+      },
+      "activos": [
+        {
+          "n": {
+            "es": "Pantenol",
+            "en": "Panthenol"
+          },
+          "pct": "2.5"
+        },
+        {
+          "n": {
+            "es": "Silicio orgánico",
+            "en": "Organic silicon"
+          },
+          "pct": "2.5"
+        },
+        {
+          "n": {
+            "es": "Extracto de Centella asiatica",
+            "en": "Centella asiatica extract"
+          },
+          "pct": "2.5"
+        },
+        {
+          "n": {
+            "es": "Extracto de corteza de Mimosa tenuiflora",
+            "en": "Mimosa tenuiflora bark extract"
+          },
+          "pct": "1.0"
+        },
+        {
+          "n": {
+            "es": "Elastina hidrolizada",
+            "en": "Hydrolyzed elastin"
+          },
+          "pct": "0.33"
+        }
+      ],
+      "formato": {
+        "es": "Caja de 5 viales de 5 ml",
+        "en": "Box of 5 vials of 5 ml"
+      },
+      "protocolo": {
+        "sesiones": "4-6",
+        "intervalo": {
+          "es": "cada 7-15 días",
+          "en": "every 7-15 days"
+        },
+        "mantenimiento": {
+          "es": "cada 3-6 meses",
+          "en": "every 3-6 months"
+        },
+        "tecnica": {
+          "es": "Se carga el cóctel en una jeringa y se aplica gota a gota sobre la zona a tratar con la técnica transdérmica elegida (microneedling, electroporación o ultrasonidos).",
+          "en": "The cocktail is drawn into a syringe and applied drop by drop to the treatment area with the selected transdermal technique (microneedling, electroporation or ultrasound)."
+        }
+      },
+      "pasos": {
+        "es": [
+          "Preparar: Osmolyte Cleanser y/o Glycilac Toner; desengrasado con solución alcohólica (opcional)",
+          "Activar: 2-3 pulsaciones de Glycolic + AHAs, esperar unos 5 minutos y retirar con una toalla húmeda",
+          "Tratar: aplicar el mesocóctel seleccionado gota a gota con la técnica elegida",
+          "Potenciar (opcional): Silk Retinol 0.3% Cream, dejar 5 minutos y retirar con una toalla húmeda",
+          "Reparar: HA + B5 + Silicium Mask, masajear, dejar actuar 10 minutos y retirar el exceso con agua",
+          "Finalizar y proteger: HA + Hibiscus Cream y Silk Proage SPF 50 Fluid"
+        ],
+        "en": [
+          "Prepare: Osmolyte Cleanser and/or Glycilac Toner; degreasing with alcoholic solution (optional)",
+          "Activate: 2-3 pumps of Glycolic + AHAs, wait about 5 minutes and remove with a damp towel",
+          "Treat: apply the selected mesococktail drop by drop with the chosen technique",
+          "Boost (optional): Silk Retinol 0.3% Cream, leave on for 5 minutes and remove with a damp towel",
+          "Repair: HA + B5 + Silicium Mask, massage in, leave on for 10 minutes and remove any excess with water",
+          "Finish and protect: HA + Hibiscus Cream and Silk Proage SPF 50 Fluid"
+        ]
+      },
+      "combinado": {
+        "nombre": "Matrix-Repair",
+        "con": [
+          "youth-restore"
+        ]
+      },
+      "precauciones": {
+        "es": [
+          "Puede contener trazas de lecitina de soja: precaución en personas alérgicas o sensibles a las proteínas de soja",
+          "Infecciones cutáneas activas o heridas abiertas",
+          "Embarazo o lactancia",
+          "Enfermedades autoinmunes de la piel o alergias graves",
+          "Rellenos o toxina botulínica recientes (esperar 2 semanas) o peeling reciente (esperar 1 semana)",
+          "Puede aparecer eritema leve o pápulas en los puntos de aplicación (temporal y normal)",
+          "Vial estéril de un solo uso: una vez abierto, usar en la misma sesión y desechar el sobrante"
+        ],
+        "en": [
+          "May contain traces of soy lecithin: exercise caution with people allergic or sensitive to soy proteins",
+          "Active skin infections or open wounds",
+          "Pregnancy or breastfeeding",
+          "Autoimmune skin diseases or severe allergies",
+          "Recent fillers or botulinum toxin (wait 2 weeks) or recent peeling (wait 1 week)",
+          "Mild erythema or papules may appear at the application points (temporary and normal)",
+          "Sterile single-use vial: once opened, use in the same session and discard any excess"
+        ]
+      },
+      "fuente": "1._Commercial_Files__Skin_Boosters.pdf p.5-6; Professional__Homecare_Protocols.pdf (68 p.) p.23, 31-32"
     },
     {
       "id": "radiance",
       "n": "Radiance",
       "gama": "glow",
-      "tipo": "m"
+      "tipo": "m",
+      "resumen": {
+        "es": "Cóctel profesional reafirmante e iluminador para mejorar la calidad y la luminosidad de la piel; para piel apagada y pérdida de firmeza.",
+        "en": "Professional firming and radiance-enhancing cocktail to improve skin quality and luminosity; ideal for dull skin and loss of firmness."
+      },
+      "indicaciones": {
+        "es": [
+          "Pérdida de firmeza",
+          "Piel apagada",
+          "Piel deshidratada",
+          "Primeros signos de envejecimiento",
+          "Protocolos progresivos de luminosidad y firmeza"
+        ],
+        "en": [
+          "Loss of firmness",
+          "Dull skin",
+          "Dehydrated skin",
+          "Early signs of aging",
+          "Progressive glow and firming protocols"
+        ]
+      },
+      "activos": [
+        {
+          "n": {
+            "es": "Ácido hialurónico de alto peso molecular (1300-1500 kDa)",
+            "en": "High molecular weight hyaluronic acid (1300-1500 kDa)"
+          },
+          "pct": "0.5"
+        },
+        {
+          "n": {
+            "es": "ADN sódico",
+            "en": "Sodium DNA"
+          },
+          "pct": "0.1"
+        },
+        {
+          "n": {
+            "es": "DMAE",
+            "en": "DMAE"
+          },
+          "pct": "1.0"
+        },
+        {
+          "n": {
+            "es": "Silicio orgánico",
+            "en": "Organic silicon"
+          },
+          "pct": "1.0"
+        }
+      ],
+      "formato": {
+        "es": "Caja de 5 viales de 5 ml",
+        "en": "Box of 5 vials of 5 ml"
+      },
+      "protocolo": {
+        "sesiones": "4-6",
+        "intervalo": {
+          "es": "cada 10 días",
+          "en": "every 10 days"
+        },
+        "mantenimiento": {
+          "es": "cada 3-6 meses",
+          "en": "every 3-6 months"
+        },
+        "tecnica": {
+          "es": "Se carga el cóctel en una jeringa y se aplica gota a gota sobre la zona a tratar con la técnica transdérmica elegida (microneedling, electroporación o ultrasonidos).",
+          "en": "The cocktail is drawn into a syringe and applied drop by drop to the treatment area with the selected transdermal technique (microneedling, electroporation or ultrasound)."
+        }
+      },
+      "pasos": {
+        "es": [
+          "Preparar: Osmolyte Cleanser y/o Glycilac Toner; desengrasado con solución alcohólica (opcional)",
+          "Activar: 2-3 pulsaciones de Glycolic + AHAs, esperar unos 5 minutos y retirar con una toalla húmeda",
+          "Tratar: aplicar el mesocóctel seleccionado gota a gota con la técnica elegida",
+          "Potenciar (opcional): Silk Retinol 0.3% Cream, dejar 5 minutos y retirar con una toalla húmeda",
+          "Reparar: HA + B5 + Silicium Mask, masajear, dejar actuar 10 minutos y retirar el exceso con agua",
+          "Finalizar y proteger: HA + Hibiscus Cream y Silk Proage SPF 50 Fluid"
+        ],
+        "en": [
+          "Prepare: Osmolyte Cleanser and/or Glycilac Toner; degreasing with alcoholic solution (optional)",
+          "Activate: 2-3 pumps of Glycolic + AHAs, wait about 5 minutes and remove with a damp towel",
+          "Treat: apply the selected mesococktail drop by drop with the chosen technique",
+          "Boost (optional): Silk Retinol 0.3% Cream, leave on for 5 minutes and remove with a damp towel",
+          "Repair: HA + B5 + Silicium Mask, massage in, leave on for 10 minutes and remove any excess with water",
+          "Finish and protect: HA + Hibiscus Cream and Silk Proage SPF 50 Fluid"
+        ]
+      },
+      "combinado": {
+        "nombre": "CEF-Radiance",
+        "con": [
+          "cell-energy"
+        ]
+      },
+      "precauciones": {
+        "es": [
+          "El DMAE puede causar sensación de hormigueo o enrojecimiento temporal",
+          "Infecciones cutáneas activas, inflamación cutánea o heridas abiertas",
+          "Embarazo o lactancia",
+          "Enfermedades autoinmunes de la piel o alergias graves",
+          "Rellenos o toxina botulínica recientes (esperar 2 semanas)",
+          "Puede aparecer un enrojecimiento leve o pápulas que desaparecen en las primeras 24 horas",
+          "Vial estéril de un solo uso: una vez abierto, usar en la misma sesión y desechar el sobrante"
+        ],
+        "en": [
+          "DMAE may cause a tingling sensation or temporary redness",
+          "Active skin infections, skin inflammation or open wounds",
+          "Pregnancy or breastfeeding",
+          "Autoimmune skin diseases or severe allergies",
+          "Recent fillers or botulinum toxin (wait 2 weeks)",
+          "Mild redness or papules may appear and fade within the first 24 hours",
+          "Sterile single-use vial: once opened, use in the same session and discard any excess"
+        ]
+      },
+      "fuente": "1._Commercial_Files__Skin_Boosters.pdf p.7; Professional__Homecare_Protocols.pdf (68 p.) p.23, 33-34"
     },
     {
       "id": "glow-boost",
       "n": "Glow Boost",
       "gama": "glow",
-      "tipo": "m"
+      "tipo": "m",
+      "resumen": {
+        "es": "Cóctel profesional antioxidante y antifatiga para potenciar la luminosidad y mejorar la apariencia de la piel cansada y estresada.",
+        "en": "Professional antioxidant and anti-fatigue cocktail to boost radiance and improve the appearance of tired, stressed skin."
+      },
+      "indicaciones": {
+        "es": [
+          "Piel de aspecto cansado",
+          "Estrés oxidativo",
+          "Piel apagada y falta de luminosidad",
+          "Piel expuesta a agresores ambientales",
+          "Protocolos progresivos de luminosidad"
+        ],
+        "en": [
+          "Tired-looking skin",
+          "Oxidative stress",
+          "Dullness and lack of radiance",
+          "Skin exposed to environmental aggressors",
+          "Progressive glow-boosting protocols"
+        ]
+      },
+      "activos": [
+        {
+          "n": {
+            "es": "L-Glutatión",
+            "en": "L-Glutathione"
+          },
+          "pct": "0.50"
+        },
+        {
+          "n": {
+            "es": "Ácido fólico",
+            "en": "Folic acid"
+          },
+          "pct": "0.05"
+        },
+        {
+          "n": {
+            "es": "Superóxido dismutasa",
+            "en": "Superoxide dismutase"
+          },
+          "pct": "0.0003"
+        },
+        {
+          "n": {
+            "es": "Extracto de Halidrys siliquosa",
+            "en": "Halidrys siliquosa extract"
+          },
+          "pct": "0.05"
+        },
+        {
+          "n": {
+            "es": "Extracto de simbiosoma de Pueraria lobata",
+            "en": "Pueraria lobata symbiosome extract"
+          },
+          "pct": "0.05"
+        }
+      ],
+      "formato": {
+        "es": "Caja de 5 viales de 5 ml",
+        "en": "Box of 5 vials of 5 ml"
+      },
+      "protocolo": {
+        "sesiones": "4-6",
+        "intervalo": {
+          "es": "cada 10-14 días",
+          "en": "every 10-14 days"
+        },
+        "mantenimiento": {
+          "es": "cada 3-6 meses",
+          "en": "every 3-6 months"
+        },
+        "tecnica": {
+          "es": "Se carga el cóctel en una jeringa y se aplica gota a gota sobre la zona a tratar con la técnica transdérmica elegida (microneedling, electroporación o ultrasonidos).",
+          "en": "The cocktail is drawn into a syringe and applied drop by drop to the treatment area with the selected transdermal technique (microneedling, electroporation or ultrasound)."
+        }
+      },
+      "pasos": {
+        "es": [
+          "Preparar: Osmolyte Cleanser y/o Glycilac Toner; desengrasado con solución alcohólica (opcional)",
+          "Activar: 2-3 pulsaciones de Glycolic + AHAs, esperar unos 5 minutos y retirar con una toalla húmeda",
+          "Tratar: aplicar el mesocóctel seleccionado gota a gota con la técnica elegida",
+          "Potenciar (opcional): Silk Retinol 0.3% Cream, dejar 5 minutos y retirar con una toalla húmeda",
+          "Reparar: HA + B5 + Silicium Mask, masajear, dejar actuar 10 minutos y retirar el exceso con agua",
+          "Finalizar y proteger: HA + Hibiscus Cream y Silk Proage SPF 50 Fluid"
+        ],
+        "en": [
+          "Prepare: Osmolyte Cleanser and/or Glycilac Toner; degreasing with alcoholic solution (optional)",
+          "Activate: 2-3 pumps of Glycolic + AHAs, wait about 5 minutes and remove with a damp towel",
+          "Treat: apply the selected mesococktail drop by drop with the chosen technique",
+          "Boost (optional): Silk Retinol 0.3% Cream, leave on for 5 minutes and remove with a damp towel",
+          "Repair: HA + B5 + Silicium Mask, massage in, leave on for 10 minutes and remove any excess with water",
+          "Finish and protect: HA + Hibiscus Cream and Silk Proage SPF 50 Fluid"
+        ]
+      },
+      "combinado": {
+        "nombre": "OX-Defense",
+        "con": []
+      },
+      "precauciones": {
+        "es": [
+          "Infecciones cutáneas activas, inflamación cutánea o heridas abiertas",
+          "Embarazo o lactancia",
+          "Enfermedades autoinmunes de la piel o alergias graves",
+          "Rellenos o toxina botulínica recientes (esperar 2 semanas)",
+          "Puede aparecer un enrojecimiento leve o pápulas que desaparecen en las primeras 24 horas",
+          "Vial estéril de un solo uso: una vez abierto, usar en la misma sesión y desechar el sobrante"
+        ],
+        "en": [
+          "Active skin infections, skin inflammation or open wounds",
+          "Pregnancy or breastfeeding",
+          "Autoimmune skin diseases or severe allergies",
+          "Recent fillers or botulinum toxin (wait 2 weeks)",
+          "Mild redness or papules may appear and fade within the first 24 hours",
+          "Sterile single-use vial: once opened, use in the same session and discard any excess"
+        ]
+      },
+      "fuente": "1._Commercial_Files__Skin_Boosters.pdf p.8; Professional__Homecare_Protocols.pdf (68 p.) p.23, 35-36"
     },
     {
       "id": "spot-corrector",
       "n": "Spot Corrector",
       "gama": "blur",
-      "tipo": "m"
+      "tipo": "m",
+      "resumen": {
+        "es": "Cóctel profesional para manchas que aporta hidratación y confort y ayuda a reducir la apariencia del tono desigual.",
+        "en": "Professional dark spots cocktail that delivers hydration and comfort and helps reduce the appearance of uneven skin tone."
+      },
+      "indicaciones": {
+        "es": [
+          "Tono desigual",
+          "Manchas incipientes",
+          "Piel reactiva con tendencia a la pigmentación",
+          "Piel apagada",
+          "Protocolos progresivos de luminosidad y unificación del tono"
+        ],
+        "en": [
+          "Uneven tone",
+          "Early dark spots",
+          "Reactive pigment-prone skin",
+          "Dull skin",
+          "Progressive brightening and tone-evening protocols"
+        ]
+      },
+      "activos": [
+        {
+          "n": {
+            "es": "Ácido hialurónico de bajo peso molecular (100-400 kDa)",
+            "en": "Low molecular weight hyaluronic acid (100-400 kDa)"
+          },
+          "pct": "0.75"
+        },
+        {
+          "n": {
+            "es": "Ácido hialurónico de alto peso molecular (1300-1500 kDa)",
+            "en": "High molecular weight hyaluronic acid (1300-1500 kDa)"
+          },
+          "pct": "0.75"
+        },
+        {
+          "n": {
+            "es": "Ácido tranexámico",
+            "en": "Tranexamic acid"
+          },
+          "pct": "1.8"
+        },
+        {
+          "n": {
+            "es": "Glutatión",
+            "en": "Glutathione"
+          },
+          "pct": "0.002"
+        },
+        {
+          "n": {
+            "es": "Niacinamida (vitamina B3)",
+            "en": "Niacinamide (vitamin B3)"
+          },
+          "pct": "0.5"
+        },
+        {
+          "n": {
+            "es": "Ascorbil glucósido",
+            "en": "Ascorbyl glucoside"
+          },
+          "pct": "0.2"
+        }
+      ],
+      "formato": {
+        "es": "Caja de 5 viales de 5 ml",
+        "en": "Box of 5 vials of 5 ml"
+      },
+      "protocolo": {
+        "sesiones": "4-6",
+        "intervalo": {
+          "es": "cada 10 días",
+          "en": "every 10 days"
+        },
+        "mantenimiento": {
+          "es": "cada 3-6 meses",
+          "en": "every 3-6 months"
+        },
+        "tecnica": {
+          "es": "Se carga el cóctel en una jeringa y se aplica gota a gota sobre la zona a tratar con la técnica transdérmica elegida (microneedling, electroporación o ultrasonidos).",
+          "en": "The cocktail is drawn into a syringe and applied drop by drop to the treatment area with the selected transdermal technique (microneedling, electroporation or ultrasound)."
+        }
+      },
+      "pasos": {
+        "es": [
+          "Preparar: Osmolyte Cleanser y/o Glycilac Toner; desengrasado con solución alcohólica (opcional)",
+          "Activar: 2-3 pulsaciones de Glycolic + AHAs, esperar unos 5 minutos y retirar con una toalla húmeda",
+          "Tratar: aplicar el mesocóctel seleccionado gota a gota con la técnica elegida",
+          "Potenciar (opcional): Silk Retinol 0.3% Cream, dejar 5 minutos y retirar con una toalla húmeda",
+          "Reparar: HA + B5 + Silicium Mask, masajear, dejar actuar 10 minutos y retirar el exceso con agua",
+          "Finalizar y proteger: HA + Hibiscus Cream y Silk Proage SPF 50 Fluid"
+        ],
+        "en": [
+          "Prepare: Osmolyte Cleanser and/or Glycilac Toner; degreasing with alcoholic solution (optional)",
+          "Activate: 2-3 pumps of Glycolic + AHAs, wait about 5 minutes and remove with a damp towel",
+          "Treat: apply the selected mesococktail drop by drop with the chosen technique",
+          "Boost (optional): Silk Retinol 0.3% Cream, leave on for 5 minutes and remove with a damp towel",
+          "Repair: HA + B5 + Silicium Mask, massage in, leave on for 10 minutes and remove any excess with water",
+          "Finish and protect: HA + Hibiscus Cream and Silk Proage SPF 50 Fluid"
+        ]
+      },
+      "combinado": {
+        "nombre": "TXA-Spot Control",
+        "con": []
+      },
+      "precauciones": {
+        "es": [
+          "La vitamina C puede causar un ligero hormigueo en personas muy reactivas",
+          "El ácido tranexámico suele tolerarse bien, aunque son posibles reacciones alérgicas poco frecuentes",
+          "Infecciones cutáneas activas, inflamación cutánea o heridas abiertas",
+          "Embarazo o lactancia",
+          "Enfermedades autoinmunes de la piel o alergias graves",
+          "Rellenos o toxina botulínica recientes (esperar 2 semanas)",
+          "Puede aparecer un enrojecimiento leve o pápulas que desaparecen en las primeras 24 horas",
+          "Vial estéril de un solo uso: una vez abierto, usar en la misma sesión y desechar el sobrante"
+        ],
+        "en": [
+          "Vitamin C may cause slight tingling in very reactive individuals",
+          "Tranexamic acid is generally well tolerated, but rare allergic reactions are possible",
+          "Active skin infections, skin inflammation or open wounds",
+          "Pregnancy or breastfeeding",
+          "Autoimmune skin diseases or severe allergies",
+          "Recent fillers or botulinum toxin (wait 2 weeks)",
+          "Mild redness or papules may appear and fade within the first 24 hours",
+          "Sterile single-use vial: once opened, use in the same session and discard any excess"
+        ]
+      },
+      "fuente": "1._Commercial_Files__Skin_Boosters.pdf p.9-10; Professional__Homecare_Protocols.pdf (68 p.) p.23, 45-46"
     },
     {
       "id": "pigment-balance",
       "n": "Pigment Balance",
       "gama": "blur",
-      "tipo": "m"
+      "tipo": "m",
+      "resumen": {
+        "es": "Cóctel profesional corrector de la pigmentación para reducir visiblemente la apariencia de las manchas y mejorar la uniformidad del tono.",
+        "en": "Professional pigment-correcting cocktail to visibly reduce the appearance of dark spots and improve complexion uniformity."
+      },
+      "indicaciones": {
+        "es": [
+          "Manchas persistentes",
+          "Tono desigual",
+          "Pigmentación irregular e inestable",
+          "Estabilización del tono tras protocolos correctores",
+          "Protocolos progresivos de corrección de la pigmentación"
+        ],
+        "en": [
+          "Persistent dark spots",
+          "Uneven complexion",
+          "Uneven and unstable pigmentation",
+          "Tone stabilization after corrective protocols",
+          "Progressive pigment correction protocols"
+        ]
+      },
+      "activos": [
+        {
+          "n": {
+            "es": "Ácido tranexámico",
+            "en": "Tranexamic acid"
+          },
+          "pct": "1.80"
+        },
+        {
+          "n": {
+            "es": "Ácido 3-O-etil ascórbico",
+            "en": "3-O-Ethyl ascorbic acid"
+          },
+          "pct": "0.60"
+        },
+        {
+          "n": {
+            "es": "Alfa-arbutina",
+            "en": "Alpha-arbutin"
+          },
+          "pct": "0.40"
+        },
+        {
+          "n": {
+            "es": "Extracto de raíz de Glycyrrhiza glabra",
+            "en": "Glycyrrhiza glabra root extract"
+          },
+          "pct": "0.40"
+        },
+        {
+          "n": {
+            "es": "Extracto de Tricholoma matsutake",
+            "en": "Tricholoma matsutake extract"
+          },
+          "pct": "0.05"
+        },
+        {
+          "n": {
+            "es": "L-Glutatión",
+            "en": "L-Glutathione"
+          },
+          "pct": "0.01"
+        },
+        {
+          "n": {
+            "es": "Complejo de péptidos",
+            "en": "Peptide complex"
+          },
+          "pct": null
+        }
+      ],
+      "formato": {
+        "es": "Caja de 5 viales de 5 ml",
+        "en": "Box of 5 vials of 5 ml"
+      },
+      "protocolo": {
+        "sesiones": "4-6",
+        "intervalo": {
+          "es": "cada 10 días",
+          "en": "every 10 days"
+        },
+        "mantenimiento": {
+          "es": "cada 3-6 meses",
+          "en": "every 3-6 months"
+        },
+        "tecnica": {
+          "es": "Se carga el cóctel en una jeringa y se aplica gota a gota sobre la zona a tratar con la técnica transdérmica elegida (microneedling, electroporación o ultrasonidos).",
+          "en": "The cocktail is drawn into a syringe and applied drop by drop to the treatment area with the selected transdermal technique (microneedling, electroporation or ultrasound)."
+        }
+      },
+      "pasos": {
+        "es": [
+          "Preparar: Osmolyte Cleanser y/o Glycilac Toner; desengrasado con solución alcohólica (opcional)",
+          "Activar: 2-3 pulsaciones de Glycolic + AHAs, esperar unos 5 minutos y retirar con una toalla húmeda",
+          "Tratar: aplicar el mesocóctel seleccionado gota a gota con la técnica elegida",
+          "Potenciar (opcional): Silk Retinol 0.3% Cream, dejar 5 minutos y retirar con una toalla húmeda",
+          "Reparar: HA + B5 + Silicium Mask, masajear, dejar actuar 10 minutos y retirar el exceso con agua",
+          "Finalizar y proteger: HA + Hibiscus Cream y Silk Proage SPF 50 Fluid"
+        ],
+        "en": [
+          "Prepare: Osmolyte Cleanser and/or Glycilac Toner; degreasing with alcoholic solution (optional)",
+          "Activate: 2-3 pumps of Glycolic + AHAs, wait about 5 minutes and remove with a damp towel",
+          "Treat: apply the selected mesococktail drop by drop with the chosen technique",
+          "Boost (optional): Silk Retinol 0.3% Cream, leave on for 5 minutes and remove with a damp towel",
+          "Repair: HA + B5 + Silicium Mask, massage in, leave on for 10 minutes and remove any excess with water",
+          "Finish and protect: HA + Hibiscus Cream and Silk Proage SPF 50 Fluid"
+        ]
+      },
+      "combinado": {
+        "nombre": "Melanin Modulation",
+        "con": []
+      },
+      "precauciones": {
+        "es": [
+          "La vitamina C puede causar un ligero hormigueo en personas muy reactivas",
+          "El ácido tranexámico suele tolerarse bien, aunque son posibles reacciones alérgicas poco frecuentes",
+          "Infecciones cutáneas activas, inflamación cutánea o heridas abiertas",
+          "Embarazo o lactancia",
+          "Enfermedades autoinmunes de la piel o alergias graves",
+          "Rellenos o toxina botulínica recientes (esperar 2 semanas)",
+          "Puede aparecer un enrojecimiento leve o pápulas que desaparecen en las primeras 24 horas",
+          "Vial estéril de un solo uso: una vez abierto, usar en la misma sesión y desechar el sobrante"
+        ],
+        "en": [
+          "Vitamin C may cause slight tingling in very reactive individuals",
+          "Tranexamic acid is generally well tolerated, but rare allergic reactions are possible",
+          "Active skin infections, skin inflammation or open wounds",
+          "Pregnancy or breastfeeding",
+          "Autoimmune skin diseases or severe allergies",
+          "Recent fillers or botulinum toxin (wait 2 weeks)",
+          "Mild redness or papules may appear and fade within the first 24 hours",
+          "Sterile single-use vial: once opened, use in the same session and discard any excess"
+        ]
+      },
+      "fuente": "1._Commercial_Files__Skin_Boosters.pdf p.11-12; Professional__Homecare_Protocols.pdf (68 p.) p.23, 47-48"
     },
     {
       "id": "youth-restore",
       "n": "Youth Restore",
       "gama": "silk",
-      "tipo": "m"
+      "tipo": "m",
+      "resumen": {
+        "es": "Cóctel biorrevitalizante profesional que apoya la recuperación y la calidad de la piel, mejorando la apariencia de firmeza, suavidad y luminosidad natural.",
+        "en": "Professional biorevitalizing cocktail that supports skin recovery and quality, improving the appearance of firmness, smoothness and natural radiance."
+      },
+      "indicaciones": {
+        "es": [
+          "Piel apagada",
+          "Signos de envejecimiento, de incipientes a avanzados",
+          "Piel deshidratada o cansada",
+          "Tono y textura irregulares",
+          "Protocolos progresivos de regeneración"
+        ],
+        "en": [
+          "Dullness",
+          "Early to advanced signs of aging",
+          "Dehydrated or tired skin",
+          "Uneven tone and texture",
+          "Progressive regeneration protocols"
+        ]
+      },
+      "activos": [
+        {
+          "n": {
+            "es": "Ácido hialurónico de alto peso molecular (1300-1500 kDa)",
+            "en": "High molecular weight hyaluronic acid (1300-1500 kDa)"
+          },
+          "pct": "0.3"
+        },
+        {
+          "n": {
+            "es": "Exosomas de centella",
+            "en": "Centella exosomes"
+          },
+          "pct": "1.0"
+        },
+        {
+          "n": {
+            "es": "Complejo de células madre (extracto de Centaurea cyanus y Rosa centifolia)",
+            "en": "Stem cells complex (Centaurea cyanus and Rosa centifolia extract)"
+          },
+          "pct": "1.0"
+        },
+        {
+          "n": {
+            "es": "Complejo de ácidos nucleicos (ADN sódico y ARN)",
+            "en": "Nucleic acid complex (sodium DNA and RNA)"
+          },
+          "pct": "0.8"
+        },
+        {
+          "n": {
+            "es": "Pantenol (vitamina B5)",
+            "en": "Panthenol (vitamin B5)"
+          },
+          "pct": "0.5"
+        }
+      ],
+      "formato": {
+        "es": "Caja de 5 viales de 5 ml",
+        "en": "Box of 5 vials of 5 ml"
+      },
+      "protocolo": {
+        "sesiones": "4-6",
+        "intervalo": {
+          "es": "cada 10-14 días",
+          "en": "every 10-14 days"
+        },
+        "mantenimiento": {
+          "es": "cada 3-6 meses",
+          "en": "every 3-6 months"
+        },
+        "tecnica": {
+          "es": "Se carga el cóctel en una jeringa y se aplica gota a gota sobre la zona a tratar con la técnica transdérmica elegida (microneedling, electroporación o ultrasonidos).",
+          "en": "The cocktail is drawn into a syringe and applied drop by drop to the treatment area with the selected transdermal technique (microneedling, electroporation or ultrasound)."
+        }
+      },
+      "pasos": {
+        "es": [
+          "Preparar: Osmolyte Cleanser y/o Glycilac Toner; desengrasado con solución alcohólica (opcional)",
+          "Activar: 2-3 pulsaciones de Glycolic + AHAs, esperar unos 5 minutos y retirar con una toalla húmeda",
+          "Tratar: aplicar el mesocóctel seleccionado gota a gota con la técnica elegida",
+          "Potenciar (opcional): Silk Retinol 0.3% Cream, dejar 5 minutos y retirar con una toalla húmeda",
+          "Reparar: HA + B5 + Silicium Mask, masajear, dejar actuar 10 minutos y retirar el exceso con agua",
+          "Finalizar y proteger: HA + Hibiscus Cream y Silk Proage SPF 50 Fluid"
+        ],
+        "en": [
+          "Prepare: Osmolyte Cleanser and/or Glycilac Toner; degreasing with alcoholic solution (optional)",
+          "Activate: 2-3 pumps of Glycolic + AHAs, wait about 5 minutes and remove with a damp towel",
+          "Treat: apply the selected mesococktail drop by drop with the chosen technique",
+          "Boost (optional): Silk Retinol 0.3% Cream, leave on for 5 minutes and remove with a damp towel",
+          "Repair: HA + B5 + Silicium Mask, massage in, leave on for 10 minutes and remove any excess with water",
+          "Finish and protect: HA + Hibiscus Cream and Silk Proage SPF 50 Fluid"
+        ]
+      },
+      "combinado": {
+        "nombre": "Exo-Restore",
+        "con": [
+          "hydra-volume"
+        ]
+      },
+      "precauciones": {
+        "es": [
+          "La vitamina C puede causar un ligero hormigueo en personas muy reactivas",
+          "Por la presencia de exosomas, aplicar superficialmente, punto por punto, en muy poca cantidad y sin dejar depósitos de producto; puede aparecer una leve molestia o sensibilidad",
+          "Infecciones cutáneas activas, inflamación cutánea o heridas abiertas",
+          "Embarazo o lactancia",
+          "Enfermedades autoinmunes de la piel o alergias graves",
+          "Rellenos o toxina botulínica recientes (esperar 2 semanas)",
+          "Puede aparecer un enrojecimiento leve o pápulas que desaparecen en las primeras 24 horas",
+          "Vial estéril de un solo uso: una vez abierto, usar en la misma sesión y desechar el sobrante"
+        ],
+        "en": [
+          "Vitamin C may cause slight tingling in very reactive individuals",
+          "Due to the presence of exosomes, apply superficially, point by point, in very low quantity and without leaving product deposits; mild discomfort or sensitivity may occur",
+          "Active skin infections, skin inflammation or open wounds",
+          "Pregnancy or breastfeeding",
+          "Autoimmune skin diseases or severe allergies",
+          "Recent fillers or botulinum toxin (wait 2 weeks)",
+          "Mild redness or papules may appear and fade within the first 24 hours",
+          "Sterile single-use vial: once opened, use in the same session and discard any excess"
+        ]
+      },
+      "fuente": "1._Commercial_Files__Skin_Boosters.pdf p.13-14; Professional__Homecare_Protocols.pdf (68 p.) p.23, 39-40"
     },
     {
       "id": "firming-essence",
       "n": "Firming Essence",
       "gama": "silk",
-      "tipo": "m"
+      "tipo": "m",
+      "resumen": {
+        "es": "Cóctel reafirmante profesional con alta concentración de PDRN y niacinamida para mejorar la apariencia de densidad, firmeza y calidad de la piel.",
+        "en": "Professional firming cocktail with a high concentration of PDRN and niacinamide to improve the appearance of skin density, firmness and quality."
+      },
+      "indicaciones": {
+        "es": [
+          "Pérdida de firmeza",
+          "Piel madura",
+          "Piel con tendencia a la flacidez",
+          "Tono desigual",
+          "Protocolos proaging progresivos de reestructuración"
+        ],
+        "en": [
+          "Loss of firmness",
+          "Mature skin",
+          "Laxity-prone skin",
+          "Uneven skin tone",
+          "Progressive restructuring pro-aging protocols"
+        ]
+      },
+      "activos": [
+        {
+          "n": {
+            "es": "PDRN (ADN sódico)",
+            "en": "PDRN (Sodium DNA)"
+          },
+          "pct": "2.0"
+        },
+        {
+          "n": {
+            "es": "Niacinamida (vitamina B3)",
+            "en": "Niacinamide (vitamin B3)"
+          },
+          "pct": "2.0"
+        }
+      ],
+      "formato": {
+        "es": "Caja de 5 viales de 5 ml",
+        "en": "Box of 5 vials of 5 ml"
+      },
+      "protocolo": {
+        "sesiones": "4-6",
+        "intervalo": {
+          "es": "cada 10 días",
+          "en": "every 10 days"
+        },
+        "mantenimiento": {
+          "es": "cada 3-6 meses",
+          "en": "every 3-6 months"
+        },
+        "tecnica": {
+          "es": "Se carga el cóctel en una jeringa y se aplica gota a gota sobre la zona a tratar con la técnica transdérmica elegida (microneedling, electroporación o ultrasonidos). Textura de alta viscosidad: puede atemperarse suavemente o combinarse con otros cócteles para ajustar la fluidez.",
+          "en": "The cocktail is drawn into a syringe and applied drop by drop to the treatment area with the selected transdermal technique (microneedling, electroporation or ultrasound). High-viscosity texture: it can be gently warmed or combined with other cocktails to adjust fluidity."
+        }
+      },
+      "pasos": {
+        "es": [
+          "Preparar: Osmolyte Cleanser y/o Glycilac Toner; desengrasado con solución alcohólica (opcional)",
+          "Activar: 2-3 pulsaciones de Glycolic + AHAs, esperar unos 5 minutos y retirar con una toalla húmeda",
+          "Tratar: aplicar el mesocóctel seleccionado gota a gota con la técnica elegida",
+          "Potenciar (opcional): Silk Retinol 0.3% Cream, dejar 5 minutos y retirar con una toalla húmeda",
+          "Reparar: HA + B5 + Silicium Mask, masajear, dejar actuar 10 minutos y retirar el exceso con agua",
+          "Finalizar y proteger: HA + Hibiscus Cream y Silk Proage SPF 50 Fluid"
+        ],
+        "en": [
+          "Prepare: Osmolyte Cleanser and/or Glycilac Toner; degreasing with alcoholic solution (optional)",
+          "Activate: 2-3 pumps of Glycolic + AHAs, wait about 5 minutes and remove with a damp towel",
+          "Treat: apply the selected mesococktail drop by drop with the chosen technique",
+          "Boost (optional): Silk Retinol 0.3% Cream, leave on for 5 minutes and remove with a damp towel",
+          "Repair: HA + B5 + Silicium Mask, massage in, leave on for 10 minutes and remove any excess with water",
+          "Finish and protect: HA + Hibiscus Cream and Silk Proage SPF 50 Fluid"
+        ]
+      },
+      "combinado": {
+        "nombre": "PN-Firming",
+        "con": [
+          "radiance"
+        ]
+      },
+      "precauciones": {
+        "es": [
+          "Para reducir la viscosidad y facilitar la extracción, calentar el vial a 35-37 ºC al baño maría durante 10 minutos; no usar microondas",
+          "Infecciones cutáneas activas, inflamación cutánea o heridas abiertas",
+          "Embarazo o lactancia",
+          "Enfermedades autoinmunes de la piel o alergias graves",
+          "Rellenos o toxina botulínica recientes (esperar 2 semanas)",
+          "Puede aparecer un enrojecimiento leve o pápulas que desaparecen en las primeras 24 horas",
+          "Vial estéril de un solo uso: una vez abierto, usar en la misma sesión y desechar el sobrante"
+        ],
+        "en": [
+          "To reduce viscosity and ease extraction, warm the vial to 35-37 ºC in a water bath for 10 minutes; do not use a microwave",
+          "Active skin infections, skin inflammation or open wounds",
+          "Pregnancy or breastfeeding",
+          "Autoimmune skin diseases or severe allergies",
+          "Recent fillers or botulinum toxin (wait 2 weeks)",
+          "Mild redness or papules may appear and fade within the first 24 hours",
+          "Sterile single-use vial: once opened, use in the same session and discard any excess"
+        ]
+      },
+      "fuente": "1._Commercial_Files__Skin_Boosters.pdf p.15; Professional__Homecare_Protocols.pdf (68 p.) p.23, 37-38"
     },
     {
       "id": "expression-relax",
       "n": "Expression Relax",
       "gama": "silk",
-      "tipo": "m"
+      "tipo": "m",
+      "resumen": {
+        "es": "Cóctel profesional con complejo de péptidos de alta concentración para suavizar visiblemente las líneas de expresión y las microarrugas.",
+        "en": "Professional cocktail with a high-concentration peptide complex to visibly soften expression lines and micro-wrinkles."
+      },
+      "indicaciones": {
+        "es": [
+          "Líneas de expresión (frente, entrecejo y patas de gallo)",
+          "Microarrugas visibles",
+          "Líneas finas asociadas al movimiento facial repetitivo",
+          "Protocolos progresivos para líneas de expresión"
+        ],
+        "en": [
+          "Expression lines (forehead, glabella and crow's feet)",
+          "Visible micro-wrinkles",
+          "Fine lines related to repetitive facial movement",
+          "Progressive expression-line protocols"
+        ]
+      },
+      "activos": [
+        {
+          "n": {
+            "es": "Acetil hexapéptido-8",
+            "en": "Acetyl hexapeptide-8"
+          },
+          "pct": "5.0"
+        },
+        {
+          "n": {
+            "es": "Pentapéptido-18",
+            "en": "Pentapeptide-18"
+          },
+          "pct": "5.0"
+        },
+        {
+          "n": {
+            "es": "Metilsilanol manuronato",
+            "en": "Methylsilanol mannuronate"
+          },
+          "pct": "3.0"
+        },
+        {
+          "n": {
+            "es": "Niacinamida (vitamina B3)",
+            "en": "Niacinamide (vitamin B3)"
+          },
+          "pct": "3.0"
+        },
+        {
+          "n": {
+            "es": "Ácido hialurónico de bajo peso molecular (100-400 kDa)",
+            "en": "Low molecular weight hyaluronic acid (100-400 kDa)"
+          },
+          "pct": "0.5"
+        },
+        {
+          "n": {
+            "es": "Ácido hialurónico de alto peso molecular (1300-1500 kDa)",
+            "en": "High molecular weight hyaluronic acid (1300-1500 kDa)"
+          },
+          "pct": "0.3"
+        }
+      ],
+      "formato": {
+        "es": "Caja de 5 viales de 5 ml",
+        "en": "Box of 5 vials of 5 ml"
+      },
+      "protocolo": {
+        "sesiones": "4-6",
+        "intervalo": {
+          "es": "cada 10-14 días",
+          "en": "every 10-14 days"
+        },
+        "mantenimiento": {
+          "es": "cada 3-6 meses",
+          "en": "every 3-6 months"
+        },
+        "tecnica": {
+          "es": "Se carga el cóctel en una jeringa y se aplica gota a gota sobre la zona a tratar con la técnica transdérmica elegida (microneedling, electroporación o ultrasonidos). Rostro: 2-4 ml según la zona tratada (tercio superior y líneas periorales).",
+          "en": "The cocktail is drawn into a syringe and applied drop by drop to the treatment area with the selected transdermal technique (microneedling, electroporation or ultrasound). Face: 2-4 ml depending on the treated area (upper face and perioral lines)."
+        }
+      },
+      "pasos": {
+        "es": [
+          "Preparar: Osmolyte Cleanser y/o Glycilac Toner; desengrasado con solución alcohólica (opcional)",
+          "Activar: 2-3 pulsaciones de Glycolic + AHAs, esperar unos 5 minutos y retirar con una toalla húmeda",
+          "Tratar: aplicar el mesocóctel seleccionado gota a gota con la técnica elegida",
+          "Potenciar (opcional): Silk Retinol 0.3% Cream, dejar 5 minutos y retirar con una toalla húmeda",
+          "Reparar: HA + B5 + Silicium Mask, masajear, dejar actuar 10 minutos y retirar el exceso con agua",
+          "Finalizar y proteger: HA + Hibiscus Cream y Silk Proage SPF 50 Fluid"
+        ],
+        "en": [
+          "Prepare: Osmolyte Cleanser and/or Glycilac Toner; degreasing with alcoholic solution (optional)",
+          "Activate: 2-3 pumps of Glycolic + AHAs, wait about 5 minutes and remove with a damp towel",
+          "Treat: apply the selected mesococktail drop by drop with the chosen technique",
+          "Boost (optional): Silk Retinol 0.3% Cream, leave on for 5 minutes and remove with a damp towel",
+          "Repair: HA + B5 + Silicium Mask, massage in, leave on for 10 minutes and remove any excess with water",
+          "Finish and protect: HA + Hibiscus Cream and Silk Proage SPF 50 Fluid"
+        ]
+      },
+      "combinado": {
+        "nombre": "Neuro-Relax",
+        "con": []
+      },
+      "precauciones": {
+        "es": [
+          "Puede contener trazas de lecitina de soja: precaución en personas alérgicas o sensibles a las proteínas de soja",
+          "Infecciones cutáneas activas, inflamación cutánea o heridas abiertas",
+          "Embarazo o lactancia",
+          "Enfermedades autoinmunes de la piel o alergias graves",
+          "Rellenos o toxina botulínica recientes (esperar 2 semanas)",
+          "Puede aparecer un enrojecimiento leve o pápulas que desaparecen en las primeras 24 horas",
+          "Vial estéril de un solo uso: una vez abierto, usar en la misma sesión y desechar el sobrante"
+        ],
+        "en": [
+          "May contain traces of soy lecithin: exercise caution with people allergic or sensitive to soy proteins",
+          "Active skin infections, skin inflammation or open wounds",
+          "Pregnancy or breastfeeding",
+          "Autoimmune skin diseases or severe allergies",
+          "Recent fillers or botulinum toxin (wait 2 weeks)",
+          "Mild redness or papules may appear and fade within the first 24 hours",
+          "Sterile single-use vial: once opened, use in the same session and discard any excess"
+        ]
+      },
+      "fuente": "1._Commercial_Files__Skin_Boosters.pdf p.16-17; Professional__Homecare_Protocols.pdf (68 p.) p.23, 41-42"
     },
     {
       "id": "eye-flash",
       "n": "Eye Flash",
       "gama": "silk",
-      "tipo": "m"
+      "tipo": "m",
+      "resumen": {
+        "es": "Cóctel profesional para el contorno de ojos que reduce la apariencia de ojeras y bolsas y mejora la firmeza y la suavidad.",
+        "en": "Professional eye-contour cocktail that reduces the appearance of dark circles and puffiness while improving firmness and smoothness."
+      },
+      "indicaciones": {
+        "es": [
+          "Apariencia de ojeras",
+          "Bolsas en el contorno de ojos",
+          "Líneas finas alrededor de los ojos",
+          "Pérdida de firmeza en el contorno de ojos",
+          "Zona ocular de aspecto cansado"
+        ],
+        "en": [
+          "Appearance of dark circles",
+          "Puffiness around the eyes",
+          "Fine lines around the eyes",
+          "Loss of firmness in the eye contour",
+          "Tired-looking eye area"
+        ]
+      },
+      "activos": [
+        {
+          "n": {
+            "es": "Ácido hialurónico de alto peso molecular (1300-1500 kDa)",
+            "en": "High molecular weight hyaluronic acid (1300-1500 kDa)"
+          },
+          "pct": "0.25"
+        },
+        {
+          "n": {
+            "es": "Palmitoil tripéptido-1 y palmitoil tetrapéptido-7",
+            "en": "Palmitoyl tripeptide-1 and palmitoyl tetrapeptide-7"
+          },
+          "pct": "2.0"
+        },
+        {
+          "n": {
+            "es": "Acetil tetrapéptido-5",
+            "en": "Acetyl tetrapeptide-5"
+          },
+          "pct": "1.0"
+        },
+        {
+          "n": {
+            "es": "Extracto de hoja de Cynara scolymus",
+            "en": "Cynara scolymus leaf extract"
+          },
+          "pct": "0.82"
+        },
+        {
+          "n": {
+            "es": "Extracto de hoja de Ginkgo biloba",
+            "en": "Ginkgo biloba leaf extract"
+          },
+          "pct": "1.0"
+        },
+        {
+          "n": {
+            "es": "Metilsilanol manuronato",
+            "en": "Methylsilanol mannuronate"
+          },
+          "pct": "1.0"
+        },
+        {
+          "n": {
+            "es": "Fosfato de ascorbilo y magnesio",
+            "en": "Magnesium ascorbyl phosphate"
+          },
+          "pct": "0.25"
+        },
+        {
+          "n": {
+            "es": "Troxerutina",
+            "en": "Troxerutin"
+          },
+          "pct": "0.05"
+        }
+      ],
+      "formato": {
+        "es": "Caja de 5 viales de 5 ml",
+        "en": "Box of 5 vials of 5 ml"
+      },
+      "protocolo": {
+        "sesiones": "4-6",
+        "intervalo": {
+          "es": "cada 10-14 días",
+          "en": "every 10-14 days"
+        },
+        "mantenimiento": {
+          "es": "cada 3-6 meses",
+          "en": "every 3-6 months"
+        },
+        "tecnica": {
+          "es": "Se carga el cóctel en una jeringa y se aplica gota a gota sobre la zona a tratar con la técnica transdérmica elegida (microneedling, electroporación o ultrasonidos). Zona ocular: 1-2 ml por zona según la indicación (párpado inferior, patas de gallo, párpado superior).",
+          "en": "The cocktail is drawn into a syringe and applied drop by drop to the treatment area with the selected transdermal technique (microneedling, electroporation or ultrasound). Eye area: 1-2 ml per area depending on the indication (lower eyelid, crow's feet, upper eyelid)."
+        }
+      },
+      "pasos": {
+        "es": [],
+        "en": []
+      },
+      "combinado": {
+        "nombre": "Pept-eye",
+        "con": []
+      },
+      "precauciones": {
+        "es": [
+          "Puede contener trazas de lecitina de soja: precaución en personas alérgicas o sensibles a las proteínas de soja",
+          "Infecciones cutáneas activas, inflamación cutánea o heridas abiertas",
+          "Embarazo o lactancia",
+          "Enfermedades autoinmunes de la piel o alergias graves",
+          "Rellenos o toxina botulínica recientes (esperar 2 semanas)",
+          "Puede aparecer un enrojecimiento leve o pápulas que desaparecen en las primeras 24 horas",
+          "Vial estéril de un solo uso: una vez abierto, usar en la misma sesión y desechar el sobrante"
+        ],
+        "en": [
+          "May contain traces of soy lecithin: exercise caution with people allergic or sensitive to soy proteins",
+          "Active skin infections, skin inflammation or open wounds",
+          "Pregnancy or breastfeeding",
+          "Autoimmune skin diseases or severe allergies",
+          "Recent fillers or botulinum toxin (wait 2 weeks)",
+          "Mild redness or papules may appear and fade within the first 24 hours",
+          "Sterile single-use vial: once opened, use in the same session and discard any excess"
+        ]
+      },
+      "fuente": "1._Commercial_Files__Skin_Boosters.pdf p.18-19; Professional__Homecare_Protocols.pdf (68 p.) p.43-44 (Pept-eye: alternate 68 p. version, p.24)"
     },
     {
       "id": "hair-density",
       "n": "Hair Density",
       "gama": "root",
-      "tipo": "m"
+      "tipo": "m",
+      "resumen": {
+        "es": "Cóctel biorrevitalizante capilar profesional con complejo de exosomas de alta concentración para apoyar la vitalidad del cuero cabelludo y la densidad aparente.",
+        "en": "Professional hair biorevitalizing cocktail with a high-concentration exosome complex to support scalp vitality and the appearance of hair density."
+      },
+      "indicaciones": {
+        "es": [
+          "Cabello de aspecto debilitado",
+          "Pérdida de densidad capilar",
+          "Apariencia de cabello fino",
+          "Apoyo a la vitalidad del cuero cabelludo",
+          "Protocolos progresivos de revitalización del cuero cabelludo"
+        ],
+        "en": [
+          "Weakened-looking hair",
+          "Loss of hair density",
+          "Hair thinning appearance",
+          "Scalp vitality support",
+          "Progressive scalp revitalization protocols"
+        ]
+      },
+      "activos": [
+        {
+          "n": {
+            "es": "Vesículas extracelulares de Leuconostoc",
+            "en": "Leuconostoc extracellular vesicles"
+          },
+          "pct": "10.0"
+        },
+        {
+          "n": {
+            "es": "Pantenol",
+            "en": "Panthenol"
+          },
+          "pct": "0.5"
+        },
+        {
+          "n": {
+            "es": "Tiamina HCl",
+            "en": "Thiamine HCl"
+          },
+          "pct": "0.2"
+        }
+      ],
+      "formato": {
+        "es": "Caja de 5 viales de 5 ml",
+        "en": "Box of 5 vials of 5 ml"
+      },
+      "protocolo": {
+        "sesiones": "6-8",
+        "intervalo": {
+          "es": "cada 7-14 días",
+          "en": "every 7-14 days"
+        },
+        "mantenimiento": {
+          "es": "cada 3-6 meses",
+          "en": "every 3-6 months"
+        },
+        "tecnica": {
+          "es": "Se carga el cóctel en una jeringa y se aplica gota a gota sobre la zona a tratar con la técnica transdérmica elegida (microneedling, electroporación o ultrasonidos). Cuero cabelludo: 3-5 ml según la zona a tratar.",
+          "en": "The cocktail is drawn into a syringe and applied drop by drop to the treatment area with the selected transdermal technique (microneedling, electroporation or ultrasound). Scalp: 3-5 ml depending on the treatment area."
+        }
+      },
+      "pasos": {
+        "es": [],
+        "en": []
+      },
+      "combinado": {
+        "nombre": "EXO-Hair",
+        "con": []
+      },
+      "precauciones": {
+        "es": [
+          "Por la presencia de exosomas, aplicar superficialmente, punto por punto, en muy poca cantidad y sin dejar depósitos de producto; puede aparecer una leve molestia o sensibilidad",
+          "Infecciones activas del cuero cabelludo, inflamación cutánea o heridas abiertas",
+          "Embarazo o lactancia",
+          "Enfermedades autoinmunes de la piel o alergias graves",
+          "Hipersensibilidad conocida a cualquier ingrediente",
+          "Puede aparecer un enrojecimiento leve o pápulas que desaparecen en las primeras 24 horas",
+          "Vial estéril de un solo uso: una vez abierto, usar en la misma sesión y desechar el sobrante"
+        ],
+        "en": [
+          "Due to the presence of exosomes, apply superficially, point by point, in very low quantity and without leaving product deposits; mild discomfort or sensitivity may occur",
+          "Active scalp infections, skin inflammation or open wounds",
+          "Pregnancy or breastfeeding",
+          "Autoimmune skin diseases or severe allergies",
+          "Known hypersensitivity to any ingredient",
+          "Mild redness or papules may appear and fade within the first 24 hours",
+          "Sterile single-use vial: once opened, use in the same session and discard any excess"
+        ]
+      },
+      "fuente": "1._Commercial_Files__Skin_Boosters.pdf p.20; Professional__Homecare_Protocols.pdf (68 p.) p.23, 49-50"
     },
     {
       "id": "lacto-renewal",
       "n": "Lacto Renewal",
       "gama": "joy",
-      "tipo": "p"
+      "tipo": "p",
+      "resumen": {
+        "es": "Peeling químico hidratante profesional con ácido lactobiónico, ácido láctico y gluconato de zinc que favorece una renovación celular suave y devuelve luminosidad.",
+        "en": "Professional moisturizing chemical peel with lactobionic acid, lactic acid and zinc gluconate that promotes gentle cell renewal and restores radiance."
+      },
+      "indicaciones": {
+        "es": [
+          "Deshidratación",
+          "Líneas finas",
+          "Piel fina o sensibilizada",
+          "Piel cansada, apagada o áspera",
+          "Fototipos I-V"
+        ],
+        "en": [
+          "Dehydration",
+          "Fine lines",
+          "Thin or sensitized skin",
+          "Tired, dull or rough skin",
+          "Phototypes I-V"
+        ]
+      },
+      "activos": [
+        {
+          "n": {
+            "es": "Ácido láctico",
+            "en": "Lactic acid"
+          },
+          "pct": "12.6"
+        },
+        {
+          "n": {
+            "es": "Ácido lactobiónico",
+            "en": "Lactobionic acid"
+          },
+          "pct": "16.0"
+        },
+        {
+          "n": {
+            "es": "Gluconato de zinc",
+            "en": "Zinc gluconate"
+          },
+          "pct": "0.2"
+        }
+      ],
+      "formato": {
+        "es": "Frasco de 50 ml, solo uso profesional",
+        "en": "50 ml bottle, professional use only"
+      },
+      "protocolo": {
+        "sesiones": "3-6",
+        "intervalo": {
+          "es": "cada 2-4 semanas",
+          "en": "every 2-4 weeks"
+        },
+        "mantenimiento": {
+          "es": "cada 1-3 meses",
+          "en": "every 1-3 months"
+        },
+        "tecnica": {
+          "es": "Se aplica por capas sobre piel limpia y seca: la primera con gasa estéril empapada (unos 2 ml) y las siguientes con pincel plano según tolerancia. Se retira con agua, sin neutralización.",
+          "en": "Applied in layers on clean, dry skin: the first with a soaked sterile gauze (about 2 ml), the following ones with a flat brush according to tolerance. Removed with water, no neutralisation."
+        }
+      },
+      "pasos": {
+        "es": [
+          "Preparar: Osmolyte Cleanser y/o Glycilac Toner; desengrasado con solución alcohólica (opcional, evitar en piel sensible)",
+          "Activar: 2-3 pulsaciones de Pure Glycolic + AHAs, masajear hasta su absorción",
+          "Proteger las zonas sensibles con vaselina (aletas de la nariz, labios y contorno de ojos)",
+          "Tratar: aplicar el peeling Labelist seleccionado por capas, esperando 3-5 minutos y observando la tolerancia",
+          "Retirar todo el producto con una toalla humedecida con agua (no requiere neutralización)",
+          "Potenciar (opcional): Silk Proage Retinol 0.3%, dejar 5 minutos y retirar con una toalla húmeda",
+          "Reparar y finalizar: Joy Hydrat HA+B5+Silicium Mask 10 minutos, crema HA+Hibiscus y Silk Proage SPF50"
+        ],
+        "en": [
+          "Prepare: Osmolyte Cleanser and/or Glycilac Toner; degreasing with alcoholic solution (optional, avoid on sensitive skin)",
+          "Activate: 2-3 pumps of Pure Glycolic + AHAs, massage until absorbed",
+          "Protect sensitive areas with petroleum jelly (corners of the nose, lips and around the eyes)",
+          "Treat: apply the selected Labelist peel in layers, waiting 3-5 minutes and observing tolerance",
+          "Remove all the product with a towel moistened with water (no neutralisation required)",
+          "Boost (optional): Silk Proage Retinol 0.3%, leave on for 5 minutes and remove with a damp towel",
+          "Repair and finish: Joy Hydrat HA+B5+Silicium Mask for 10 minutes, HA+Hibiscus cream and Silk Proage SPF50"
+        ]
+      },
+      "combinado": null,
+      "precauciones": {
+        "es": [
+          "Infecciones cutáneas activas o heridas abiertas",
+          "Embarazo o lactancia",
+          "Enfermedades autoinmunes de la piel o alergias graves",
+          "Realizar siempre una valoración del tipo de piel y fototipo y una prueba de tolerancia individual antes del tratamiento",
+          "No aplicar sobre piel irritada, inflamada, dañada o con infecciones activas",
+          "Evitar el contacto con ojos y mucosas",
+          "No combinar con otros procedimientos agresivos sin evaluación previa",
+          "Ante cualquier duda o reacción inesperada, interrumpir el tratamiento y consultar a un especialista",
+          "Puede producirse una ligera descamación: no rascar, frotar ni retirar la piel manualmente",
+          "Evitar la exposición solar directa y usar siempre protección solar durante y después del tratamiento"
+        ],
+        "en": [
+          "Active skin infections or open wounds",
+          "Pregnancy or breastfeeding",
+          "Autoimmune skin diseases or severe allergies",
+          "Always assess skin type and phototype and perform an individual tolerance test before treatment",
+          "Do not apply on irritated, inflamed or damaged skin, or skin with active infections",
+          "Avoid contact with eyes and mucous membranes",
+          "Do not combine with other aggressive procedures without prior evaluation",
+          "In case of doubt or unexpected reaction, discontinue the treatment and consult a specialist",
+          "Slight peeling may occur: do not scratch, rub or manually remove the skin",
+          "Avoid direct sun exposure and always use sun protection during and after treatment"
+        ]
+      },
+      "fuente": "Professional__Homecare_Protocols.pdf (68 p.) p.4-9, 11-13, 19-20; 1._Commercial_File__Cosmetics_Retail.pdf p.45"
     },
     {
       "id": "pigment-control",
       "n": "Pigment Control",
       "gama": "blur",
-      "tipo": "p"
+      "tipo": "p",
+      "resumen": {
+        "es": "Peeling químico iluminador profesional que ayuda a reducir la apariencia de las manchas y favorece un tono más uniforme.",
+        "en": "Professional brightening chemical peel that helps reduce the appearance of dark spots and promotes a more even-looking skin tone."
+      },
+      "indicaciones": {
+        "es": [
+          "Tono desigual y manchas",
+          "Piel fotoenvejecida",
+          "Piel con textura irregular y poros dilatados",
+          "Protocolos progresivos de luminosidad"
+        ],
+        "en": [
+          "Uneven skin tone and dark spots",
+          "Photoaged skin",
+          "Skin with uneven texture and enlarged pores",
+          "Progressive brightening protocols"
+        ]
+      },
+      "activos": [
+        {
+          "n": {
+            "es": "Ácido láctico",
+            "en": "Lactic acid"
+          },
+          "pct": "10.0"
+        },
+        {
+          "n": {
+            "es": "Ácido cítrico",
+            "en": "Citric acid"
+          },
+          "pct": "8.0"
+        },
+        {
+          "n": {
+            "es": "Ácido glicólico",
+            "en": "Glycolic acid"
+          },
+          "pct": "7.0"
+        },
+        {
+          "n": {
+            "es": "Ácido salicílico",
+            "en": "Salicylic acid"
+          },
+          "pct": "2.0"
+        },
+        {
+          "n": {
+            "es": "Hexilresorcinol",
+            "en": "Hexylresorcinol"
+          },
+          "pct": "2.0"
+        },
+        {
+          "n": {
+            "es": "Ácido kójico",
+            "en": "Kojic acid"
+          },
+          "pct": "0.5"
+        },
+        {
+          "n": {
+            "es": "Ascorbil glucósido",
+            "en": "Ascorbyl glucoside"
+          },
+          "pct": "0.5"
+        }
+      ],
+      "formato": {
+        "es": "Frasco de 50 ml, solo uso profesional",
+        "en": "50 ml bottle, professional use only"
+      },
+      "protocolo": {
+        "sesiones": "3-5",
+        "intervalo": {
+          "es": "cada 2 semanas",
+          "en": "every 2 weeks"
+        },
+        "mantenimiento": {
+          "es": "1 sesión cada 4-6 semanas, según necesidad",
+          "en": "1 session every 4-6 weeks, as needed"
+        },
+        "tecnica": {
+          "es": "Se aplica por capas sobre piel limpia y seca: la primera con gasa estéril empapada (unos 2 ml) y las siguientes con pincel plano según tolerancia. Se retira con agua, sin neutralización.",
+          "en": "Applied in layers on clean, dry skin: the first with a soaked sterile gauze (about 2 ml), the following ones with a flat brush according to tolerance. Removed with water, no neutralisation."
+        }
+      },
+      "pasos": {
+        "es": [
+          "Preparar: Osmolyte Cleanser y/o Glycilac Toner; desengrasado con solución alcohólica (opcional, evitar en piel sensible)",
+          "Activar: 2-3 pulsaciones de Pure Glycolic + AHAs, masajear hasta su absorción",
+          "Proteger las zonas sensibles con vaselina (aletas de la nariz, labios y contorno de ojos)",
+          "Tratar: aplicar el peeling Labelist seleccionado por capas, esperando 3-5 minutos y observando la tolerancia",
+          "Retirar todo el producto con una toalla humedecida con agua (no requiere neutralización)",
+          "Potenciar (opcional): Silk Proage Retinol 0.3%, dejar 5 minutos y retirar con una toalla húmeda",
+          "Reparar y finalizar: Joy Hydrat HA+B5+Silicium Mask 10 minutos, crema HA+Hibiscus y Silk Proage SPF50"
+        ],
+        "en": [
+          "Prepare: Osmolyte Cleanser and/or Glycilac Toner; degreasing with alcoholic solution (optional, avoid on sensitive skin)",
+          "Activate: 2-3 pumps of Pure Glycolic + AHAs, massage until absorbed",
+          "Protect sensitive areas with petroleum jelly (corners of the nose, lips and around the eyes)",
+          "Treat: apply the selected Labelist peel in layers, waiting 3-5 minutes and observing tolerance",
+          "Remove all the product with a towel moistened with water (no neutralisation required)",
+          "Boost (optional): Silk Proage Retinol 0.3%, leave on for 5 minutes and remove with a damp towel",
+          "Repair and finish: Joy Hydrat HA+B5+Silicium Mask for 10 minutes, HA+Hibiscus cream and Silk Proage SPF50"
+        ]
+      },
+      "combinado": null,
+      "precauciones": {
+        "es": [
+          "Realizar siempre una valoración del tipo de piel y fototipo y una prueba de tolerancia individual antes del tratamiento",
+          "No aplicar sobre piel irritada, inflamada, dañada o con infecciones activas",
+          "Evitar el contacto con ojos y mucosas",
+          "No combinar con otros procedimientos agresivos sin evaluación previa",
+          "Ante cualquier duda o reacción inesperada, interrumpir el tratamiento y consultar a un especialista",
+          "Puede producirse una ligera descamación: no rascar, frotar ni retirar la piel manualmente",
+          "Evitar la exposición solar directa y usar siempre protección solar durante y después del tratamiento"
+        ],
+        "en": [
+          "Always assess skin type and phototype and perform an individual tolerance test before treatment",
+          "Do not apply on irritated, inflamed or damaged skin, or skin with active infections",
+          "Avoid contact with eyes and mucous membranes",
+          "Do not combine with other aggressive procedures without prior evaluation",
+          "In case of doubt or unexpected reaction, discontinue the treatment and consult a specialist",
+          "Slight peeling may occur: do not scratch, rub or manually remove the skin",
+          "Avoid direct sun exposure and always use sun protection during and after treatment"
+        ]
+      },
+      "fuente": "Professional__Homecare_Protocols.pdf (68 p.) p.4-9, 16-17, 19-20; 1._Commercial_File__Cosmetics_Retail.pdf p.46-47"
     },
     {
       "id": "salicylic-balance",
       "n": "Salicylic Balance",
       "gama": "pure",
-      "tipo": "p"
+      "tipo": "p",
+      "resumen": {
+        "es": "Peeling químico purificante profesional con ácido salicílico y ácido azelaico para descongestionar los poros y ayudar a controlar el exceso de grasa.",
+        "en": "Professional purifying chemical peel with salicylic acid and azelaic acid to decongest pores and help control excess oil."
+      },
+      "indicaciones": {
+        "es": [
+          "Piel grasa o mixta",
+          "Piel congestionada, con poros dilatados y textura irregular",
+          "Imperfecciones y brillos",
+          "Protocolos progresivos de control de imperfecciones"
+        ],
+        "en": [
+          "Oily or combination skin",
+          "Congested skin with enlarged pores and uneven texture",
+          "Imperfections and shine",
+          "Progressive blemish-control protocols"
+        ]
+      },
+      "activos": [
+        {
+          "n": {
+            "es": "Ácido salicílico",
+            "en": "Salicylic acid"
+          },
+          "pct": "2.0"
+        },
+        {
+          "n": {
+            "es": "Ácido azelaico",
+            "en": "Azelaic acid"
+          },
+          "pct": "7.0"
+        }
+      ],
+      "formato": {
+        "es": "Frasco de 50 ml, solo uso profesional",
+        "en": "50 ml bottle, professional use only"
+      },
+      "protocolo": {
+        "sesiones": "3-5",
+        "intervalo": {
+          "es": "cada 2 semanas",
+          "en": "every 2 weeks"
+        },
+        "mantenimiento": {
+          "es": "1 sesión cada 4-6 semanas, según necesidad",
+          "en": "1 session every 4-6 weeks, as needed"
+        },
+        "tecnica": {
+          "es": "Se aplica por capas sobre piel limpia y seca: la primera con gasa estéril empapada (unos 2 ml) y las siguientes con pincel plano según tolerancia. Se retira con agua, sin neutralización.",
+          "en": "Applied in layers on clean, dry skin: the first with a soaked sterile gauze (about 2 ml), the following ones with a flat brush according to tolerance. Removed with water, no neutralisation."
+        }
+      },
+      "pasos": {
+        "es": [
+          "Preparar: Osmolyte Cleanser y/o Glycilac Toner; desengrasado con solución alcohólica (opcional, evitar en piel sensible)",
+          "Activar: 2-3 pulsaciones de Pure Glycolic + AHAs, masajear hasta su absorción",
+          "Proteger las zonas sensibles con vaselina (aletas de la nariz, labios y contorno de ojos)",
+          "Tratar: aplicar el peeling Labelist seleccionado por capas, esperando 3-5 minutos y observando la tolerancia",
+          "Retirar todo el producto con una toalla humedecida con agua (no requiere neutralización)",
+          "Potenciar (opcional): Silk Proage Retinol 0.3%, dejar 5 minutos y retirar con una toalla húmeda",
+          "Reparar y finalizar: Joy Hydrat HA+B5+Silicium Mask 10 minutos, crema HA+Hibiscus y Silk Proage SPF50"
+        ],
+        "en": [
+          "Prepare: Osmolyte Cleanser and/or Glycilac Toner; degreasing with alcoholic solution (optional, avoid on sensitive skin)",
+          "Activate: 2-3 pumps of Pure Glycolic + AHAs, massage until absorbed",
+          "Protect sensitive areas with petroleum jelly (corners of the nose, lips and around the eyes)",
+          "Treat: apply the selected Labelist peel in layers, waiting 3-5 minutes and observing tolerance",
+          "Remove all the product with a towel moistened with water (no neutralisation required)",
+          "Boost (optional): Silk Proage Retinol 0.3%, leave on for 5 minutes and remove with a damp towel",
+          "Repair and finish: Joy Hydrat HA+B5+Silicium Mask for 10 minutes, HA+Hibiscus cream and Silk Proage SPF50"
+        ]
+      },
+      "combinado": null,
+      "precauciones": {
+        "es": [
+          "Realizar siempre una valoración del tipo de piel y fototipo y una prueba de tolerancia individual antes del tratamiento",
+          "No aplicar sobre piel irritada, inflamada, dañada o con infecciones activas",
+          "Evitar el contacto con ojos y mucosas",
+          "No combinar con otros procedimientos agresivos sin evaluación previa",
+          "Ante cualquier duda o reacción inesperada, interrumpir el tratamiento y consultar a un especialista",
+          "Puede producirse una ligera descamación: no rascar, frotar ni retirar la piel manualmente",
+          "Evitar la exposición solar directa y usar siempre protección solar durante y después del tratamiento"
+        ],
+        "en": [
+          "Always assess skin type and phototype and perform an individual tolerance test before treatment",
+          "Do not apply on irritated, inflamed or damaged skin, or skin with active infections",
+          "Avoid contact with eyes and mucous membranes",
+          "Do not combine with other aggressive procedures without prior evaluation",
+          "In case of doubt or unexpected reaction, discontinue the treatment and consult a specialist",
+          "Slight peeling may occur: do not scratch, rub or manually remove the skin",
+          "Avoid direct sun exposure and always use sun protection during and after treatment"
+        ]
+      },
+      "fuente": "Professional__Homecare_Protocols.pdf (68 p.) p.4-9, 14-15, 19-20; 1._Commercial_File__Cosmetics_Retail.pdf p.48"
+    }
+  ],
+  "retail": [
+    {
+      "id": "osmolyte-cleanser",
+      "gama": "clean",
+      "nombre": {
+        "es": "Espuma Limpiadora Osmolyte",
+        "en": "Osmolyte Cleanser"
+      },
+      "tipo": {
+        "es": "Limpiador",
+        "en": "Cleanser"
+      },
+      "resumen": {
+        "es": "Espuma limpiadora suave que elimina impurezas y exceso de grasa sin resecar la piel.",
+        "en": "Gentle cleansing foam that removes impurities and excess oil without drying out the skin."
+      },
+      "preocupacion": [
+        "limpieza",
+        "sensible"
+      ],
+      "activos": [
+        {
+          "n": {
+            "es": "Aloe vera",
+            "en": "Aloe vera"
+          },
+          "pct": "10.0",
+          "fn": {
+            "es": "Protege y fortalece la piel",
+            "en": "Protects and strengthens the skin"
+          }
+        },
+        {
+          "n": {
+            "es": "Betaína",
+            "en": "Betaine"
+          },
+          "pct": "3.0",
+          "fn": {
+            "es": "Protege y mantiene la hidratación",
+            "en": "Protects and maintains hydration"
+          }
+        },
+        {
+          "n": {
+            "es": "Tensioactivos suaves",
+            "en": "Mild surfactants"
+          },
+          "pct": null,
+          "fn": {
+            "es": "Limpian y no irritan la piel",
+            "en": "Cleanse without irritating the skin"
+          }
+        }
+      ],
+      "textura": {
+        "es": "Espuma densa y cremosa",
+        "en": "Dense, creamy foam"
+      },
+      "uso": {
+        "es": "Humedecer el rostro con agua tibia, aplicar una pequeña cantidad y masajear suavemente en rostro y cuello durante unos minutos. Aclarar abundantemente con agua.",
+        "en": "Moisten your face with lukewarm water, apply a small amount and massage gently over the face and neck for a few minutes. Rinse thoroughly with water."
+      },
+      "cuando": "ampm",
+      "formato": "150 ml",
+      "precio": 25.74,
+      "inci": "AQUA / WATER, ALOE BARBADENSIS LEAF JUICE, SODIUM LAUROYL SARCOSINATE, 1,2-HEXANEDIOL, BETAINE, DISODIUM COCOAMPHODIACETATE, GLYCERIN, CETEARETH-60 MYRISTYL GLYCOL, SODIUM CHLORIDE, HYDROXYACETOPHENONE, PARFUM, LACTIC ACID, CITRIC ACID, POLYQUATERNIUM-7, POTASSIUM SORBATE, SODIUM BENZOATE, CI 16255.",
+      "fuente": "1._Commercial_File__Cosmetics_Retail.pdf p.5; Fichas_T_cnicas_Labelist_ESPA_OL.pdf p.3; productos.json (precio, imagen)",
+      "w": 900,
+      "h": 900
+    },
+    {
+      "id": "glycilac-toner",
+      "gama": "clean",
+      "nombre": {
+        "es": "Tónico facial Glycilac",
+        "en": "Glycilac Toner"
+      },
+      "tipo": {
+        "es": "Tónico",
+        "en": "Toner"
+      },
+      "resumen": {
+        "es": "Tónico equilibrante que tonifica suavemente, refresca y prepara la piel para absorber los productos posteriores.",
+        "en": "Balancing toner that gently tones, refreshes and prepares the skin to absorb subsequent skincare products."
+      },
+      "preocupacion": [
+        "limpieza",
+        "hidratacion"
+      ],
+      "activos": [
+        {
+          "n": {
+            "es": "Agua de cactus",
+            "en": "Cactus water"
+          },
+          "pct": "5.0",
+          "fn": {
+            "es": "Hidrata y calma la piel",
+            "en": "Hydrates and soothes the skin"
+          }
+        },
+        {
+          "n": {
+            "es": "Aloe vera",
+            "en": "Aloe vera"
+          },
+          "pct": "3.0",
+          "fn": {
+            "es": "Hidrata y calma la piel",
+            "en": "Hydrates and soothes the skin"
+          }
+        },
+        {
+          "n": {
+            "es": "AHA (ácido glicólico, ácido láctico y AHAs de frutas)",
+            "en": "AHA (glycolic acid, lactic acid and fruit-derived AHAs)"
+          },
+          "pct": "1.5",
+          "fn": {
+            "es": "Favorecen una renovación celular suave",
+            "en": "Promote gentle cell renewal"
+          }
+        }
+      ],
+      "textura": {
+        "es": "Ligera y equilibrada, se adapta a la piel",
+        "en": "Light and balanced, adapts to skin type"
+      },
+      "uso": {
+        "es": "Aplicar una pequeña cantidad sobre un disco de algodón o directamente en las manos y extender suavemente sobre rostro, cuello y escote, evitando el contorno de los ojos. Utilizar mañana y noche como primer paso antes del sérum o la crema hidratante.",
+        "en": "Apply a small amount to a cotton pad or directly to your hands and smooth gently over the face, neck and décolleté, avoiding the eye area. Use morning and night as a first step before your serum or moisturizer."
+      },
+      "cuando": "ampm",
+      "formato": "250 ml",
+      "precio": 25.74,
+      "inci": "AQUA / WATER, OPUNTIA FICUS-INDICA STEM WATER, ALOE BARBADENSIS LEAF JUICE, GLYCERIN, PROPYLENE GLYCOL, ALCOHOL DENAT., PHENOXYETHANOL, GLYCOLIC ACID, LACTIC ACID, SODIUM HYDROXIDE, PEG-40 HYDROGENATED CASTOR OIL, VACCINIUM MYRTILLUS FRUIT EXTRACT, SACCHARUM OFFICINARUM EXTRACT, ISOPROPYL ALCOHOL, ETHYLHEXYLGLYCERIN, DISODIUM EDTA, CITRUS AURANTIUM DULCIS FRUIT EXTRACT, CITRUS LIMON FRUIT EXTRACT, PARFUM, SODIUM BENZOATE, SODIUM SALICYLATE, ACER SACCHARUM EXTRACT, HEXAMETHYLINDANOPYRAN, CITRIC ACID, LINALYL ACETATE, POTASSIUM SORBATE, TETRAMETHYL ACETYLOCTAHYDRONAPHTHALENES.",
+      "fuente": "1._Commercial_File__Cosmetics_Retail.pdf p.6; Fichas_T_cnicas_Labelist_ESPA_OL.pdf p.4; productos.json (precio, imagen)",
+      "w": 900,
+      "h": 900
+    },
+    {
+      "id": "ha-b5-serum",
+      "gama": "joy",
+      "nombre": {
+        "es": "Sérum con Ácido hialurónico + B5",
+        "en": "HA + B5 Serum"
+      },
+      "tipo": {
+        "es": "Sérum",
+        "en": "Serum"
+      },
+      "resumen": {
+        "es": "Sérum de hidratación diaria para todo tipo de piel que deja la piel aterciopelada, firme y elástica.",
+        "en": "Daily hydration serum for all skin types that leaves the skin velvety, firm and elastic."
+      },
+      "preocupacion": [
+        "hidratacion",
+        "sensible"
+      ],
+      "activos": [
+        {
+          "n": {
+            "es": "Aloe vera",
+            "en": "Aloe vera"
+          },
+          "pct": "30.0",
+          "fn": {
+            "es": "Destaca por sus propiedades reparadoras de la piel",
+            "en": "Known for its skin-repairing properties"
+          }
+        },
+        {
+          "n": {
+            "es": "Complejo de ácido hialurónico",
+            "en": "Hyaluronic acid complex"
+          },
+          "pct": "4.0",
+          "fn": {
+            "es": "Combina 4 ácidos hialurónicos para hidratar la piel",
+            "en": "Combines 4 hyaluronic acids to hydrate the skin"
+          }
+        },
+        {
+          "n": {
+            "es": "Pantenol (vitamina B5)",
+            "en": "Panthenol (vitamin B5)"
+          },
+          "pct": "2.0",
+          "fn": {
+            "es": "Hidrata, calma y restaura la piel",
+            "en": "Hydrates, soothes and restores the skin"
+          }
+        },
+        {
+          "n": {
+            "es": "Extracto de rosa de Damasco",
+            "en": "Damask rose extract"
+          },
+          "pct": "0.5",
+          "fn": {
+            "es": "Ayuda a eliminar los signos de fatiga",
+            "en": "Helps remove signs of fatigue"
+          }
+        }
+      ],
+      "textura": {
+        "es": "Aterciopelada",
+        "en": "Velvety"
+      },
+      "uso": {
+        "es": "Tras limpiar la piel, aplicar 2-3 gotas en las yemas de los dedos y extender suavemente sobre el rostro, evitando el contorno de los ojos. También puede aplicarse en cuello y escote.",
+        "en": "After cleansing, apply 2-3 drops to your fingertips and gently spread over your face, avoiding the eye area. You can also apply the product to the neck and décolleté."
+      },
+      "cuando": "ampm",
+      "formato": "30 ml",
+      "precio": 34.74,
+      "inci": "AQUA / WATER, ALOE BARBADENSIS LEAF JUICE, PROPYLENE GLYCOL, GLYCERIN, BUTYLENE GLYCOL, PANTHENOL, PENTYLENE GLYCOL, PEG-40 HYDROGENATED CASTOR OIL, SODIUM HYALURONATE, SODIUM BENZOATE, PARFUM, GLYCERYL POLYACRYLATE, POTASSIUM SORBATE, DISODIUM EDTA, CITRIC ACID, SODIUM ACETYLATED HYALURONATE, COPPER GLUCONATE, SODIUM HYALURONATE CROSSPOLYMER, HYDROLYZED SODIUM HYALURONATE, ETHYLHEXYLGLYCERIN, ROSA DAMASCENA FLOWER OIL, ROSA DAMASCENA FLOWER WATER.",
+      "fuente": "1._Commercial_File__Cosmetics_Retail.pdf p.8-9; Fichas_T_cnicas_Labelist_ESPA_OL.pdf p.5-6; productos.json (precio, imagen)",
+      "w": 900,
+      "h": 900
+    },
+    {
+      "id": "cica-recovery-serum",
+      "gama": "joy",
+      "nombre": {
+        "es": "Sérum Cica Recovery",
+        "en": "Cica Recovery Serum"
+      },
+      "tipo": {
+        "es": "Sérum",
+        "en": "Serum"
+      },
+      "resumen": {
+        "es": "Sérum reparador intensivo que calma la piel sensibilizada y refuerza la barrera cutánea.",
+        "en": "Intensive repairing serum that soothes sensitized skin and strengthens the skin barrier."
+      },
+      "preocupacion": [
+        "sensible",
+        "hidratacion"
+      ],
+      "activos": [
+        {
+          "n": {
+            "es": "Exosomas de Centella asiatica",
+            "en": "Centella asiatica exosomes"
+          },
+          "pct": "0.5",
+          "fn": {
+            "es": "Ayudan a calmar y fortalecer la piel",
+            "en": "Help soothe and strengthen the skin"
+          }
+        },
+        {
+          "n": {
+            "es": "ADN sódico (polinucleótidos de Centella asiatica)",
+            "en": "Sodium DNA (polynucleotides from Centella asiatica)"
+          },
+          "pct": "1.0",
+          "fn": {
+            "es": "Acción reparadora y calmante",
+            "en": "Repairing and soothing action"
+          }
+        },
+        {
+          "n": {
+            "es": "Madecasósido",
+            "en": "Madecassoside"
+          },
+          "pct": "0.1",
+          "fn": {
+            "es": "Acción calmante que ayuda a reducir rojeces",
+            "en": "Soothing action that helps reduce redness"
+          }
+        },
+        {
+          "n": {
+            "es": "Pantenol (vitamina B5)",
+            "en": "Panthenol (vitamin B5)"
+          },
+          "pct": "1.0",
+          "fn": {
+            "es": "Hidrata, calma y restaura la piel",
+            "en": "Hydrates, soothes and restores the skin"
+          }
+        },
+        {
+          "n": {
+            "es": "Microcápsulas de vitamina E (tocoferol)",
+            "en": "Vitamin E microcapsules (tocopherol)"
+          },
+          "pct": "2.0",
+          "fn": {
+            "es": "Protege la piel frente a la oxidación",
+            "en": "Protects the skin against oxidation"
+          }
+        }
+      ],
+      "textura": {
+        "es": "Sedosa",
+        "en": "Silky"
+      },
+      "uso": {
+        "es": "Tras limpiar la piel, aplicar con las yemas de los dedos realizando suaves presiones ascendentes sin frotar. Extender también a cuello y escote.",
+        "en": "After cleansing, apply with your fingertips using gentle upward pressing motions without rubbing. Extend to the neck and décolleté."
+      },
+      "cuando": "ampm",
+      "formato": "30 ml",
+      "precio": null,
+      "inci": "AQUA / WATER, GLYCERIN, PENTYLENE GLYCOL, POLYSORBATE 20, METHYLPROPANEDIOL, MANNITOL, PANTHENOL, BENZYL ALCOHOL, MICROCRYSTALLINE CELLULOSE, PROPYLENE GLYCOL, CAPRYLYL GLYCOL, CARBOMER, PROPANEDIOL, XANTHAN GUM, ETHYLHEXYLGLYCERIN, ALLANTOIN, MADECASSOSIDE, PHENYLPROPANOL, HELIANTHUS ANNUUS SEED OIL, TOCOPHERYL ACETATE, DISODIUM EDTA, SODIUM HYDROXIDE, CENTELLA ASIATICA EXTRACT, 1,2-HEXANEDIOL, POTASSIUM SORBATE, ROSA DAMASCENA FLOWER OIL, ROSA DAMASCENA FLOWER WATER, CITRONELLOL, SODIUM DNA, TOCOPHEROL.",
+      "fuente": "1._Commercial_File__Cosmetics_Retail.pdf p.10; Fichas_T_cnicas_Labelist_ESPA_OL.pdf p.7; productos.json (precio, imagen)",
+      "w": 900,
+      "h": 900
+    },
+    {
+      "id": "ha-hibiscus-cream",
+      "gama": "joy",
+      "nombre": {
+        "es": "Crema con Ácido hialurónico + Hibiscus",
+        "en": "HA + Hibiscus Cream"
+      },
+      "tipo": {
+        "es": "Crema",
+        "en": "Cream"
+      },
+      "resumen": {
+        "es": "Crema de hidratación instantánea y duradera que refuerza la barrera cutánea y reduce las rojeces.",
+        "en": "Cream providing instant and long-lasting hydration that strengthens the skin barrier and reduces redness."
+      },
+      "preocupacion": [
+        "hidratacion",
+        "sensible"
+      ],
+      "activos": [
+        {
+          "n": {
+            "es": "Extracto de agua de arroz",
+            "en": "Rice water extract"
+          },
+          "pct": "9.0",
+          "fn": {
+            "es": "Favorece una piel de aspecto más luminoso",
+            "en": "Promotes brighter-looking skin"
+          }
+        },
+        {
+          "n": {
+            "es": "Niacinamida (vitamina B3)",
+            "en": "Niacinamide (vitamin B3)"
+          },
+          "pct": "2.0",
+          "fn": {
+            "es": "Antioxidante, protectora, iluminadora y antimanchas",
+            "en": "Antioxidant, protective, brightening and anti-dark spot"
+          }
+        },
+        {
+          "n": {
+            "es": "Extracto de hibisco",
+            "en": "Hibiscus extract"
+          },
+          "pct": "2.0",
+          "fn": {
+            "es": "Ayuda a mejorar la elasticidad y la firmeza",
+            "en": "Helps improve skin elasticity and firmness"
+          }
+        },
+        {
+          "n": {
+            "es": "Extracto de Helichrysum",
+            "en": "Helichrysum extract"
+          },
+          "pct": "1.0",
+          "fn": {
+            "es": "Ayuda a mejorar la elasticidad y la firmeza",
+            "en": "Helps improve skin elasticity and firmness"
+          }
+        },
+        {
+          "n": {
+            "es": "Ácido hialurónico (hialuronato de sodio)",
+            "en": "Hyaluronic acid (sodium hyaluronate)"
+          },
+          "pct": "0.05",
+          "fn": {
+            "es": "Retiene agua en la superficie de la piel",
+            "en": "Retains water on the skin surface"
+          }
+        }
+      ],
+      "textura": {
+        "es": "Gel-crema fundente",
+        "en": "Melting gel-cream"
+      },
+      "uso": {
+        "es": "Tras la limpieza y el sérum, aplicar la crema con las yemas de los dedos en cuatro puntos (frente, mentón y cada mejilla). Extender con movimientos ascendentes desde el mentón hacia la sien, terminando en la frente.",
+        "en": "After cleansing and serum, apply the cream with your fingertips to four points (forehead, chin and each cheek). Spread with upward movements from the chin towards the temple, ending on the forehead."
+      },
+      "cuando": "ampm",
+      "formato": "50 ml",
+      "precio": 48.78,
+      "inci": "AQUA / WATER, SACCHAROMYCES/RICE FERMENT FILTRATE EXTRACT, DICAPRYLYL CARBONATE, GLYCERIN, PROPANEDIOL, ISOSTEARYL ALCOHOL, DI-C12-13 ALKYL MALATE, NIACINAMIDE, BUTYLENE GLYCOL COCOATE, GLYCERYL BEHENATE, PENTYLENE GLYCOL, BENZYL ALCOHOL, HYDROXYETHYL ACRYLATE/SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER, JOJOBA ESTERS, PANTHENOL, AMMONIUM ACRYLOYLDIMETHYLTAURATE/VP COPOLYMER, HELIANTHUS ANNUUS SEED WAX, TOCOPHERYL ACETATE, PARFUM, ERYTHRITOL, XANTHAN GUM, LACTIC ACID, ETHYLCELLULOSE, ETHYLHEXYLGLYCERIN, SODIUM HYALURONATE, SODIUM PHYTATE, SORBITAN ISOSTEARATE, POLYSORBATE 60, POLYGLYCERIN-3, ACACIA DECURRENS FLOWER WAX, HIBISCUS SABDARIFFA FRUIT EXTRACT, VANILLIN, LINALYL ACETATE, HEXAMETHYLINDANOPYRAN, TETRAMETHYL ACETYLOCTAHYDRONAPHTHALENES, TOCOPHEROL, ALCOHOL, HELICHRYSUM ITALICUM EXTRACT, POGOSTEMON CABLIN OIL.",
+      "fuente": "1._Commercial_File__Cosmetics_Retail.pdf p.11-12; Fichas_T_cnicas_Labelist_ESPA_OL.pdf p.8-9; productos.json (precio, imagen)",
+      "w": 900,
+      "h": 900
+    },
+    {
+      "id": "ha-b5-silicium-mask",
+      "gama": "joy",
+      "nombre": {
+        "es": "Mascarilla con Ácido hialurónico, Silicio y B5",
+        "en": "HA + B5 + Silicium Mask"
+      },
+      "tipo": {
+        "es": "Mascarilla",
+        "en": "Mask"
+      },
+      "resumen": {
+        "es": "Mascarilla reparadora intensiva que hidrata, refuerza la barrera cutánea y calma desde la primera aplicación.",
+        "en": "Intensive repair mask that hydrates, reinforces the skin barrier and soothes from the first application."
+      },
+      "preocupacion": [
+        "hidratacion",
+        "sensible",
+        "antiedad"
+      ],
+      "activos": [
+        {
+          "n": {
+            "es": "Silicio orgánico (silanol)",
+            "en": "Organic silicon (silanol)"
+          },
+          "pct": "6.0",
+          "fn": {
+            "es": "Aporta hidratación y mejora la elasticidad",
+            "en": "Provides hydration and improves elasticity"
+          }
+        },
+        {
+          "n": {
+            "es": "Ácido hialurónico",
+            "en": "Hyaluronic acid"
+          },
+          "pct": "1.8",
+          "fn": {
+            "es": "Ayuda a rellenar líneas finas y arrugas",
+            "en": "Helps plump fine lines and wrinkles"
+          }
+        },
+        {
+          "n": {
+            "es": "Pantenol (vitamina B5)",
+            "en": "Panthenol (vitamin B5)"
+          },
+          "pct": "1.0",
+          "fn": {
+            "es": "Hidrata, calma y restaura la piel",
+            "en": "Hydrates, soothes and restores the skin"
+          }
+        }
+      ],
+      "textura": {
+        "es": "Gel fundente y refrescante de rápida absorción",
+        "en": "Refreshing, melting gel that is rapidly absorbed"
+      },
+      "uso": {
+        "es": "Usar una o dos veces por semana por la noche: aplicar 1 ml (contenido del aplicador) sobre la piel limpia con movimientos circulares, insistiendo en las zonas más secas. Dejar actuar 15 minutos o toda la noche.",
+        "en": "Use once or twice a week at night: apply 1 ml (contents of the applicator) on clean skin in circular motions, insisting on the driest areas. Leave on for 15 minutes or overnight."
+      },
+      "cuando": "pm",
+      "formato": "4 x 1 ml",
+      "precio": 100.14,
+      "inci": "AQUA / WATER, GLYCERIN, SODIUM HYALURONATE, PANTHENOL, METHYLSILANOL MANNURONATE, PHENOXYETHANOL, DISODIUM PHOSPHATE, SORBIC ACID.",
+      "fuente": "1._Commercial_File__Cosmetics_Retail.pdf p.13; Fichas_T_cnicas_Labelist_ESPA_OL.pdf p.10; productos.json (precio, imagen)",
+      "w": 900,
+      "h": 900
+    },
+    {
+      "id": "vit-c-gag-serum",
+      "gama": "glow",
+      "nombre": {
+        "es": "Sérum con Vitamina C + GAG",
+        "en": "Vit C + GAG Serum"
+      },
+      "tipo": {
+        "es": "Sérum",
+        "en": "Serum"
+      },
+      "resumen": {
+        "es": "Sérum antioxidante con vitamina C estabilizada que protege frente al estrés oxidativo diario y aporta luminosidad.",
+        "en": "Antioxidant serum with stabilized vitamin C that protects against daily oxidative stress and enhances radiance."
+      },
+      "preocupacion": [
+        "luminosidad",
+        "manchas"
+      ],
+      "activos": [
+        {
+          "n": {
+            "es": "Vitamina C (ácido 3-O-etil ascórbico)",
+            "en": "Vitamin C (3-O-ethyl ascorbic acid)"
+          },
+          "pct": "5.0",
+          "fn": {
+            "es": "Vitamina C estabilizada que ayuda a mejorar el tono apagado",
+            "en": "Stabilized vitamin C that helps improve dull skin tone"
+          }
+        },
+        {
+          "n": {
+            "es": "Beta-glucano",
+            "en": "Beta-glucan"
+          },
+          "pct": "3.0",
+          "fn": {
+            "es": "Polisacárido natural que favorece la regeneración de la piel",
+            "en": "Natural polysaccharide that supports skin regeneration"
+          }
+        }
+      ],
+      "textura": {
+        "es": "Ligera e hidratante, con sensación nutritiva y refrescante",
+        "en": "Light and moisturising, with a nourishing and refreshing feel"
+      },
+      "uso": {
+        "es": "Tras limpiar la piel, aplicar 2-3 gotas en las yemas de los dedos y extender suavemente sobre el rostro, evitando el contorno de los ojos. Si se utiliza por la mañana, continuar con un protector solar.",
+        "en": "After cleansing, apply 2-3 drops to your fingertips and gently spread over your face, avoiding the eye area. If used in the morning, follow with a sunscreen."
+      },
+      "cuando": "ampm",
+      "formato": "30 ml",
+      "precio": 37.14,
+      "inci": "AQUA / WATER, PROPYLENE GLYCOL, 3-O-ETHYL ASCORBIC ACID, GLYCERIN, ETHOXYDIGLYCOL, SODIUM CITRATE, CITRIC ACID, PEG-40 HYDROGENATED CASTOR OIL, SODIUM BENZOATE, PARFUM, POTASSIUM SORBATE, 1,2-HEXANEDIOL, BETA-GLUCAN, LINALYL ACETATE, GERANYL ACETATE, CITRUS LIMON PEEL OIL, ACETYL CEDRENE.",
+      "fuente": "1._Commercial_File__Cosmetics_Retail.pdf p.15; Fichas_T_cnicas_Labelist_ESPA_OL.pdf p.11; productos.json (precio, imagen)",
+      "w": 900,
+      "h": 900
+    },
+    {
+      "id": "c-age-defense-serum",
+      "gama": "glow",
+      "nombre": {
+        "es": "Sérum C+ AGE Defense",
+        "en": "C+ AGE Defense Serum"
+      },
+      "tipo": {
+        "es": "Sérum",
+        "en": "Serum"
+      },
+      "resumen": {
+        "es": "Sérum antioxidante que protege frente al estrés oxidativo y la contaminación, aporta luminosidad y unifica el tono.",
+        "en": "Antioxidant serum that protects against oxidative stress and pollution, boosts radiance and evens skin tone."
+      },
+      "preocupacion": [
+        "luminosidad",
+        "antiedad",
+        "manchas"
+      ],
+      "activos": [
+        {
+          "n": {
+            "es": "Vitamina C (ácido ascórbico)",
+            "en": "Vitamin C (ascorbic acid)"
+          },
+          "pct": "15.0",
+          "fn": {
+            "es": "Forma pura de vitamina C, antioxidante",
+            "en": "Pure form of vitamin C, antioxidant"
+          }
+        },
+        {
+          "n": {
+            "es": "Vitamina E (tocoferol)",
+            "en": "Vitamin E (tocopherol)"
+          },
+          "pct": "0.7",
+          "fn": {
+            "es": "Protege la piel frente a la oxidación",
+            "en": "Protects the skin against oxidation"
+          }
+        },
+        {
+          "n": {
+            "es": "Ácido ferúlico",
+            "en": "Ferulic acid"
+          },
+          "pct": "0.5",
+          "fn": {
+            "es": "Antioxidante que ayuda a mejorar la luminosidad",
+            "en": "Antioxidant that helps improve radiance"
+          }
+        },
+        {
+          "n": {
+            "es": "NAD+",
+            "en": "NAD+"
+          },
+          "pct": "0.5",
+          "fn": {
+            "es": "Energiza y reafirma la piel",
+            "en": "Energizes and firms the skin"
+          }
+        }
+      ],
+      "textura": null,
+      "uso": {
+        "es": "Tras tonificar la piel, aplicar sobre el rostro con las yemas de los dedos, realizando suaves presiones con movimientos ondulados, y extender a cuello y escote. Finalizar la rutina con protector solar.",
+        "en": "After toning, apply to the face using your fingertips, gently pressing with wave-like motions, and extend to the neck and décolleté. Finish your routine with sunscreen."
+      },
+      "cuando": "am",
+      "formato": "30 ml",
+      "precio": null,
+      "inci": "AQUA / WATER, ASCORBIC ACID, PROPYLENE GLYCOL, GLYCERIN, PENTYLENE GLYCOL, PROPANEDIOL, PEG-40 HYDROGENATED CASTOR OIL, ALCOHOL DENAT., ETHOXYDIGLYCOL, CITRIC ACID, TOCOPHEROL, SODIUM CITRATE, SODIUM HYDROXIDE, FERULIC ACID, NICOTINAMIDE ADENINE DINUCLEOTIDE, HELIANTHUS ANNUUS SEED OIL, SODIUM BENZOATE, PANTHENOL, POTASSIUM SORBATE.",
+      "fuente": "1._Commercial_File__Cosmetics_Retail.pdf p.16; Fichas_T_cnicas_Labelist_ESPA_OL.pdf p.12; productos.json (precio, imagen)",
+      "w": 900,
+      "h": 900
+    },
+    {
+      "id": "multivitamin-cocktail-concentrate",
+      "gama": "glow",
+      "nombre": {
+        "es": "Sérum Multivitamínico con Efecto Booster",
+        "en": "Multivitamin Cocktail Concentrate"
+      },
+      "tipo": {
+        "es": "Sérum",
+        "en": "Serum"
+      },
+      "resumen": {
+        "es": "Booster nocturno con vitaminas que apoya la renovación de la piel, hidrata en profundidad y ayuda a unificar el tono.",
+        "en": "Night booster with vitamins that supports skin renewal, deeply moisturises and helps smooth skin tone."
+      },
+      "preocupacion": [
+        "luminosidad",
+        "antiedad",
+        "hidratacion"
+      ],
+      "activos": [
+        {
+          "n": {
+            "es": "Complejo de ácido hialurónico",
+            "en": "Hyaluronic acid complex"
+          },
+          "pct": "2.4",
+          "fn": {
+            "es": "Combina 4 ácidos hialurónicos para hidratar la piel",
+            "en": "Combines 4 hyaluronic acids to hydrate the skin"
+          }
+        },
+        {
+          "n": {
+            "es": "Vitamina C (ácido ascórbico)",
+            "en": "Vitamin C (ascorbic acid)"
+          },
+          "pct": "0.5",
+          "fn": {
+            "es": "Forma pura de vitamina C, antioxidante",
+            "en": "Pure form of vitamin C, antioxidant"
+          }
+        },
+        {
+          "n": {
+            "es": "Vitamina E (acetato de tocoferilo)",
+            "en": "Vitamin E (tocopheryl acetate)"
+          },
+          "pct": "0.5",
+          "fn": {
+            "es": "Protege la piel frente a la oxidación",
+            "en": "Protects the skin against oxidation"
+          }
+        },
+        {
+          "n": {
+            "es": "Vitamina A (acetato de retinilo)",
+            "en": "Vitamin A (retinyl acetate)"
+          },
+          "pct": "0.3",
+          "fn": {
+            "es": "Derivado del retinol que alisa la piel",
+            "en": "Retinol derivative that smooths the skin"
+          }
+        },
+        {
+          "n": {
+            "es": "Vitamina B3 (niacinamida)",
+            "en": "Vitamin B3 (niacinamide)"
+          },
+          "pct": "0.5",
+          "fn": {
+            "es": "Antioxidante, protectora, iluminadora y antimanchas",
+            "en": "Antioxidant, protective, brightening and anti-dark spot"
+          }
+        }
+      ],
+      "textura": {
+        "es": "Rica, con sensación nutritiva y confortable",
+        "en": "Rich, with a comfortable nourishing sensation"
+      },
+      "uso": {
+        "es": "Por la noche, tras limpiar la piel, colocar 2-3 gotas en las yemas de los dedos y extender suavemente sobre el rostro, evitando el contorno de los ojos. También puede aplicarse en cuello y escote.",
+        "en": "At night, after cleansing, apply 2-3 drops to your fingertips and gently spread over your face, avoiding the eye area. You can also apply the product to the neck and décolleté."
+      },
+      "cuando": "pm",
+      "formato": "30 ml",
+      "precio": 40.14,
+      "inci": "AQUA / WATER, PROPYLENE GLYCOL, GLYCERIN, MALTODEXTRIN, DICAPRYLYL CARBONATE, SALICYLIC ACID, SILICA, ALCOHOL DENAT., PEG-40 HYDROGENATED CASTOR OIL, SODIUM BENZOATE, TRIETHANOLAMINE, ASCORBIC ACID, XANTHAN GUM, HYDROXYETHYL ACRYLATE/SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER, TOCOPHEROL, HELIANTHUS ANNUUS SEED OIL, RETINYL ACETATE, DEXTRIN, POLYDEXTROSE, LIMONENE, TOCOPHERYL ACETATE, NIACINAMIDE, SCLEROTIUM GUM, LECITHIN, POLYISOBUTENE, AMYLOPECTIN, POTASSIUM SORBATE, PULLULAN, PENTYLENE GLYCOL, DISODIUM EDTA, BHT, PEG-7 TRIMETHYLOLPROPANE COCONUT ETHER, PARFUM, SORBITAN ISOSTEARATE, SODIUM ACETYLATED HYALURONATE, SODIUM HYALURONATE, LINALOOL, SODIUM HYALURONATE CROSSPOLYMER, CITRUS AURANTIUM DULCIS PEEL OIL EXPRESSED, HYDROLYZED SODIUM HYALURONATE, CITRAL, ETHYLHEXYLGLYCERIN, CITRONELLOL, GERANIOL, HYDROXYCITRONELLAL.",
+      "fuente": "1._Commercial_File__Cosmetics_Retail.pdf p.17-18; Fichas_T_cnicas_Labelist_ESPA_OL.pdf p.13-14; productos.json (precio, imagen)",
+      "w": 900,
+      "h": 900
+    },
+    {
+      "id": "curcumin-bloom-scrub",
+      "gama": "glow",
+      "nombre": {
+        "es": "Scrub Curcumin Bloom",
+        "en": "Curcumin Bloom Scrub"
+      },
+      "tipo": {
+        "es": "Exfoliante",
+        "en": "Scrub"
+      },
+      "resumen": {
+        "es": "Exfoliante de doble acción, física y química, que favorece la renovación cutánea y afina la textura de la piel.",
+        "en": "Dual-action physical and chemical scrub that supports skin renewal and refines skin texture."
+      },
+      "preocupacion": [
+        "luminosidad",
+        "manchas"
+      ],
+      "activos": [
+        {
+          "n": {
+            "es": "Agua termal Montseny",
+            "en": "Montseny thermal water"
+          },
+          "pct": "11.0",
+          "fn": {
+            "es": "Ayuda a calmar e hidratar la piel",
+            "en": "Helps calm and hydrate the skin"
+          }
+        },
+        {
+          "n": {
+            "es": "Exfoliantes físicos (celulosa y piedra pómez)",
+            "en": "Physical exfoliants (cellulose and pumice)"
+          },
+          "pct": "8.0",
+          "fn": {
+            "es": "Ayudan a eliminar células muertas mediante fricción suave",
+            "en": "Help remove dead cells through gentle friction"
+          }
+        },
+        {
+          "n": {
+            "es": "Gluconolactona (PHA)",
+            "en": "Gluconolactone (PHA)"
+          },
+          "pct": "1.0",
+          "fn": {
+            "es": "Exfoliante químico suave que afina la textura",
+            "en": "Gentle chemical exfoliant that refines texture"
+          }
+        },
+        {
+          "n": {
+            "es": "Pantenol (vitamina B5)",
+            "en": "Panthenol (vitamin B5)"
+          },
+          "pct": "1.0",
+          "fn": {
+            "es": "Ayuda a calmar, hidratar y reforzar la barrera",
+            "en": "Helps calm, hydrate and strengthen the skin barrier"
+          }
+        },
+        {
+          "n": {
+            "es": "Cúrcuma encapsulada",
+            "en": "Encapsulated turmeric"
+          },
+          "pct": null,
+          "fn": {
+            "es": "Acción antioxidante que contribuye a mejorar la luminosidad",
+            "en": "Antioxidant action that helps improve radiance"
+          }
+        }
+      ],
+      "textura": null,
+      "uso": {
+        "es": "Usar 1-2 veces por semana: aplicar sobre la piel húmeda, masajeando suavemente y evitando las zonas sensibles. Aclarar con agua tibia.",
+        "en": "Use 1-2 times per week: apply to damp skin, gently massaging and avoiding sensitive areas. Rinse with lukewarm water."
+      },
+      "cuando": "pm",
+      "formato": "50 ml",
+      "precio": null,
+      "inci": "AQUA / WATER, THERMAL AQUA / WATER, GLYCERIN, CELLULOSE, PUMICE, HYDROXYETHYL ACRYLATE/SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER, PENTYLENE GLYCOL, CAPRYLYL/CAPRYL GLUCOSIDE, GLUCONOLACTONE, PANTHENOL, CAPRYLYL GLYCOL, SODIUM LEVULINATE, DISODIUM EDTA, SORBITAN ISOSTEARATE, POLYSORBATE 60, SODIUM HYDROXIDE, POTASSIUM SORBATE, PARFUM, COCO-GLUCOSIDE, GLYCERYL OLEATE, ALLANTOIN, BENZYL ALCOHOL, LACTIC ACID, CITRIC ACID, DEHYDROACETIC ACID, CAPRYLIC/CAPRIC TRIGLYCERIDE, BENZYL SALICYLATE, BENZOIC ACID, DECYL ALCOHOL, SORBIC ACID, LIMONENE, LINALYL ACETATE, HEXYL CINNAMAL, CITRONELLOL, TRIMETHYL-BENZENEPROPANOL, HEXAMETHYLINDANOPYRAN, TETRAMETHYL ACETYLOCTAHYDRONAPHTHALENES, PHOSPHOLIPIDS, CURCUMIN, LINALOOL, TOCOPHEROL, HYDROGENATED PALM GLYCERIDES CITRATE.",
+      "fuente": "1._Commercial_File__Cosmetics_Retail.pdf p.19; Fichas_T_cnicas_Labelist_ESPA_OL.pdf p.15; productos.json (precio, imagen)",
+      "w": 900,
+      "h": 900
+    },
+    {
+      "id": "niacinamide-serum",
+      "gama": "blur",
+      "nombre": {
+        "es": "Sérum con Niacinamida",
+        "en": "Niacinamide Serum"
+      },
+      "tipo": {
+        "es": "Sérum",
+        "en": "Serum"
+      },
+      "resumen": {
+        "es": "Sérum regulador del tono que previene y reduce la apariencia de las manchas y mejora el aspecto de los poros.",
+        "en": "Tone-regulating serum that prevents and reduces the appearance of dark spots and improves the look of enlarged pores."
+      },
+      "preocupacion": [
+        "manchas",
+        "luminosidad",
+        "grasa"
+      ],
+      "activos": [
+        {
+          "n": {
+            "es": "Niacinamida (vitamina B3)",
+            "en": "Niacinamide (vitamin B3)"
+          },
+          "pct": "13.0",
+          "fn": {
+            "es": "Antioxidante, protectora, iluminadora y antimanchas",
+            "en": "Antioxidant, protective, brightening and anti-dark spot"
+          }
+        },
+        {
+          "n": {
+            "es": "Pantenol (vitamina B5)",
+            "en": "Panthenol (vitamin B5)"
+          },
+          "pct": "5.0",
+          "fn": {
+            "es": "Hidrata, calma y restaura la piel",
+            "en": "Hydrates, soothes and restores the skin"
+          }
+        },
+        {
+          "n": {
+            "es": "Extractos antioxidantes",
+            "en": "Antioxidant extracts"
+          },
+          "pct": "1.5",
+          "fn": {
+            "es": "Combinación de antioxidantes naturales",
+            "en": "Combination of natural antioxidants"
+          }
+        }
+      ],
+      "textura": {
+        "es": "Ligera y sedosa",
+        "en": "Light, silky"
+      },
+      "uso": {
+        "es": "Tras limpiar la piel, aplicar 2-3 gotas directamente sobre la piel con las yemas de los dedos y extender suavemente sobre el rostro, evitando el contorno de los ojos. También puede aplicarse en cuello y escote.",
+        "en": "After cleansing, apply 2-3 drops directly to the skin with your fingertips and gently spread over your face, avoiding the eye area. You can also apply the product to the neck and décolleté."
+      },
+      "cuando": "ampm",
+      "formato": "30 ml",
+      "precio": 34.74,
+      "inci": "AQUA / WATER, NIACINAMIDE, GLYCERIN, PROPYLENE GLYCOL, PANTHENOL, BUTYLENE GLYCOL, PEG-40 HYDROGENATED CASTOR OIL, GLYCERYL POLYACRYLATE, SODIUM BENZOATE, PARFUM, LACTIC ACID, POTASSIUM SORBATE, OLEA EUROPAEA LEAF EXTRACT, DISODIUM EDTA, FRUCTAN, DECYL GLUCOSIDE, HEXAMETHYLINDANOPYRAN, ASCORBIC ACID, ZIZIPHUS JUJUBA SEED EXTRACT, CITRIC ACID, PHENETHYL ALCOHOL, CYANOCOBALAMIN.",
+      "fuente": "1._Commercial_File__Cosmetics_Retail.pdf p.21; Fichas_T_cnicas_Labelist_ESPA_OL.pdf p.16; productos.json (precio, imagen)",
+      "w": 900,
+      "h": 900
+    },
+    {
+      "id": "niolac-dark-spots-cream",
+      "gama": "blur",
+      "nombre": {
+        "es": "Crema antimanchas Niolac",
+        "en": "Niolac Blur Anti-Dark Spots Cream"
+      },
+      "tipo": {
+        "es": "Crema",
+        "en": "Cream"
+      },
+      "resumen": {
+        "es": "Crema de cuidado diario para controlar las manchas y unificar el tono, que además hidrata y refuerza la barrera cutánea.",
+        "en": "Daily care cream for dark spots control and even skin tone that also moisturizes and strengthens the skin barrier."
+      },
+      "preocupacion": [
+        "manchas",
+        "luminosidad"
+      ],
+      "activos": [
+        {
+          "n": {
+            "es": "Nio-Light®",
+            "en": "Nio-Light®"
+          },
+          "pct": "3.0",
+          "fn": {
+            "es": "Floretina, naringina y extracto de noni en vesículas niosomales",
+            "en": "Phloretin, naringin and noni extract in niosomal vesicles"
+          }
+        },
+        {
+          "n": {
+            "es": "Ácido azelaico liposomal",
+            "en": "Liposomal azelaic acid"
+          },
+          "pct": "3.0",
+          "fn": {
+            "es": "Afina la textura y reduce visiblemente las manchas",
+            "en": "Refines texture and visibly reduces dark spots"
+          }
+        },
+        {
+          "n": {
+            "es": "Ácido tranexámico",
+            "en": "Tranexamic acid"
+          },
+          "pct": "1.8",
+          "fn": {
+            "es": "Previene la aparición de nuevas manchas",
+            "en": "Prevents the appearance of new dark spots"
+          }
+        },
+        {
+          "n": {
+            "es": "Niacinamida (vitamina B3)",
+            "en": "Niacinamide (vitamin B3)"
+          },
+          "pct": "1.0",
+          "fn": {
+            "es": "Antioxidante, protectora, iluminadora y antimanchas",
+            "en": "Antioxidant, protective, brightening and anti-dark spot"
+          }
+        }
+      ],
+      "textura": {
+        "es": "Ligera, de rápida absorción",
+        "en": "Lightweight, fast-absorbing"
+      },
+      "uso": {
+        "es": "Tras limpiar la piel, aplicar una pequeña cantidad sobre rostro, cuello y escote, evitando el contorno de los ojos, con suaves movimientos ascendentes hasta su completa absorción. Completar la rutina por la mañana con un protector solar de amplio espectro.",
+        "en": "After cleansing, apply a small amount on the face, neck and décolleté, avoiding the eye area, with gentle upward strokes until completely absorbed. Complete your routine with a broad-spectrum sunscreen every morning."
+      },
+      "cuando": "ampm",
+      "formato": "50 ml",
+      "precio": 48.78,
+      "inci": "AQUA / WATER, TRICAPRYLIN, ETHOXYDIGLYCOL, PROPYLENE GLYCOL, TRANEXAMIC ACID, HYDROXYETHYL ACRYLATE/SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER, BUTYLENE GLYCOL, MANNITOL, CAPRYLOYL GLYCERIN/SEBACIC ACID COPOLYMER, DODECANE, GLYCERIN, NIACINAMIDE, DIHEPTYL SUCCINATE, LACTIC ACID, POLYGLYCERYL-6 OLEATE, JOJOBA ESTERS, POLYGLYCERYL-10 LAURATE, TOCOPHERYL ACETATE, PEG-240/HDI COPOLYMER BIS-DECYLTETRADECETH-20 ETHER, COCO-CAPRYLATE/CAPRATE, CAPRYLIC/CAPRIC TRIGLYCERIDE, HELIANTHUS ANNUUS SEED WAX, CELLULOSE, TITANIUM DIOXIDE, TRIHEPTANOIN, SODIUM BENZOATE, POLYACRYLATE CROSSPOLYMER-6, AZELAIC ACID, ACACIA SENEGAL GUM, PARFUM, XANTHAN GUM, POTASSIUM SORBATE, C9-12 ALKANE, DILINOLEIC ACID/BUTANEDIOL COPOLYMER, NARINGIN, SORBITAN PALMITATE, DISODIUM EDTA, LECITHIN, MORINDA CITRIFOLIA EXTRACT, POLYSORBATE 60, SORBITAN ISOSTEARATE, LITHOSPERMUM ERYTHRORHIZON ROOT EXTRACT, LEUCONOSTOC/RADISH ROOT FERMENT FILTRATE, PHLORETIN, ACACIA DECURRENS FLOWER WAX, POLYGLYCERIN-3, HEXAMETHYLINDANOPYRAN, DECYL GLUCOSIDE, GLYCERYL STEARATE CITRATE, GLUCOSAMINE, T-BUTYL ALCOHOL, CASTOR OIL/IPDI COPOLYMER, CITRUS LIMON FRUIT EXTRACT, CUCUMIS SATIVUS FRUIT EXTRACT, HYDROXYPROPYL METHYLCELLULOSE, TOCOPHEROL, POTASSIUM LAURATE.",
+      "fuente": "1._Commercial_File__Cosmetics_Retail.pdf p.22-23; Fichas_T_cnicas_Labelist_ESPA_OL.pdf p.17-18; productos.json (precio, imagen)",
+      "w": 900,
+      "h": 900
+    },
+    {
+      "id": "salicylic-serum",
+      "gama": "pure",
+      "nombre": {
+        "es": "Sérum con Ácido Salicílico",
+        "en": "Salicylic Serum"
+      },
+      "tipo": {
+        "es": "Sérum",
+        "en": "Serum"
+      },
+      "resumen": {
+        "es": "Sérum seborregulador que elimina impurezas y exceso de sebo y ayuda a mantener la piel sin exceso de brillo.",
+        "en": "Sebum-regulating serum that removes impurities and excess sebum and helps keep the skin without excess shine."
+      },
+      "preocupacion": [
+        "grasa"
+      ],
+      "activos": [
+        {
+          "n": {
+            "es": "Ácido salicílico",
+            "en": "Salicylic acid"
+          },
+          "pct": "2.0",
+          "fn": {
+            "es": "Elimina impurezas y exceso de sebo; desobstruye poros",
+            "en": "Removes impurities and excess sebum; unclogs pores"
+          }
+        },
+        {
+          "n": {
+            "es": "Niacinamida (vitamina B3)",
+            "en": "Niacinamide (vitamin B3)"
+          },
+          "pct": "1.4",
+          "fn": {
+            "es": "Equilibra la producción de sebo y disimula los poros",
+            "en": "Balances sebum production and minimises the look of pores"
+          }
+        },
+        {
+          "n": {
+            "es": "Minerales: Mg, Cu y Zn",
+            "en": "Minerals: Mg, Cu and Zn"
+          },
+          "pct": "1.0",
+          "fn": {
+            "es": "Reparan, fortalecen y ayudan a proteger la piel",
+            "en": "Repair, strengthen and help keep the skin protected"
+          }
+        },
+        {
+          "n": {
+            "es": "Ectoína",
+            "en": "Ectoine"
+          },
+          "pct": "0.5",
+          "fn": {
+            "es": "Repara, fortalece y ayuda a proteger la piel",
+            "en": "Repairs, strengthens and helps keep the skin protected"
+          }
+        }
+      ],
+      "textura": {
+        "es": "Ultrafluida, de rápida absorción",
+        "en": "Ultra-fluid with rapid absorption"
+      },
+      "uso": {
+        "es": "Por la noche, tras limpiar la piel, aplicar 2-3 gotas directamente sobre la piel con las yemas de los dedos y extender suavemente por el rostro, evitando el área de los ojos. También puede aplicarse en cuello y escote.",
+        "en": "At night, after cleansing, apply 2-3 drops directly to the skin with your fingertips and gently spread over your face, avoiding the eye area. You can also apply the product to the neck and décolleté."
+      },
+      "cuando": "pm",
+      "formato": "30 ml",
+      "precio": 34.74,
+      "inci": "AQUA / WATER, PROPYLENE GLYCOL, 1,2-HEXANEDIOL, SALICYLIC ACID, NIACINAMIDE, ECTOIN, HYDROXYACETOPHENONE, PEG-40 HYDROGENATED CASTOR OIL, DEXTRIN, POLYDEXTROSE, AMYLOPECTIN, PARFUM, TRIETHANOLAMINE, DISODIUM EDTA, MAGNESIUM ASPARTATE, ZINC GLUCONATE, COPPER GLUCONATE, PHENOXYETHANOL, CYANOCOBALAMIN.",
+      "fuente": "1._Commercial_File__Cosmetics_Retail.pdf p.25-26; Fichas_T_cnicas_Labelist_ESPA_OL.pdf p.19-20; productos.json (precio, imagen)",
+      "w": 900,
+      "h": 900
+    },
+    {
+      "id": "glycolic-aha-gel",
+      "gama": "pure",
+      "nombre": {
+        "es": "Gel con Ácido Glicólico + AHAs",
+        "en": "Glycolic + AHA Gel"
+      },
+      "tipo": {
+        "es": "Gel",
+        "en": "Gel"
+      },
+      "resumen": {
+        "es": "Gel de exfoliación controlada que mejora la textura de la piel y la deja más luminosa y con un tono más uniforme.",
+        "en": "Controlled exfoliation gel that improves skin texture and leaves the skin more luminous with a more even tone."
+      },
+      "preocupacion": [
+        "grasa",
+        "luminosidad",
+        "antiedad"
+      ],
+      "activos": [
+        {
+          "n": {
+            "es": "Ácido glicólico",
+            "en": "Glycolic acid"
+          },
+          "pct": "8.0",
+          "fn": {
+            "es": "Peeling suave que elimina células muertas superficiales",
+            "en": "Mild peeling that removes dead surface cells"
+          }
+        },
+        {
+          "n": {
+            "es": "Polisacárido, ramnosa (Biosaccharide gum-2)",
+            "en": "Polysaccharide, rhamnose (Biosaccharide gum-2)"
+          },
+          "pct": "3.0",
+          "fn": {
+            "es": "Polisacárido con propiedades protectoras y calmantes",
+            "en": "Polysaccharide with protective and soothing properties"
+          }
+        },
+        {
+          "n": {
+            "es": "Ácido hialurónico",
+            "en": "Hyaluronic acid"
+          },
+          "pct": "0.25",
+          "fn": {
+            "es": "Retiene agua en la superficie de la piel",
+            "en": "Retains water on the skin surface"
+          }
+        },
+        {
+          "n": {
+            "es": "Alantoína",
+            "en": "Allantoin"
+          },
+          "pct": "0.2",
+          "fn": {
+            "es": "Calma y restaura la piel",
+            "en": "Soothes and restores the skin"
+          }
+        },
+        {
+          "n": {
+            "es": "Complejo de AHAs derivados de frutas",
+            "en": "Fruit-derived AHAs complex"
+          },
+          "pct": "1.0",
+          "fn": {
+            "es": "Alfa hidroxiácidos naturales de extractos de frutas",
+            "en": "Natural alpha hydroxy acids from fruit extracts"
+          }
+        }
+      ],
+      "textura": {
+        "es": "Ultrafluida, de rápida absorción",
+        "en": "Ultra-fluid with rapid absorption"
+      },
+      "uso": {
+        "es": "Por la noche, aplicar sobre la piel limpia, evitando el área de los ojos y mucosas; también puede aplicarse en cuello y escote. Se recomienda empezar con 2 o 3 noches por semana y, si se tolera, aumentar progresivamente la frecuencia.",
+        "en": "At night, apply to clean skin, avoiding the eye area and mucous membranes; it can also be applied to the neck and décolleté. Start with 2 or 3 nights a week and, if tolerated, increase progressively."
+      },
+      "cuando": "pm",
+      "formato": "30 ml",
+      "precio": 37.14,
+      "inci": "AQUA / WATER, GLYCOLIC ACID, BUTYLENE GLYCOL, PROPYLENE GLYCOL, GLYCERIN, SODIUM HYDROXIDE, ALCOHOL DENAT., PEG-40 HYDROGENATED CASTOR OIL, SODIUM BENZOATE, VACCINIUM MYRTILLUS FRUIT EXTRACT, SODIUM HYALURONATE, ALLANTOIN, ISOPROPYL ALCOHOL, PARFUM, POTASSIUM SORBATE, SACCHARUM OFFICINARUM EXTRACT, DISODIUM EDTA, BIOSACCHARIDE GUM-2, CITRUS LIMON FRUIT EXTRACT, CITRUS AURANTIUM DULCIS FRUIT EXTRACT, ACER SACCHARUM EXTRACT.",
+      "fuente": "1._Commercial_File__Cosmetics_Retail.pdf p.27-28; Fichas_T_cnicas_Labelist_ESPA_OL.pdf p.21-22; productos.json (precio, imagen)",
+      "w": 900,
+      "h": 900
+    },
+    {
+      "id": "salicylic-biome-gel-cream",
+      "gama": "pure",
+      "nombre": {
+        "es": "Crema con Salicílico que Cuida el Microbioma",
+        "en": "Salicylic Biome Gel-Cream"
+      },
+      "tipo": {
+        "es": "Crema",
+        "en": "Cream"
+      },
+      "resumen": {
+        "es": "Gel-crema de cuidado diario que hidrata en profundidad, equilibra la producción de sebo y reduce la apariencia de los poros.",
+        "en": "Daily gel-cream that deeply hydrates, balances sebum production and reduces the appearance of pores."
+      },
+      "preocupacion": [
+        "grasa",
+        "hidratacion"
+      ],
+      "activos": [
+        {
+          "n": {
+            "es": "Niacinamida (vitamina B3)",
+            "en": "Niacinamide (vitamin B3)"
+          },
+          "pct": "2.0",
+          "fn": {
+            "es": "Equilibra la producción de sebo y disimula los poros",
+            "en": "Balances sebum production and minimises the look of pores"
+          }
+        },
+        {
+          "n": {
+            "es": "Extracto de mango",
+            "en": "Mango extract"
+          },
+          "pct": "1.0",
+          "fn": {
+            "es": "Alternativa natural de tipo retinol; equilibra el microbioma",
+            "en": "Natural retinol-like alternative; balances the skin microbiome"
+          }
+        },
+        {
+          "n": {
+            "es": "Ácido salicílico",
+            "en": "Salicylic acid"
+          },
+          "pct": "0.5",
+          "fn": {
+            "es": "Elimina impurezas y exceso de sebo",
+            "en": "Removes impurities and excess sebum"
+          }
+        },
+        {
+          "n": {
+            "es": "Pantenol (vitamina B5)",
+            "en": "Panthenol (vitamin B5)"
+          },
+          "pct": "0.5",
+          "fn": {
+            "es": "Hidrata, calma y restaura la piel",
+            "en": "Hydrates, soothes and restores the skin"
+          }
+        },
+        {
+          "n": {
+            "es": "Carnosina",
+            "en": "Carnosine"
+          },
+          "pct": "0.1",
+          "fn": {
+            "es": "Dipéptido antioxidante con propiedades protectoras",
+            "en": "Antioxidant dipeptide with protective properties"
+          }
+        }
+      ],
+      "textura": {
+        "es": "Gel-crema ligera y refrescante",
+        "en": "Light, refreshing gel-cream"
+      },
+      "uso": {
+        "es": "Tras la limpieza y el sérum, aplicar la gel-crema con las yemas de los dedos en cuatro puntos (frente, barbilla y ambas mejillas). Masajear con movimientos ascendentes desde la barbilla hacia las sienes, finalizando en la frente.",
+        "en": "After cleansing and serum, apply the gel-cream with your fingertips to four points (forehead, chin and each cheek). Massage with upward movements from the chin toward the temples, finishing on the forehead."
+      },
+      "cuando": "ampm",
+      "formato": "50 ml",
+      "precio": 48.78,
+      "inci": "AQUA / WATER, DICAPRYLYL CARBONATE, PROPANEDIOL, ISOSTEARYL ALCOHOL, NIACINAMIDE, SILICA, GLYCERIN, DI-C12-13 ALKYL MALATE, ISOPENTYLDIOL, BUTYLENE GLYCOL COCOATE, GLYCERYL BEHENATE, BENZYL ALCOHOL, HYDROXYETHYL ACRYLATE/SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER, JOJOBA ESTERS, PANTHENOL, AMMONIUM ACRYLOYLDIMETHYLTAURATE/VP COPOLYMER, TOCOPHERYL ACETATE, HELIANTHUS ANNUUS SEED WAX, SALICYLIC ACID, PARFUM, XANTHAN GUM, ETHYLCELLULOSE, TOCOPHEROL, ETHYLHEXYLGLYCERIN, CARNOSINE, DISODIUM EDTA, LACTIC ACID, POLYDEXTROSE, DEXTRIN, TRIFOLIUM PRATENSE FLOWER EXTRACT, POLYSORBATE 60, SORBITAN ISOSTEARATE, AMYLOPECTIN, HELIANTHUS ANNUUS SEED OIL, TETRAMETHYL ACETYLOCTAHYDRONAPHTHALENES, ACACIA DECURRENS FLOWER WAX, POLYGLYCERIN-3, MANGIFERA INDICA LEAF EXTRACT, VANILLIN, LINALYL ACETATE, POGOSTEMON CABLIN OIL, JUNIPERUS VIRGINIANA OIL.",
+      "fuente": "1._Commercial_File__Cosmetics_Retail.pdf p.29-30; Fichas_T_cnicas_Labelist_ESPA_OL.pdf p.23-24; productos.json (precio, imagen)",
+      "w": 900,
+      "h": 900
+    },
+    {
+      "id": "retinol-015-serum",
+      "gama": "silk",
+      "nombre": {
+        "es": "Retinol 0.15% Sérum",
+        "en": "Retinol 0.15% Serum"
+      },
+      "tipo": {
+        "es": "Sérum",
+        "en": "Serum"
+      },
+      "resumen": {
+        "es": "Sérum con retinol encapsulado de alta tolerancia que estimula la renovación celular y ayuda a prevenir la aparición de arrugas.",
+        "en": "Serum with high-tolerance encapsulated retinol that stimulates cell renewal and helps prevent the appearance of wrinkles."
+      },
+      "preocupacion": [
+        "antiedad"
+      ],
+      "activos": [
+        {
+          "n": {
+            "es": "Retinol (vitamina A)",
+            "en": "Retinol (vitamin A)"
+          },
+          "pct": "0.15",
+          "fn": {
+            "es": "Retinol encapsulado de liberación prolongada y alta tolerancia",
+            "en": "Encapsulated, time-release retinol with high tolerance"
+          }
+        },
+        {
+          "n": {
+            "es": "Vitamina E (acetato de tocoferilo)",
+            "en": "Vitamin E (tocopheryl acetate)"
+          },
+          "pct": "0.5",
+          "fn": {
+            "es": "Protege la piel frente a la oxidación",
+            "en": "Protects the skin against oxidation"
+          }
+        },
+        {
+          "n": {
+            "es": "Aloe vera",
+            "en": "Aloe vera"
+          },
+          "pct": "1.0",
+          "fn": {
+            "es": "Destaca por sus propiedades reparadoras de la piel",
+            "en": "Known for its skin-repairing properties"
+          }
+        },
+        {
+          "n": {
+            "es": "Vitamina B12 (cianocobalamina)",
+            "en": "Vitamin B12 (cyanocobalamin)"
+          },
+          "pct": null,
+          "fn": {
+            "es": "Ayuda a mantener la piel luminosa",
+            "en": "Helps keep the skin luminous"
+          }
+        }
+      ],
+      "textura": {
+        "es": "Ultrafluida, de rápida absorción",
+        "en": "Ultra-fluid with rapid absorption"
+      },
+      "uso": {
+        "es": "Por la noche, sobre la piel limpia, aplicar 2-3 gotas en las yemas de los dedos y extender suavemente por el rostro, evitando el área de los ojos. Comenzar con 2-3 noches por semana durante 3 semanas y, si se tolera bien, aumentar progresivamente la frecuencia.",
+        "en": "At night, on clean skin, apply 2-3 drops to your fingertips and gently spread over your face, avoiding the eye area. Start with 2-3 nights per week for 3 weeks and, if well tolerated, gradually increase the frequency."
+      },
+      "cuando": "pm",
+      "formato": "30 ml",
+      "precio": 37.14,
+      "inci": "AQUA / WATER, PROPYLENE GLYCOL, CAPRYLIC/CAPRIC TRIGLYCERIDE, HYDROGENATED LECITHIN, GLYCERYL STEARATE, PEG-100 STEARATE, GLYCERIN, ALOE BARBADENSIS LEAF JUICE, TOCOPHERYL ACETATE, STEARETH-2, SILICA, SODIUM BENZOATE, XANTHAN GUM, COPERNICIA CERIFERA CERA, POTASSIUM SORBATE, RETINOL, POLYSORBATE 20, PROPANEDIOL, PARFUM, MANNITOL, DISODIUM EDTA, PHOSPHATIDYLCHOLINE, 1,2-HEXANEDIOL, CAPRYLYL GLYCOL, DISODIUM COCOAMPHODIACETATE, HEXAMETHYLINDANOPYRAN, BHT, BENZYL SALICYLATE, CITRIC ACID, CITRUS AURANTIUM PEEL OIL, LIMONENE, CETYL ALCOHOL, DECYL GLUCOSIDE, LINALOOL, RETINYL PALMITATE, POGOSTEMON CABLIN OIL, CYANOCOBALAMIN, BHA, TETRAMETHYL ACETYLOCTAHYDRONAPHTHALENES, DIMETHYL PHENETHYL ACETATE, ALPHA-ISOMETHYL IONONE, TRIMETHYL-BENZENEPROPANOL, GERANYL ACETATE, SODIUM CHLORIDE, SODIUM ASCORBYL PHOSPHATE.",
+      "fuente": "1._Commercial_File__Cosmetics_Retail.pdf p.32-33; Fichas_T_cnicas_Labelist_ESPA_OL.pdf p.25-26; productos.json (precio, imagen)",
+      "w": 900,
+      "h": 900
+    },
+    {
+      "id": "retinol-03-cream",
+      "gama": "silk",
+      "nombre": {
+        "es": "Crema con Retinol 0.3%",
+        "en": "Retinol 0.3% Cream"
+      },
+      "tipo": {
+        "es": "Crema",
+        "en": "Cream"
+      },
+      "resumen": {
+        "es": "Tratamiento específico con retinol que estimula la renovación celular y ayuda a mejorar la apariencia de líneas finas y arrugas.",
+        "en": "Targeted retinol treatment that stimulates skin cell renewal and helps improve the appearance of fine lines and wrinkles."
+      },
+      "preocupacion": [
+        "antiedad",
+        "manchas"
+      ],
+      "activos": [
+        {
+          "n": {
+            "es": "Retinol (vitamina A)",
+            "en": "Retinol (vitamin A)"
+          },
+          "pct": "0.3",
+          "fn": {
+            "es": "Estimula la renovación celular de la piel",
+            "en": "Stimulates skin cell renewal"
+          }
+        },
+        {
+          "n": {
+            "es": "Resina de lentisco (goma de Pistacia lentiscus)",
+            "en": "Mastic resin (Pistacia lentiscus gum)"
+          },
+          "pct": "2.0",
+          "fn": {
+            "es": "Resina natural de tipo retinol que potencia los resultados visibles",
+            "en": "Natural retinol-like resin that enhances visible results"
+          }
+        },
+        {
+          "n": {
+            "es": "Aceites calmantes (aguacate y oliva)",
+            "en": "Soothing oils (avocado and olive oil)"
+          },
+          "pct": "1.5",
+          "fn": {
+            "es": "Aportan nutrición a la piel",
+            "en": "Provide nourishment to the skin"
+          }
+        },
+        {
+          "n": {
+            "es": "α-bisabolol",
+            "en": "α-bisabolol"
+          },
+          "pct": "0.1",
+          "fn": {
+            "es": "Activo calmante para minimizar la irritación",
+            "en": "Soothing active to minimise irritation"
+          }
+        }
+      ],
+      "textura": {
+        "es": "Gel-crema ligera, de rápida absorción",
+        "en": "Light, fast-absorbing gel-cream"
+      },
+      "uso": {
+        "es": "Solo por la noche, aplicar sobre la piel limpia, evitando el área de los ojos y las mucosas. Introducir de forma gradual: comenzar con 1 o 2 veces por semana y aumentar la frecuencia hasta diaria si la piel lo tolera.",
+        "en": "At night only, apply to clean skin, avoiding the eye area and mucous membranes. Introduce gradually: start with 1 or 2 times a week and increase the frequency to daily if the skin tolerates it."
+      },
+      "cuando": "pm",
+      "formato": "30 ml",
+      "precio": 40.14,
+      "inci": "AQUA / WATER, TRICAPRYLIN, GLYCERIN, PROPANEDIOL, DODECANE, HYDROXYETHYL ACRYLATE/SODIUM ACRYLOYLDIMETHYL TAURATE COPOLYMER, JOJOBA ESTERS, BUTYLENE GLYCOL, POLYSORBATE 20, SQUALANE, HELIANTHUS ANNUUS SEED WAX, TOCOPHERYL ACETATE, SODIUM PHOSPHATE, PEG-240/HDI COPOLYMER BIS-DECYLTETRADECETH-20 ETHER, HYDROXYACETOPHENONE, POLYACRYLATE CROSSPOLYMER-6, CAPRYLIC/CAPRIC TRIGLYCERIDE, RETINOL, OLEA EUROPAEA OIL UNSAPONIFIABLES, ACACIA SENEGAL GUM, POLLEN EXTRACT, XANTHAN GUM, PARFUM, BHT, BISABOLOL, GLYCINE SOJA OIL UNSAPONIFIABLES, PERSEA GRATISSIMA OIL UNSAPONIFIABLE, POLYSORBATE 60, SORBITAN ISOSTEARATE, ACACIA DECURRENS FLOWER WAX, POLYGLYCERIN-3, PENTYLENE GLYCOL, PISTACIA LENTISCUS GUM, LECITHIN, SODIUM HYDROXIDE, RETINYL PALMITATE, BENZYL SALICYLATE, LIMONENE, BHA, GLYCERYL CAPRYLATE/CAPRATE, LINALOOL, ALPHA-ISOMETHYL IONONE, POTASSIUM LAURATE, TOCOPHEROL.",
+      "fuente": "1._Commercial_File__Cosmetics_Retail.pdf p.34-35; Fichas_T_cnicas_Labelist_ESPA_OL.pdf p.27-28; productos.json (precio, imagen)",
+      "w": 900,
+      "h": 900
+    },
+    {
+      "id": "ceramides-cream",
+      "gama": "silk",
+      "nombre": {
+        "es": "Crema con Ceramidas",
+        "en": "Ceramides Cream"
+      },
+      "tipo": {
+        "es": "Crema",
+        "en": "Cream"
+      },
+      "resumen": {
+        "es": "Crema que refuerza la barrera cutánea, nutre en profundidad y mejora la apariencia de arrugas y líneas finas.",
+        "en": "Barrier-support cream that deeply nourishes the skin and improves the appearance of wrinkles and fine lines."
+      },
+      "preocupacion": [
+        "antiedad",
+        "hidratacion"
+      ],
+      "activos": [
+        {
+          "n": {
+            "es": "Extracto de algodón",
+            "en": "Cotton extract"
+          },
+          "pct": "4.0",
+          "fn": {
+            "es": "Rico en proteínas, para un efecto tensor",
+            "en": "Protein-rich, for an enhanced tightening effect"
+          }
+        },
+        {
+          "n": {
+            "es": "Ceramidas NP, AP y EOP",
+            "en": "Ceramides NP, AP and EOP"
+          },
+          "pct": "2.0",
+          "fn": {
+            "es": "Lípidos idénticos a los de la piel; fortalecen y nutren",
+            "en": "Skin-identical lipids that strengthen and nourish"
+          }
+        },
+        {
+          "n": {
+            "es": "Aceite de jojoba",
+            "en": "Jojoba oil"
+          },
+          "pct": "2.0",
+          "fn": {
+            "es": "Nutre profundamente la piel aportando elasticidad",
+            "en": "Deeply nourishes the skin, providing elasticity"
+          }
+        },
+        {
+          "n": {
+            "es": "Niacinamida (vitamina B3)",
+            "en": "Niacinamide (vitamin B3)"
+          },
+          "pct": "1.0",
+          "fn": {
+            "es": "Antioxidante, protectora, iluminadora y antimanchas",
+            "en": "Antioxidant, protective, brightening and anti-dark spot"
+          }
+        },
+        {
+          "n": {
+            "es": "Complejo de ácido hialurónico",
+            "en": "Hyaluronic acid complex"
+          },
+          "pct": "0.25",
+          "fn": {
+            "es": "Combina 4 ácidos hialurónicos para hidratar la piel",
+            "en": "Combines 4 hyaluronic acids to hydrate the skin"
+          }
+        }
+      ],
+      "textura": {
+        "es": "Rica y sedosa",
+        "en": "Rich and silky"
+      },
+      "uso": {
+        "es": "Tras limpiar la piel y, si se desea, aplicar un sérum, extender la crema sobre el rostro para una piel más nutrida, suave y confortable.",
+        "en": "After cleansing and, if desired, applying a serum, spread the cream over the face for more nourished, smoother and comfortable skin."
+      },
+      "cuando": "ampm",
+      "formato": "50 ml",
+      "precio": 48.78,
+      "inci": "AQUA / WATER, TRICAPRYLIN, DODECANE, GLYCERIN, GLYCERYL STEARATE, PROPANEDIOL, SILICA, SIMMONDSIA CHINENSIS SEED OIL, OLIVE OIL DECYL ESTERS, CETYL ALCOHOL, OLIVE GLYCERIDES, JOJOBA ESTERS, NIACINAMIDE, DECYL OLEATE, BENZYL ALCOHOL, HELIANTHUS ANNUUS SEED WAX, PEG-75 STEARATE, PANTHENOL, CAPRYLIC/CAPRIC/MYRISTIC/STEARIC TRIGLYCERIDE, CERAMIDE NP, SODIUM LAUROYL LACTYLATE, STEARETH-20, CETETH-20, TOCOPHERYL ACETATE, ACACIA SENEGAL GUM, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, SQUALENE, XANTHAN GUM, ETHYLHEXYLGLYCERIN, PARFUM, POLYGLYCERIN-3, GOSSYPIUM HERBACEUM SEED EXTRACT, ACACIA DECURRENS FLOWER WAX, SODIUM PHYTATE, TOCOPHEROL, PHENOXYETHANOL, SODIUM HYDROXIDE, PHYTOSPHINGOSINE, CERAMIDE AP, CHOLESTEROL, HELIANTHUS ANNUUS SEED OIL, POTASSIUM SORBATE, HEXAMETHYLINDANOPYRAN, SODIUM BENZOATE, BENZYL SALICYLATE, PENTYLENE GLYCOL, CARBOMER, CITRUS AURANTIUM PEEL OIL, LIMONENE, LINALOOL, POGOSTEMON CABLIN OIL, DIMETHYL PHENETHYL ACETATE, TETRAMETHYL ACETYLOCTAHYDRONAPHTHALENES, SODIUM ACETYLATED HYALURONATE, ALPHA-ISOMETHYL IONONE, SODIUM HYALURONATE, TRIMETHYL-BENZENEPROPANOL, GERANYL ACETATE, ALCOHOL, SODIUM HYALURONATE CROSSPOLYMER, HYDROLYZED SODIUM HYALURONATE, HYDROGENATED PALM GLYCERIDES CITRATE, CERAMIDE EOP.",
+      "fuente": "1._Commercial_File__Cosmetics_Retail.pdf p.36-37; Fichas_T_cnicas_Labelist_ESPA_OL.pdf p.29-30; productos.json (precio, imagen)",
+      "w": 900,
+      "h": 900
+    },
+    {
+      "id": "sun-care-spf50-fluid-cream",
+      "gama": "silk",
+      "nombre": {
+        "es": "Crema solar fluida SPF50 Proage",
+        "en": "Sun Care SPF50 Fluid Cream"
+      },
+      "tipo": {
+        "es": "Protector solar",
+        "en": "Sunscreen"
+      },
+      "resumen": {
+        "es": "Fotoprotección diaria SPF50 de alta tolerancia, de textura fluida sin residuo blanco, que ayuda a proteger frente al fotoenvejecimiento.",
+        "en": "High-tolerance SPF50 daily photoprotection with a fluid texture and no white residue that helps protect against photoaging."
+      },
+      "preocupacion": [
+        "solar",
+        "antiedad"
+      ],
+      "activos": [
+        {
+          "n": {
+            "es": "Exosomas de Centella asiatica",
+            "en": "Centella asiatica exosomes"
+          },
+          "pct": null,
+          "fn": {
+            "es": "Ayudan a fortalecer, calmar y proteger frente al estrés oxidativo",
+            "en": "Help strengthen, soothe and protect against oxidative stress"
+          }
+        },
+        {
+          "n": {
+            "es": "Elix-IR®",
+            "en": "Elix-IR®"
+          },
+          "pct": "2.0",
+          "fn": {
+            "es": "Ayuda a proteger frente a la radiación infrarroja (IR)",
+            "en": "Helps protect against infrared (IR) radiation"
+          }
+        }
+      ],
+      "textura": {
+        "es": "Fluida y ligera, de rápida absorción y sin residuo blanco",
+        "en": "Fluid, light and easily absorbed, with no white residue"
+      },
+      "uso": {
+        "es": "Aplicar generosamente sobre el rostro y las zonas expuestas 30 minutos antes de la exposición solar, como último paso de la rutina. Durante exposiciones prolongadas, después de nadar o sudar, reaplicar cada 2 horas.",
+        "en": "Apply generously to the face and exposed areas 30 minutes before sun exposure, as the last step in your routine. During prolonged sun exposure, after swimming or sweating, reapply every 2 hours."
+      },
+      "cuando": "am",
+      "formato": "50 ml",
+      "precio": 39.54,
+      "inci": "AQUA / WATER, C12-15 ALKYL BENZOATE, CETEARYL ETHYLHEXANOATE, DIETHYLAMINO HYDROXYBENZOYL HEXYL BENZOATE, PROPANEDIOL, TITANIUM DIOXIDE, GLYCERIN, ETHYLHEXYL TRIAZONE, PROPYLENE GLYCOL, DIBUTYL ADIPATE, SILICA, C20-22 ALKYL PHOSPHATE, C20-22 ALCOHOLS, BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE, PHENYLBENZIMIDAZOLE SULFONIC ACID, POLYGLYCERYL-3 STEARATE, LECITHIN, PHENYLPROPANOL, BUTYROSPERMUM PARKII BUTTER, DISODIUM CETEARYL SULFOSUCCINATE, CAPRYLYL GLYCOL, SODIUM HYDROXIDE, ACACIA SENEGAL GUM, PARFUM, XANTHAN GUM, PHENOXYETHANOL, HYDROXYACETOPHENONE, DISODIUM EDTA, BENZYL SALICYLATE, TOCOPHERYL ACETATE, TETRAMETHYL ACETYLOCTAHYDRONAPHTHALENES, CI 77491, LINALOOL, POLYGONUM AVICULARE EXTRACT, BENZYL ALCOHOL, VANILLIN, POTASSIUM SORBATE, SODIUM BENZOATE, LINALYL ACETATE, DIMETHYL PHENETHYL ACETATE, TOCOPHEROL, CENTELLA ASIATICA EXTRACT, ETHYLHEXYLGLYCERIN.",
+      "fuente": "1._Commercial_File__Cosmetics_Retail.pdf p.38-39; Fichas_T_cnicas_Labelist_ESPA_OL.pdf p.31-32; productos.json (precio, imagen)",
+      "w": 900,
+      "h": 900
+    },
+    {
+      "id": "vit-k-eye-cream",
+      "gama": "wink",
+      "nombre": {
+        "es": "Vitamina K Contorno de ojos",
+        "en": "Vit K Eye Cream"
+      },
+      "tipo": {
+        "es": "Contorno de ojos",
+        "en": "Eye contour"
+      },
+      "resumen": {
+        "es": "Contorno de ojos que favorece la microcirculación y mejora la apariencia de las ojeras y las líneas finas.",
+        "en": "Eye cream that supports microcirculation and improves the appearance of dark circles and fine lines."
+      },
+      "preocupacion": [
+        "ojos"
+      ],
+      "activos": [
+        {
+          "n": {
+            "es": "Vitamina K (epóxido de fitadiona)",
+            "en": "Vitamin K (phytadione epoxide)"
+          },
+          "pct": "3.0",
+          "fn": {
+            "es": "Ayuda a mejorar la apariencia de las ojeras",
+            "en": "Helps improve the appearance of dark circles"
+          }
+        },
+        {
+          "n": {
+            "es": "Éster de aceite de oliva",
+            "en": "Olive oil ester"
+          },
+          "pct": "3.0",
+          "fn": {
+            "es": "Nutre y repara la piel dejándola suave",
+            "en": "Nourishes and repairs the skin, leaving it soft"
+          }
+        },
+        {
+          "n": {
+            "es": "Vitamina B3 (niacinamida)",
+            "en": "Vitamin B3 (niacinamide)"
+          },
+          "pct": "0.5",
+          "fn": {
+            "es": "Antioxidante, protectora, iluminadora y antimanchas",
+            "en": "Antioxidant, protective, brightening and anti-dark spot"
+          }
+        },
+        {
+          "n": {
+            "es": "Cafeína",
+            "en": "Caffeine"
+          },
+          "pct": "0.3",
+          "fn": {
+            "es": "Ayuda a mejorar la apariencia de las ojeras",
+            "en": "Helps improve the appearance of dark circles"
+          }
+        },
+        {
+          "n": {
+            "es": "Vitamina C (glucósido de ascorbilo y tetraisopalmitato de ascorbilo)",
+            "en": "Vitamin C (ascorbyl glucoside and ascorbyl tetraisopalmitate)"
+          },
+          "pct": null,
+          "fn": {
+            "es": "Aporta luminosidad inmediata junto con pigmentos correctores",
+            "en": "Provides immediate radiance together with corrective pigments"
+          }
+        }
+      ],
+      "textura": {
+        "es": "Cremosa y rica, se funde en la piel al aplicarla",
+        "en": "Creamy and rich, melts into the skin on application"
+      },
+      "uso": {
+        "es": "Colocar una pequeña cantidad de crema en el dorso de la mano y, con la yema de los dedos, aplicar suavemente en el contorno de ojos con ligeros toques. Puede usarse por la mañana y/o por la noche durante todo el año.",
+        "en": "Place a small amount of cream on the back of your hand and, using your fingertip, gently apply to the eye contour with light tapping motions. It can be used in the morning and/or at night all year round."
+      },
+      "cuando": "ampm",
+      "formato": "15 ml",
+      "precio": 34.74,
+      "inci": "AQUA / WATER, DODECANE, ISONONYL ISONONANOATE, BUTYLENE GLYCOL DICAPRYLATE/DICAPRATE, PROPYLENE GLYCOL, OLIVE OIL DECYL ESTERS, GLYCERIN, BUTYROSPERMUM PARKII BUTTER, PENTYLENE GLYCOL, SILICA, CETYL ALCOHOL, GLYCERYL STEARATE, TITANIUM DIOXIDE, MICA, BENZYL ALCOHOL, PEG-75 STEARATE, C10-18 TRIGLYCERIDES, RHUS VERNICIFLUA PEEL CERA, STEARETH-20, CETETH-20, NIACINAMIDE, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, PANTHENOL, SQUALENE, SIMMONDSIA CHINENSIS SEED OIL, CETEARYL ALCOHOL, TOCOPHERYL ACETATE, MANNITOL, ACACIA SENEGAL GUM, CAFFEINE, XANTHAN GUM, PHOSPHATIDYLCHOLINE, MALTODEXTRIN, DISODIUM EDTA, ETHYLHEXYLGLYCERIN, PHYTONADIONE EPOXIDE, SODIUM HYDROXIDE, TIN OXIDE, CAPRYLIC/CAPRIC TRIGLYCERIDE, POTASSIUM SORBATE, SODIUM BENZOATE, POLYSORBATE 80, DECYL GLUCOSIDE, HYDROXYETHYLCELLULOSE, ASCORBYL GLUCOSIDE, ASCORBYL TETRAISOPALMITATE, TOCOPHEROL, CITRIC ACID, COPERNICIA CERIFERA CERA, MYRISTYL ALCOHOL, HELIANTHUS ANNUUS SEED OIL, SODIUM CHLORIDE, HYDROLYZED HYALURONIC ACID, CHLORHEXIDINE DIGLUCONATE, N-HYDROXYSUCCINIMIDE, SODIUM CITRATE, PALMITOYL TRIPEPTIDE-1, CHRYSIN, PALMITOYL TETRAPEPTIDE-7, BIOTIN.",
+      "fuente": "1._Commercial_File__Cosmetics_Retail.pdf p.41-42; Fichas_T_cnicas_Labelist_ESPA_OL.pdf p.33-34; productos.json (precio, imagen)",
+      "w": 900,
+      "h": 900
     }
   ]
 }

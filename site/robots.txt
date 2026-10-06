@@ -1,0 +1,4 @@
+# Prototipo: no indexar. Al pasar a producción, quitar la cabecera noindex y esta línea.
+User-agent: *
+Disallow: /
+Sitemap: https://labelistcosmetics.com/sitemap.xml
