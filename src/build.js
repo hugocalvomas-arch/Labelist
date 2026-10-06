@@ -1,5 +1,5 @@
 const fs = require('fs'); const path = require('path');
-const { gamas, estudios, mercados, medline, prensa, t } = require('./content.js');
+const { gamas, estudios, mercados, medline, prensa, activos, t } = require('./content.js');
 const out = path.join(__dirname, '..', 'site');
 const img = (n, w, h, alt, cls = '', lazy = true) =>
   `<img src="/img/${n}.webp" width="${w}" height="${h}" alt="${alt}"${cls ? ` class="${cls}"` : ''}${lazy ? ' loading="lazy" decoding="async"' : ' fetchpriority="high"'}>`;
@@ -15,36 +15,65 @@ function page(L) {
         <button class="tab" role="tab" id="tab-${g.id}" aria-controls="panel-${g.id}" aria-selected="${i === 0}" tabindex="${i === 0 ? 0 : -1}" style="--c:var(--${g.id})">
           <span class="dot"></span>${lockup(g)}<span class="tab-need">${g.necesidad[L]}</span>
         </button>`).join('');
-  const panels = gamas.map((g, i) => `
+  const panels = gamas.map((g, i) => { const e = estudios.find(x => x.gama === g.id); return `
       <div class="panel" role="tabpanel" id="panel-${g.id}" aria-labelledby="tab-${g.id}" style="--c:var(--${g.id})"${i === 0 ? '' : ' hidden'}>
         <div class="p-foto${g.vida ? '' : ' p-vial'}">${g.vida ? img(g.vida, 1080, 1080, `${s.vidaAlt} ${g.nombre} ${g.desc}`) : img(g.cabina.img, 388, 700, `MedLine ${g.cabina.productos[0].n}`)}</div>
-        <div class="ctx">
-          <h3 class="ctx-h">${s.casa}</h3>
-          ${g.casa ? `<ul class="plist">${g.casa.productos[L].map(p => `<li>${p}</li>`).join('')}</ul>
-          <a class="btn btn-line" href="#contacto">${s.ctaTienda}</a>` : `<p class="ctx-none">${s.sinCasa}</p>`}
-        </div>
-        <div class="ctx">
-          <h3 class="ctx-h">${s.cabina} ${pend(s.reg)}</h3>
-          <ul class="plist plist-pro">${g.cabina.productos.map(p => `<li><span class="pname">${p.n}</span><span class="pclaim">${p[L]}</span></li>`).join('')}</ul>
-          <a class="btn btn-line" href="#contacto" data-rol="pro">${s.ctaPrecio}</a>
-        </div>
-      </div>`).join('');
-  const cat = medline.map(m => { const g = gById[m.gama]; return `
-        <li><a class="med" href="#contacto" data-rol="pro" data-prod="${m.n}" style="--c:var(--${m.gama})">
-          ${img('med-' + m.id, 640, 480, '')}
-          <span class="med-n">${m.n}</span>
-          <span class="med-m"><span class="dot"></span>${m.tipo === 'm' ? s.tipoM : s.tipoP} · ${g.nombre} <em>${g.desc}</em></span>
-          <span class="med-cta">${s.ctaPrecio}</span>
-        </a></li>`; }).join('');
+        <ol class="flujo">
+          <li class="ctx">
+            <h3 class="ctx-h">${s.paso1} ${pend(s.reg)}</h3>
+            <ul class="plist plist-pro">${g.cabina.productos.map(p => `<li><span class="pname">${p.n}</span><span class="pclaim">${p[L]}</span></li>`).join('')}</ul>
+            <p class="ctx-proto"><strong>${s.protoL}.</strong> ${g.proto[L]}</p>
+            <a class="btn btn-line" href="#contacto" data-rol="pro">${s.ctaPrecio}</a>
+          </li>
+          <li class="ctx">
+            <h3 class="ctx-h">${s.paso2}</h3>
+            ${g.casa ? `<ul class="plist">${g.casa.productos[L].map(p => `<li>${p}</li>`).join('')}</ul>
+            <a class="btn btn-line" href="#contacto">${s.ctaTienda}</a>` : `<p class="ctx-none">${s.sinCasa}</p>`}
+          </li>
+          <li class="ctx ctx-ev">
+            <h3 class="ctx-h">${s.paso3}</h3>
+            ${e ? `<p class="ev-num">${es ? e.valor + '&nbsp;%' : e.valorEn + '%'}</p>
+            <p class="ev-par">${e[L]}, ${es ? e.plazoEs : e.plazoEn}. ${e.prod.split(' · ')[1]}.</p>
+            <a class="ev-link" href="#est-${e.gama}">${s.verEstudio}</a>` : `<p class="ctx-none">${s.sinEstudio}</p>`}
+          </li>
+        </ol>
+      </div>`; }).join('');
+  const cat = gamas.map(g => `
+        <li class="cat-row" style="--c:var(--${g.id})">
+          <div class="cat-l">
+            <h4>${lockup(g)}</h4>
+            <p class="cat-need">${g.necesidad[L]}</p>
+            <p class="cat-proto">${g.proto[L]}</p>
+          </div>
+          <ul class="cat-g">${medline.filter(m => m.gama === g.id).map(m => `
+            <li><a class="med" href="#contacto" data-rol="pro" data-prod="${m.n}">
+              ${img('med-' + m.id, 640, 480, '')}
+              <span class="med-n">${m.n}</span>
+              <span class="med-m">${m.tipo === 'm' ? s.tipoM : s.tipoP}</span>
+              <span class="med-cta">${s.ctaPrecio}</span>
+            </a></li>`).join('')}
+          </ul>
+        </li>`).join('');
   const cards = estudios.map(e => {
     const [gm, pr] = e.prod.split(' · '); const [n, ...d] = gm.split(' ');
     return `
-        <li class="est" style="--c:var(--${e.gama})">
+        <li class="est" id="est-${e.gama}" style="--c:var(--${e.gama})">
           <div class="est-img">${img(e.img[0], e.img[1], e.img[2], `${gm} ${pr}`)}</div>
           <p class="est-num">${es ? e.valor + '&nbsp;%' : e.valorEn + '%'}</p>
           <p class="est-par">${e[L]}<span>${es ? e.plazoEs : e.plazoEn}</span></p>
           <p class="est-prod"><span class="lockup"><span class="lockup-n">${n}</span> <em class="lockup-d">${d.join(' ')}</em></span> ${pr}</p>
-          <p class="est-ref">${s.eficRef} ${e.informe}</p>
+          <details class="est-d">
+            <summary>${s.comoH}</summary>
+            <dl>
+              <dt>${s.dAp}</dt><dd>${e.det.ap[0]}</dd>
+              <dt>${s.dZona}</dt><dd>${e.det.ap[es ? 1 : 2]}</dd>
+              <dt>${s.dPanel}</dt><dd>${s.panelTxt(e.det.edad)}</dd>
+              <dt>${s.dMej}</dt><dd>${es ? e.det.mej + '&nbsp;%' : e.det.mej + '%'}</dd>
+            </dl>
+            ${e.det.extra ? `<p>${e.det.extra[L]}</p>` : ''}
+            <p class="est-ref">${s.eficRef} ${e.informe}</p>
+          </details>
+          ${e.det.pend ? `<p>${pend(e.det.pend[L])}</p>` : ''}
         </li>`; }).join('');
   const f = s.form;
   const field = (id, label, type = 'text', req = true, ac = '') => `
@@ -100,8 +129,8 @@ function page(L) {
       <p class="lead">${s.heroSub}</p>
       <div class="actions">
         <a class="btn btn-solid" href="#distribuidores">${s.ctaDist}</a>
-        <a class="btn btn-line" href="#sistema">${s.ctaTienda}</a>
       </div>
+      <p class="hero-alt">${s.heroO} <a href="#profesional">${s.heroPro}</a> <a href="#sistema">${s.heroCasa}</a></p>
     </div>
     <figure class="hero-fig">
       ${img('hero-manos', 1080, 1080, s.heroAlt, 'hero-a', false)}
@@ -162,7 +191,7 @@ function page(L) {
     <div class="w cat" id="catalogo">
       <h3 class="cat-h">${s.catH} ${pend(s.reg)}</h3>
       <p class="sec-p">${s.catP}</p>
-      <ul class="cat-g">${cat}
+      <ul class="cat-rows">${cat}
       </ul>
     </div>
   </section>
@@ -186,8 +215,8 @@ function page(L) {
         </div>
         ${video('marca', s.videoLabel)}
       </div>
-      <ul class="tex">${s.tex.map(([im, cap]) => `
-        <li><figure>${img(im, 760, 760, `${s.texAlt}: ${cap}`)}<figcaption>${cap}</figcaption></figure></li>`).join('')}
+      <ul class="act">${activos.map(a => `
+        <li style="--c:var(--${a.gama})"><span class="act-n">${a.pct[es ? 0 : 1]}${es ? '&nbsp;' : ''}%</span><strong>${a[L]}</strong><span>${a.prod[L]}</span></li>`).join('')}
       </ul>
     </div>
   </section>
@@ -211,7 +240,12 @@ function page(L) {
         <ol>${s.pasos.map(([a, b]) => `<li><strong>${a}</strong><span>${b}</span></li>`).join('')}</ol>
       </div>
       <div class="dist-b">
-        <dl class="soporte">${s.soporte.map(([a, b]) => `<div><dt>${a}</dt><dd>${b}</dd></div>`).join('')}</dl>
+        <div>
+          <h3 class="h-sub">${s.recibeH}</h3>
+          <dl class="soporte">${s.soporte.map(([a, b]) => `<div><dt>${a}</dt><dd>${b}</dd></div>`).join('')}</dl>
+          <h3 class="h-sub h-sub2">${s.socioH}</h3>
+          <dl class="soporte">${s.socio.map(([a, b]) => `<div><dt>${a}</dt><dd>${b}</dd></div>`).join('')}</dl>
+        </div>
         <form class="form" id="contacto" novalidate>
           <h3>${s.formH}</h3>
           <fieldset class="rol">
@@ -220,7 +254,7 @@ function page(L) {
             <label><input type="radio" name="rol" value="pro"> ${f.rolPro}</label>
           </fieldset>
           <div class="fields">${field('nombre', f.nombre, 'text', true, 'name')}${field('empresa', f.empresa, 'text', true, 'organization')}${field('pais', f.pais, 'text', true, 'country-name')}${field('email', f.email, 'email', true, 'email')}
-          </div>
+          </div>${field('web', s.webL + ' <span class="opt">' + f.msgHelp + '</span>', 'url', false, 'url')}
           <div class="field">
             <label for="msg">${f.msg} <span class="opt">${f.msgHelp}</span></label>
             <textarea id="msg" name="msg" rows="3"></textarea>

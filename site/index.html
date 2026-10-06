@@ -37,11 +37,11 @@
   <section class="hero">
     <div class="hero-txt">
       <h1>La misma ciencia, en cabina y en casa.</h1>
-      <p class="lead">Dermocosmética y mesoterapia de Barcelona. Fórmulas con concentraciones declaradas y eficacia medida en estudios.</p>
+      <p class="lead">Marca de dermocosmética y mesoterapia de Barcelona. Una línea profesional y una línea de casa que comparten gamas, con eficacia medida. Buscamos un distribuidor por territorio.</p>
       <div class="actions">
         <a class="btn btn-solid" href="#distribuidores">Ser distribuidor</a>
-        <a class="btn btn-line" href="#sistema">Comprar en la tienda</a>
       </div>
+      <p class="hero-alt">O bien: <a href="#profesional">Soy profesional</a> <a href="#sistema">Comprar para casa</a></p>
     </div>
     <figure class="hero-fig">
       <img src="/img/hero-manos.webp" width="1080" height="1080" alt="Manos sosteniendo el tarro de crema JOY hydrat HA + Hibiscus" class="hero-a" fetchpriority="high">
@@ -56,7 +56,7 @@
       <dl class="cifras-g">
         <div><dt>ISO 22716<br>ISO 13485</dt><dd>Fabricado en Barcelona en instalaciones certificadas</dd></div>
         <div><dt>5</dt><dd>estudios de eficacia con medición instrumental</dd></div>
-        <div><dt>20</dt><dd>voluntarios en cada estudio</dd></div>
+        <div><dt>20</dt><dd>voluntarias en cada estudio</dd></div>
         <div><dt>12 + 3</dt><dd>mesocócteles y peelings en la línea MedLine</dd></div>
       </dl>
       <div class="prensa"><h2>Han hablado de Labelist</h2><ul><li>ABC</li><li>Marie Claire</li><li>Mujer Hoy</li><li>Mía</li><li>Expansión y Negocios</li><li>El País de los Negocios</li></ul></div>
@@ -92,7 +92,7 @@
   <section class="sistema" id="sistema">
     <div class="w">
       <h2 class="h-sec">Cada necesidad se trata en cabina y se mantiene en casa.</h2>
-      <p class="sec-p">Las dos líneas comparten gamas. Elige una para ver qué producto corresponde a cada contexto.</p>
+      <p class="sec-p">Las dos líneas comparten gamas. Elige una necesidad para ver su tratamiento profesional, el mantenimiento en casa y lo que se ha medido.</p>
       <div class="tabs" role="tablist" aria-label="Gamas">
         <button class="tab" role="tab" id="tab-joy" aria-controls="panel-joy" aria-selected="true" tabindex="0" style="--c:var(--joy)">
           <span class="dot"></span><span class="lockup"><span class="lockup-n">JOY</span> <em class="lockup-d">hydrat</em></span><span class="tab-need">Hidratación</span>
@@ -116,80 +116,132 @@
       <div class="panels">
       <div class="panel" role="tabpanel" id="panel-joy" aria-labelledby="tab-joy" style="--c:var(--joy)">
         <div class="p-foto"><img src="/img/vida-joy.webp" width="1080" height="1080" alt="Producto de la gama JOY hydrat" loading="lazy" decoding="async"></div>
-        <div class="ctx">
-          <h3 class="ctx-h">En casa</h3>
-          <ul class="plist"><li>Sérum con Ácido hialurónico + B5</li><li>Crema con Ácido hialurónico + Hibiscus</li><li>Sérum Cica Recovery</li></ul>
-          <a class="btn btn-line" href="#contacto">Comprar en la tienda</a>
-        </div>
-        <div class="ctx">
-          <h3 class="ctx-h">En cabina <span class="pend">Pendiente validación regulatoria</span></h3>
-          <ul class="plist plist-pro"><li><span class="pname">Hydra Volume</span><span class="pclaim">Hidratación, volumen y elasticidad</span></li><li><span class="pname">Cell Energy</span><span class="pclaim">Nutrición y revitalización</span></li><li><span class="pname">Skin Repair</span><span class="pclaim">Textura y regeneración</span></li><li><span class="pname">Lacto Renewal</span><span class="pclaim">Peeling. Hidratación y renovación</span></li></ul>
-          <a class="btn btn-line" href="#contacto" data-rol="pro">Solicitar precio</a>
-        </div>
+        <ol class="flujo">
+          <li class="ctx">
+            <h3 class="ctx-h">Se trata en cabina <span class="pend">Pendiente validación regulatoria</span></h3>
+            <ul class="plist plist-pro"><li><span class="pname">Hydra Volume</span><span class="pclaim">Hidratación, volumen y elasticidad</span></li><li><span class="pname">Cell Energy</span><span class="pclaim">Nutrición y revitalización</span></li><li><span class="pname">Skin Repair</span><span class="pclaim">Textura y regeneración</span></li><li><span class="pname">Lacto Renewal</span><span class="pclaim">Peeling. Hidratación y renovación</span></li></ul>
+            <p class="ctx-proto"><strong>Protocolo.</strong> Mesocócteles: 4 a 6 sesiones, cada 7 a 15 días. Peeling: 3 a 6 sesiones, cada 2 a 4 semanas.</p>
+            <a class="btn btn-line" href="#contacto" data-rol="pro">Solicitar precio</a>
+          </li>
+          <li class="ctx">
+            <h3 class="ctx-h">Se mantiene en casa</h3>
+            <ul class="plist"><li>Sérum con Ácido hialurónico + B5</li><li>Crema con Ácido hialurónico + Hibiscus</li><li>Sérum Cica Recovery</li></ul>
+            <a class="btn btn-line" href="#contacto">Comprar en la tienda</a>
+          </li>
+          <li class="ctx ctx-ev">
+            <h3 class="ctx-h">Se ha medido</h3>
+            <p class="ev-num">21,64&nbsp;%</p>
+            <p class="ev-par">Hidratación, 72 horas. HA + Hibiscus.</p>
+            <a class="ev-link" href="#est-joy">Ver el estudio</a>
+          </li>
+        </ol>
       </div>
       <div class="panel" role="tabpanel" id="panel-glow" aria-labelledby="tab-glow" style="--c:var(--glow)" hidden>
         <div class="p-foto"><img src="/img/vida-glow.webp" width="1080" height="1080" alt="Producto de la gama GLOW antiox" loading="lazy" decoding="async"></div>
-        <div class="ctx">
-          <h3 class="ctx-h">En casa</h3>
-          <ul class="plist"><li>Sérum con Vitamina C + GAG</li><li>Sérum C+ AGE Defense</li><li>Scrub Curcumin Bloom</li></ul>
-          <a class="btn btn-line" href="#contacto">Comprar en la tienda</a>
-        </div>
-        <div class="ctx">
-          <h3 class="ctx-h">En cabina <span class="pend">Pendiente validación regulatoria</span></h3>
-          <ul class="plist plist-pro"><li><span class="pname">Radiance</span><span class="pclaim">Iluminación y firmeza</span></li><li><span class="pname">Glow Boost</span><span class="pclaim">Potencia la luminosidad global</span></li></ul>
-          <a class="btn btn-line" href="#contacto" data-rol="pro">Solicitar precio</a>
-        </div>
+        <ol class="flujo">
+          <li class="ctx">
+            <h3 class="ctx-h">Se trata en cabina <span class="pend">Pendiente validación regulatoria</span></h3>
+            <ul class="plist plist-pro"><li><span class="pname">Radiance</span><span class="pclaim">Iluminación y firmeza</span></li><li><span class="pname">Glow Boost</span><span class="pclaim">Potencia la luminosidad global</span></li></ul>
+            <p class="ctx-proto"><strong>Protocolo.</strong> 4 a 6 sesiones, cada 10 a 14 días.</p>
+            <a class="btn btn-line" href="#contacto" data-rol="pro">Solicitar precio</a>
+          </li>
+          <li class="ctx">
+            <h3 class="ctx-h">Se mantiene en casa</h3>
+            <ul class="plist"><li>Sérum con Vitamina C + GAG</li><li>Sérum C+ AGE Defense</li><li>Scrub Curcumin Bloom</li></ul>
+            <a class="btn btn-line" href="#contacto">Comprar en la tienda</a>
+          </li>
+          <li class="ctx ctx-ev">
+            <h3 class="ctx-h">Se ha medido</h3>
+            <p class="ev-num">7,13&nbsp;%</p>
+            <p class="ev-par">Luminosidad, 28 días. Multivitamin Cocktail.</p>
+            <a class="ev-link" href="#est-glow">Ver el estudio</a>
+          </li>
+        </ol>
       </div>
       <div class="panel" role="tabpanel" id="panel-blur" aria-labelledby="tab-blur" style="--c:var(--blur)" hidden>
         <div class="p-foto"><img src="/img/vida-blur.webp" width="1080" height="1080" alt="Producto de la gama BLUR dark spots" loading="lazy" decoding="async"></div>
-        <div class="ctx">
-          <h3 class="ctx-h">En casa</h3>
-          <ul class="plist"><li>Sérum con Niacinamida</li><li>Crema antimanchas Niolac</li></ul>
-          <a class="btn btn-line" href="#contacto">Comprar en la tienda</a>
-        </div>
-        <div class="ctx">
-          <h3 class="ctx-h">En cabina <span class="pend">Pendiente validación regulatoria</span></h3>
-          <ul class="plist plist-pro"><li><span class="pname">Spot Corrector</span><span class="pclaim">Antimanchas y unificación del tono</span></li><li><span class="pname">Pigment Balance</span><span class="pclaim">Control de la melanina</span></li><li><span class="pname">Pigment Control</span><span class="pclaim">Peeling. Reducción de manchas y tono uniforme</span></li></ul>
-          <a class="btn btn-line" href="#contacto" data-rol="pro">Solicitar precio</a>
-        </div>
+        <ol class="flujo">
+          <li class="ctx">
+            <h3 class="ctx-h">Se trata en cabina <span class="pend">Pendiente validación regulatoria</span></h3>
+            <ul class="plist plist-pro"><li><span class="pname">Spot Corrector</span><span class="pclaim">Antimanchas y unificación del tono</span></li><li><span class="pname">Pigment Balance</span><span class="pclaim">Control de la melanina</span></li><li><span class="pname">Pigment Control</span><span class="pclaim">Peeling. Reducción de manchas y tono uniforme</span></li></ul>
+            <p class="ctx-proto"><strong>Protocolo.</strong> Mesocócteles: 4 a 6 sesiones, cada 10 días. Peeling: 3 a 5 sesiones, cada 2 semanas.</p>
+            <a class="btn btn-line" href="#contacto" data-rol="pro">Solicitar precio</a>
+          </li>
+          <li class="ctx">
+            <h3 class="ctx-h">Se mantiene en casa</h3>
+            <ul class="plist"><li>Sérum con Niacinamida</li><li>Crema antimanchas Niolac</li></ul>
+            <a class="btn btn-line" href="#contacto">Comprar en la tienda</a>
+          </li>
+          <li class="ctx ctx-ev">
+            <h3 class="ctx-h">Se ha medido</h3>
+            <p class="ev-num">11,71&nbsp;%</p>
+            <p class="ev-par">Reducción de melanina, 28 días. Niacinamide.</p>
+            <a class="ev-link" href="#est-blur">Ver el estudio</a>
+          </li>
+        </ol>
       </div>
       <div class="panel" role="tabpanel" id="panel-silk" aria-labelledby="tab-silk" style="--c:var(--silk)" hidden>
         <div class="p-foto"><img src="/img/vida-silk.webp" width="1080" height="1080" alt="Producto de la gama SILK proage" loading="lazy" decoding="async"></div>
-        <div class="ctx">
-          <h3 class="ctx-h">En casa</h3>
-          <ul class="plist"><li>Retinol 0.15% Sérum</li><li>Crema con Retinol 0.3%</li><li>Crema con Ceramidas</li><li>Crema solar fluida SPF50</li></ul>
-          <a class="btn btn-line" href="#contacto">Comprar en la tienda</a>
-        </div>
-        <div class="ctx">
-          <h3 class="ctx-h">En cabina <span class="pend">Pendiente validación regulatoria</span></h3>
-          <ul class="plist plist-pro"><li><span class="pname">Youth Restore</span><span class="pclaim">Regeneración y rejuvenecimiento</span></li><li><span class="pname">Firming Essence</span><span class="pclaim">Reafirmante y antiarrugas</span></li><li><span class="pname">Expression Relax</span><span class="pclaim">Líneas dinámicas</span></li><li><span class="pname">Eye Flash</span><span class="pclaim">Biorevitalización periocular</span></li></ul>
-          <a class="btn btn-line" href="#contacto" data-rol="pro">Solicitar precio</a>
-        </div>
+        <ol class="flujo">
+          <li class="ctx">
+            <h3 class="ctx-h">Se trata en cabina <span class="pend">Pendiente validación regulatoria</span></h3>
+            <ul class="plist plist-pro"><li><span class="pname">Youth Restore</span><span class="pclaim">Regeneración y rejuvenecimiento</span></li><li><span class="pname">Firming Essence</span><span class="pclaim">Reafirmante y antiarrugas</span></li><li><span class="pname">Expression Relax</span><span class="pclaim">Líneas dinámicas</span></li><li><span class="pname">Eye Flash</span><span class="pclaim">Biorevitalización periocular</span></li></ul>
+            <p class="ctx-proto"><strong>Protocolo.</strong> 4 a 6 sesiones, cada 10 a 14 días.</p>
+            <a class="btn btn-line" href="#contacto" data-rol="pro">Solicitar precio</a>
+          </li>
+          <li class="ctx">
+            <h3 class="ctx-h">Se mantiene en casa</h3>
+            <ul class="plist"><li>Retinol 0.15% Sérum</li><li>Crema con Retinol 0.3%</li><li>Crema con Ceramidas</li><li>Crema solar fluida SPF50</li></ul>
+            <a class="btn btn-line" href="#contacto">Comprar en la tienda</a>
+          </li>
+          <li class="ctx ctx-ev">
+            <h3 class="ctx-h">Se ha medido</h3>
+            <p class="ev-num">18,23&nbsp;%</p>
+            <p class="ev-par">Firmeza, 28 días. Ceramides.</p>
+            <a class="ev-link" href="#est-silk">Ver el estudio</a>
+          </li>
+        </ol>
       </div>
       <div class="panel" role="tabpanel" id="panel-pure" aria-labelledby="tab-pure" style="--c:var(--pure)" hidden>
         <div class="p-foto"><img src="/img/vida-pure.webp" width="1080" height="1080" alt="Producto de la gama PURE shine control" loading="lazy" decoding="async"></div>
-        <div class="ctx">
-          <h3 class="ctx-h">En casa</h3>
-          <ul class="plist"><li>Sérum con Ácido Salicílico</li><li>Crema con Salicílico que Cuida el Microbioma</li><li>Gel con Ácido Glicólico + AHAs</li></ul>
-          <a class="btn btn-line" href="#contacto">Comprar en la tienda</a>
-        </div>
-        <div class="ctx">
-          <h3 class="ctx-h">En cabina <span class="pend">Pendiente validación regulatoria</span></h3>
-          <ul class="plist plist-pro"><li><span class="pname">Salicylic Balance</span><span class="pclaim">Peeling. Purificación y control del sebo</span></li></ul>
-          <a class="btn btn-line" href="#contacto" data-rol="pro">Solicitar precio</a>
-        </div>
+        <ol class="flujo">
+          <li class="ctx">
+            <h3 class="ctx-h">Se trata en cabina <span class="pend">Pendiente validación regulatoria</span></h3>
+            <ul class="plist plist-pro"><li><span class="pname">Salicylic Balance</span><span class="pclaim">Peeling. Purificación y control del sebo</span></li></ul>
+            <p class="ctx-proto"><strong>Protocolo.</strong> Peeling: 3 a 5 sesiones, cada 2 semanas.</p>
+            <a class="btn btn-line" href="#contacto" data-rol="pro">Solicitar precio</a>
+          </li>
+          <li class="ctx">
+            <h3 class="ctx-h">Se mantiene en casa</h3>
+            <ul class="plist"><li>Sérum con Ácido Salicílico</li><li>Crema con Salicílico que Cuida el Microbioma</li><li>Gel con Ácido Glicólico + AHAs</li></ul>
+            <a class="btn btn-line" href="#contacto">Comprar en la tienda</a>
+          </li>
+          <li class="ctx ctx-ev">
+            <h3 class="ctx-h">Se ha medido</h3>
+            <p class="ev-num">20,73&nbsp;%</p>
+            <p class="ev-par">Reducción de sebo, 28 días. Salicylic.</p>
+            <a class="ev-link" href="#est-pure">Ver el estudio</a>
+          </li>
+        </ol>
       </div>
       <div class="panel" role="tabpanel" id="panel-root" aria-labelledby="tab-root" style="--c:var(--root)" hidden>
         <div class="p-foto p-vial"><img src="/img/vial-hair-density.webp" width="388" height="700" alt="MedLine Hair Density" loading="lazy" decoding="async"></div>
-        <div class="ctx">
-          <h3 class="ctx-h">En casa</h3>
-          <p class="ctx-none">Esta gama es solo profesional.</p>
-        </div>
-        <div class="ctx">
-          <h3 class="ctx-h">En cabina <span class="pend">Pendiente validación regulatoria</span></h3>
-          <ul class="plist plist-pro"><li><span class="pname">Hair Density</span><span class="pclaim">Refuerzo capilar</span></li></ul>
-          <a class="btn btn-line" href="#contacto" data-rol="pro">Solicitar precio</a>
-        </div>
+        <ol class="flujo">
+          <li class="ctx">
+            <h3 class="ctx-h">Se trata en cabina <span class="pend">Pendiente validación regulatoria</span></h3>
+            <ul class="plist plist-pro"><li><span class="pname">Hair Density</span><span class="pclaim">Refuerzo capilar</span></li></ul>
+            <p class="ctx-proto"><strong>Protocolo.</strong> 6 a 8 sesiones, cada 7 a 14 días.</p>
+            <a class="btn btn-line" href="#contacto" data-rol="pro">Solicitar precio</a>
+          </li>
+          <li class="ctx">
+            <h3 class="ctx-h">Se mantiene en casa</h3>
+            <p class="ctx-none">Esta gama es solo profesional.</p>
+          </li>
+          <li class="ctx ctx-ev">
+            <h3 class="ctx-h">Se ha medido</h3>
+            <p class="ctx-none">Esta gama todavía no tiene estudio publicado.</p>
+          </li>
+        </ol>
       </div>
       </div>
       <p class="otras">La línea de casa incluye además CLEAN (limpieza) y WINK (contorno de ojos).</p>
@@ -205,7 +257,7 @@
       <div class="pro-txt">
         <img class="pro-logo" src="/img/logo-medline.svg" width="1128" height="191" alt="Labelist MedLine">
         <h2>12 mesocócteles y 3 peelings, cada uno con su protocolo.</h2>
-        <p>El catálogo MedLine es para profesionales. Mostramos ficha técnica y protocolo, y enviamos el precio a quien lo solicita.</p>
+        <p>MedLine se organiza por necesidad de la piel. Cada producto tiene su protocolo de cabina y su pauta de casa. El catálogo es para profesionales y enviamos el precio a quien lo solicita.</p>
         <div class="actions">
           <a class="btn btn-solid" href="#catalogo">Ver catálogo MedLine</a>
           <a class="btn btn-line" href="#contacto" data-rol="pro">Solicitar precio</a>
@@ -214,98 +266,152 @@
     </div>
     <div class="w cat" id="catalogo">
       <h3 class="cat-h">El catálogo MedLine <span class="pend">Pendiente validación regulatoria</span></h3>
-      <p class="sec-p">Viales de 5 ml en cajas de cinco y peelings de cabina. Precio bajo solicitud.</p>
-      <ul class="cat-g">
-        <li><a class="med" href="#contacto" data-rol="pro" data-prod="Hydra Volume" style="--c:var(--joy)">
-          <img src="/img/med-hydra-volume.webp" width="640" height="480" alt="" loading="lazy" decoding="async">
-          <span class="med-n">Hydra Volume</span>
-          <span class="med-m"><span class="dot"></span>Mesocóctel · JOY <em>hydrat</em></span>
-          <span class="med-cta">Solicitar precio</span>
-        </a></li>
-        <li><a class="med" href="#contacto" data-rol="pro" data-prod="Cell Energy" style="--c:var(--joy)">
-          <img src="/img/med-cell-energy.webp" width="640" height="480" alt="" loading="lazy" decoding="async">
-          <span class="med-n">Cell Energy</span>
-          <span class="med-m"><span class="dot"></span>Mesocóctel · JOY <em>hydrat</em></span>
-          <span class="med-cta">Solicitar precio</span>
-        </a></li>
-        <li><a class="med" href="#contacto" data-rol="pro" data-prod="Skin Repair" style="--c:var(--joy)">
-          <img src="/img/med-skin-repair.webp" width="640" height="480" alt="" loading="lazy" decoding="async">
-          <span class="med-n">Skin Repair</span>
-          <span class="med-m"><span class="dot"></span>Mesocóctel · JOY <em>hydrat</em></span>
-          <span class="med-cta">Solicitar precio</span>
-        </a></li>
-        <li><a class="med" href="#contacto" data-rol="pro" data-prod="Radiance" style="--c:var(--glow)">
-          <img src="/img/med-radiance.webp" width="640" height="480" alt="" loading="lazy" decoding="async">
-          <span class="med-n">Radiance</span>
-          <span class="med-m"><span class="dot"></span>Mesocóctel · GLOW <em>antiox</em></span>
-          <span class="med-cta">Solicitar precio</span>
-        </a></li>
-        <li><a class="med" href="#contacto" data-rol="pro" data-prod="Glow Boost" style="--c:var(--glow)">
-          <img src="/img/med-glow-boost.webp" width="640" height="480" alt="" loading="lazy" decoding="async">
-          <span class="med-n">Glow Boost</span>
-          <span class="med-m"><span class="dot"></span>Mesocóctel · GLOW <em>antiox</em></span>
-          <span class="med-cta">Solicitar precio</span>
-        </a></li>
-        <li><a class="med" href="#contacto" data-rol="pro" data-prod="Spot Corrector" style="--c:var(--blur)">
-          <img src="/img/med-spot-corrector.webp" width="640" height="480" alt="" loading="lazy" decoding="async">
-          <span class="med-n">Spot Corrector</span>
-          <span class="med-m"><span class="dot"></span>Mesocóctel · BLUR <em>dark spots</em></span>
-          <span class="med-cta">Solicitar precio</span>
-        </a></li>
-        <li><a class="med" href="#contacto" data-rol="pro" data-prod="Pigment Balance" style="--c:var(--blur)">
-          <img src="/img/med-pigment-balance.webp" width="640" height="480" alt="" loading="lazy" decoding="async">
-          <span class="med-n">Pigment Balance</span>
-          <span class="med-m"><span class="dot"></span>Mesocóctel · BLUR <em>dark spots</em></span>
-          <span class="med-cta">Solicitar precio</span>
-        </a></li>
-        <li><a class="med" href="#contacto" data-rol="pro" data-prod="Youth Restore" style="--c:var(--silk)">
-          <img src="/img/med-youth-restore.webp" width="640" height="480" alt="" loading="lazy" decoding="async">
-          <span class="med-n">Youth Restore</span>
-          <span class="med-m"><span class="dot"></span>Mesocóctel · SILK <em>proage</em></span>
-          <span class="med-cta">Solicitar precio</span>
-        </a></li>
-        <li><a class="med" href="#contacto" data-rol="pro" data-prod="Firming Essence" style="--c:var(--silk)">
-          <img src="/img/med-firming-essence.webp" width="640" height="480" alt="" loading="lazy" decoding="async">
-          <span class="med-n">Firming Essence</span>
-          <span class="med-m"><span class="dot"></span>Mesocóctel · SILK <em>proage</em></span>
-          <span class="med-cta">Solicitar precio</span>
-        </a></li>
-        <li><a class="med" href="#contacto" data-rol="pro" data-prod="Expression Relax" style="--c:var(--silk)">
-          <img src="/img/med-expression-relax.webp" width="640" height="480" alt="" loading="lazy" decoding="async">
-          <span class="med-n">Expression Relax</span>
-          <span class="med-m"><span class="dot"></span>Mesocóctel · SILK <em>proage</em></span>
-          <span class="med-cta">Solicitar precio</span>
-        </a></li>
-        <li><a class="med" href="#contacto" data-rol="pro" data-prod="Eye Flash" style="--c:var(--silk)">
-          <img src="/img/med-eye-flash.webp" width="640" height="480" alt="" loading="lazy" decoding="async">
-          <span class="med-n">Eye Flash</span>
-          <span class="med-m"><span class="dot"></span>Mesocóctel · SILK <em>proage</em></span>
-          <span class="med-cta">Solicitar precio</span>
-        </a></li>
-        <li><a class="med" href="#contacto" data-rol="pro" data-prod="Hair Density" style="--c:var(--root)">
-          <img src="/img/med-hair-density.webp" width="640" height="480" alt="" loading="lazy" decoding="async">
-          <span class="med-n">Hair Density</span>
-          <span class="med-m"><span class="dot"></span>Mesocóctel · ROOT <em>structure</em></span>
-          <span class="med-cta">Solicitar precio</span>
-        </a></li>
-        <li><a class="med" href="#contacto" data-rol="pro" data-prod="Lacto Renewal" style="--c:var(--joy)">
-          <img src="/img/med-lacto-renewal.webp" width="640" height="480" alt="" loading="lazy" decoding="async">
-          <span class="med-n">Lacto Renewal</span>
-          <span class="med-m"><span class="dot"></span>Peeling · JOY <em>hydrat</em></span>
-          <span class="med-cta">Solicitar precio</span>
-        </a></li>
-        <li><a class="med" href="#contacto" data-rol="pro" data-prod="Pigment Control" style="--c:var(--blur)">
-          <img src="/img/med-pigment-control.webp" width="640" height="480" alt="" loading="lazy" decoding="async">
-          <span class="med-n">Pigment Control</span>
-          <span class="med-m"><span class="dot"></span>Peeling · BLUR <em>dark spots</em></span>
-          <span class="med-cta">Solicitar precio</span>
-        </a></li>
-        <li><a class="med" href="#contacto" data-rol="pro" data-prod="Salicylic Balance" style="--c:var(--pure)">
-          <img src="/img/med-salicylic-balance.webp" width="640" height="480" alt="" loading="lazy" decoding="async">
-          <span class="med-n">Salicylic Balance</span>
-          <span class="med-m"><span class="dot"></span>Peeling · PURE <em>shine control</em></span>
-          <span class="med-cta">Solicitar precio</span>
-        </a></li>
+      <p class="sec-p">Mesocócteles en cajas de 5 viales de 5&nbsp;ml y peelings en frasco de 50&nbsp;ml. Precio bajo solicitud.</p>
+      <ul class="cat-rows">
+        <li class="cat-row" style="--c:var(--joy)">
+          <div class="cat-l">
+            <h4><span class="lockup"><span class="lockup-n">JOY</span> <em class="lockup-d">hydrat</em></span></h4>
+            <p class="cat-need">Hidratación</p>
+            <p class="cat-proto">Mesocócteles: 4 a 6 sesiones, cada 7 a 15 días. Peeling: 3 a 6 sesiones, cada 2 a 4 semanas.</p>
+          </div>
+          <ul class="cat-g">
+            <li><a class="med" href="#contacto" data-rol="pro" data-prod="Hydra Volume">
+              <img src="/img/med-hydra-volume.webp" width="640" height="480" alt="" loading="lazy" decoding="async">
+              <span class="med-n">Hydra Volume</span>
+              <span class="med-m">Mesocóctel</span>
+              <span class="med-cta">Solicitar precio</span>
+            </a></li>
+            <li><a class="med" href="#contacto" data-rol="pro" data-prod="Cell Energy">
+              <img src="/img/med-cell-energy.webp" width="640" height="480" alt="" loading="lazy" decoding="async">
+              <span class="med-n">Cell Energy</span>
+              <span class="med-m">Mesocóctel</span>
+              <span class="med-cta">Solicitar precio</span>
+            </a></li>
+            <li><a class="med" href="#contacto" data-rol="pro" data-prod="Skin Repair">
+              <img src="/img/med-skin-repair.webp" width="640" height="480" alt="" loading="lazy" decoding="async">
+              <span class="med-n">Skin Repair</span>
+              <span class="med-m">Mesocóctel</span>
+              <span class="med-cta">Solicitar precio</span>
+            </a></li>
+            <li><a class="med" href="#contacto" data-rol="pro" data-prod="Lacto Renewal">
+              <img src="/img/med-lacto-renewal.webp" width="640" height="480" alt="" loading="lazy" decoding="async">
+              <span class="med-n">Lacto Renewal</span>
+              <span class="med-m">Peeling</span>
+              <span class="med-cta">Solicitar precio</span>
+            </a></li>
+          </ul>
+        </li>
+        <li class="cat-row" style="--c:var(--glow)">
+          <div class="cat-l">
+            <h4><span class="lockup"><span class="lockup-n">GLOW</span> <em class="lockup-d">antiox</em></span></h4>
+            <p class="cat-need">Luminosidad</p>
+            <p class="cat-proto">4 a 6 sesiones, cada 10 a 14 días.</p>
+          </div>
+          <ul class="cat-g">
+            <li><a class="med" href="#contacto" data-rol="pro" data-prod="Radiance">
+              <img src="/img/med-radiance.webp" width="640" height="480" alt="" loading="lazy" decoding="async">
+              <span class="med-n">Radiance</span>
+              <span class="med-m">Mesocóctel</span>
+              <span class="med-cta">Solicitar precio</span>
+            </a></li>
+            <li><a class="med" href="#contacto" data-rol="pro" data-prod="Glow Boost">
+              <img src="/img/med-glow-boost.webp" width="640" height="480" alt="" loading="lazy" decoding="async">
+              <span class="med-n">Glow Boost</span>
+              <span class="med-m">Mesocóctel</span>
+              <span class="med-cta">Solicitar precio</span>
+            </a></li>
+          </ul>
+        </li>
+        <li class="cat-row" style="--c:var(--blur)">
+          <div class="cat-l">
+            <h4><span class="lockup"><span class="lockup-n">BLUR</span> <em class="lockup-d">dark spots</em></span></h4>
+            <p class="cat-need">Manchas</p>
+            <p class="cat-proto">Mesocócteles: 4 a 6 sesiones, cada 10 días. Peeling: 3 a 5 sesiones, cada 2 semanas.</p>
+          </div>
+          <ul class="cat-g">
+            <li><a class="med" href="#contacto" data-rol="pro" data-prod="Spot Corrector">
+              <img src="/img/med-spot-corrector.webp" width="640" height="480" alt="" loading="lazy" decoding="async">
+              <span class="med-n">Spot Corrector</span>
+              <span class="med-m">Mesocóctel</span>
+              <span class="med-cta">Solicitar precio</span>
+            </a></li>
+            <li><a class="med" href="#contacto" data-rol="pro" data-prod="Pigment Balance">
+              <img src="/img/med-pigment-balance.webp" width="640" height="480" alt="" loading="lazy" decoding="async">
+              <span class="med-n">Pigment Balance</span>
+              <span class="med-m">Mesocóctel</span>
+              <span class="med-cta">Solicitar precio</span>
+            </a></li>
+            <li><a class="med" href="#contacto" data-rol="pro" data-prod="Pigment Control">
+              <img src="/img/med-pigment-control.webp" width="640" height="480" alt="" loading="lazy" decoding="async">
+              <span class="med-n">Pigment Control</span>
+              <span class="med-m">Peeling</span>
+              <span class="med-cta">Solicitar precio</span>
+            </a></li>
+          </ul>
+        </li>
+        <li class="cat-row" style="--c:var(--silk)">
+          <div class="cat-l">
+            <h4><span class="lockup"><span class="lockup-n">SILK</span> <em class="lockup-d">proage</em></span></h4>
+            <p class="cat-need">Antiedad</p>
+            <p class="cat-proto">4 a 6 sesiones, cada 10 a 14 días.</p>
+          </div>
+          <ul class="cat-g">
+            <li><a class="med" href="#contacto" data-rol="pro" data-prod="Youth Restore">
+              <img src="/img/med-youth-restore.webp" width="640" height="480" alt="" loading="lazy" decoding="async">
+              <span class="med-n">Youth Restore</span>
+              <span class="med-m">Mesocóctel</span>
+              <span class="med-cta">Solicitar precio</span>
+            </a></li>
+            <li><a class="med" href="#contacto" data-rol="pro" data-prod="Firming Essence">
+              <img src="/img/med-firming-essence.webp" width="640" height="480" alt="" loading="lazy" decoding="async">
+              <span class="med-n">Firming Essence</span>
+              <span class="med-m">Mesocóctel</span>
+              <span class="med-cta">Solicitar precio</span>
+            </a></li>
+            <li><a class="med" href="#contacto" data-rol="pro" data-prod="Expression Relax">
+              <img src="/img/med-expression-relax.webp" width="640" height="480" alt="" loading="lazy" decoding="async">
+              <span class="med-n">Expression Relax</span>
+              <span class="med-m">Mesocóctel</span>
+              <span class="med-cta">Solicitar precio</span>
+            </a></li>
+            <li><a class="med" href="#contacto" data-rol="pro" data-prod="Eye Flash">
+              <img src="/img/med-eye-flash.webp" width="640" height="480" alt="" loading="lazy" decoding="async">
+              <span class="med-n">Eye Flash</span>
+              <span class="med-m">Mesocóctel</span>
+              <span class="med-cta">Solicitar precio</span>
+            </a></li>
+          </ul>
+        </li>
+        <li class="cat-row" style="--c:var(--pure)">
+          <div class="cat-l">
+            <h4><span class="lockup"><span class="lockup-n">PURE</span> <em class="lockup-d">shine control</em></span></h4>
+            <p class="cat-need">Brillos e imperfecciones</p>
+            <p class="cat-proto">Peeling: 3 a 5 sesiones, cada 2 semanas.</p>
+          </div>
+          <ul class="cat-g">
+            <li><a class="med" href="#contacto" data-rol="pro" data-prod="Salicylic Balance">
+              <img src="/img/med-salicylic-balance.webp" width="640" height="480" alt="" loading="lazy" decoding="async">
+              <span class="med-n">Salicylic Balance</span>
+              <span class="med-m">Peeling</span>
+              <span class="med-cta">Solicitar precio</span>
+            </a></li>
+          </ul>
+        </li>
+        <li class="cat-row" style="--c:var(--root)">
+          <div class="cat-l">
+            <h4><span class="lockup"><span class="lockup-n">ROOT</span> <em class="lockup-d">structure</em></span></h4>
+            <p class="cat-need">Cabello</p>
+            <p class="cat-proto">6 a 8 sesiones, cada 7 a 14 días.</p>
+          </div>
+          <ul class="cat-g">
+            <li><a class="med" href="#contacto" data-rol="pro" data-prod="Hair Density">
+              <img src="/img/med-hair-density.webp" width="640" height="480" alt="" loading="lazy" decoding="async">
+              <span class="med-n">Hair Density</span>
+              <span class="med-m">Mesocóctel</span>
+              <span class="med-cta">Solicitar precio</span>
+            </a></li>
+          </ul>
+        </li>
       </ul>
     </div>
   </section>
@@ -313,45 +419,100 @@
   <section class="efic" id="eficacia">
     <div class="w">
       <h2 class="h-sec">Lo que midieron los estudios</h2>
-      <p class="sec-p">Mediciones instrumentales en voluntarios adultos, antes y después de usar el producto.</p>
+      <p class="sec-p">Tests de uso con medición instrumental antes y después, en 20 voluntarias adultas por estudio.</p>
       <ul class="est-g">
-        <li class="est" style="--c:var(--silk)">
+        <li class="est" id="est-silk" style="--c:var(--silk)">
           <div class="est-img"><img src="/img/est-silk.webp" width="520" height="207" alt="SILK proage Ceramides" loading="lazy" decoding="async"></div>
           <p class="est-num">18,23&nbsp;%</p>
           <p class="est-par">Firmeza<span>28 días</span></p>
           <p class="est-prod"><span class="lockup"><span class="lockup-n">SILK</span> <em class="lockup-d">proage</em></span> Ceramides</p>
-          <p class="est-ref">Informe M23d4737</p>
+          <details class="est-d">
+            <summary>Cómo se midió</summary>
+            <dl>
+              <dt>Instrumento</dt><dd>Cutometer Dual MPA580</dd>
+              <dt>Zona</dt><dd>Zona de patas de gallo</dd>
+              <dt>Panel</dt><dd>20 mujeres de 38 a 65 años</dd>
+              <dt>Voluntarias que mejoraron</dt><dd>70&nbsp;%</dd>
+            </dl>
+            
+            <p class="est-ref">Informe M23d4737</p>
+          </details>
+          
         </li>
-        <li class="est" style="--c:var(--joy)">
+        <li class="est" id="est-joy" style="--c:var(--joy)">
           <div class="est-img"><img src="/img/est-joy.webp" width="520" height="218" alt="JOY hydrat HA + Hibiscus" loading="lazy" decoding="async"></div>
           <p class="est-num">21,64&nbsp;%</p>
           <p class="est-par">Hidratación<span>72 horas</span></p>
           <p class="est-prod"><span class="lockup"><span class="lockup-n">JOY</span> <em class="lockup-d">hydrat</em></span> HA + Hibiscus</p>
-          <p class="est-ref">Informe M23d4753</p>
+          <details class="est-d">
+            <summary>Cómo se midió</summary>
+            <dl>
+              <dt>Instrumento</dt><dd>Corneometer</dd>
+              <dt>Zona</dt><dd>Frente y mejillas</dd>
+              <dt>Panel</dt><dd>20 mujeres de 20 a 70 años</dd>
+              <dt>Voluntarias que mejoraron</dt><dd>90&nbsp;%</dd>
+            </dl>
+            <p>A las 48 horas la mejora media fue del 19,52&nbsp;%.</p>
+            <p class="est-ref">Informe M23d4753</p>
+          </details>
+          
         </li>
-        <li class="est" style="--c:var(--glow)">
+        <li class="est" id="est-glow" style="--c:var(--glow)">
           <div class="est-img"><img src="/img/est-glow.webp" width="346" height="520" alt="GLOW antiox Multivitamin Cocktail" loading="lazy" decoding="async"></div>
-          <p class="est-num">21,00&nbsp;%</p>
-          <p class="est-par">Firmeza<span>28 días</span></p>
+          <p class="est-num">7,13&nbsp;%</p>
+          <p class="est-par">Luminosidad<span>28 días</span></p>
           <p class="est-prod"><span class="lockup"><span class="lockup-n">GLOW</span> <em class="lockup-d">antiox</em></span> Multivitamin Cocktail</p>
-          <p class="est-ref">Informe M23d4752</p>
+          <details class="est-d">
+            <summary>Cómo se midió</summary>
+            <dl>
+              <dt>Instrumento</dt><dd>Skin-Colorimeter CL400</dd>
+              <dt>Zona</dt><dd>Frente, mejillas y cuello</dd>
+              <dt>Panel</dt><dd>20 mujeres de 19 a 40 años</dd>
+              <dt>Voluntarias que mejoraron</dt><dd>85&nbsp;%</dd>
+            </dl>
+            
+            <p class="est-ref">Informe M23d4752</p>
+          </details>
+          <p><span class="pend">Pendiente: revisar el informe</span></p>
         </li>
-        <li class="est" style="--c:var(--pure)">
+        <li class="est" id="est-pure" style="--c:var(--pure)">
           <div class="est-img"><img src="/img/est-pure.webp" width="502" height="520" alt="PURE shine control Salicylic" loading="lazy" decoding="async"></div>
           <p class="est-num">20,73&nbsp;%</p>
           <p class="est-par">Reducción de sebo<span>28 días</span></p>
           <p class="est-prod"><span class="lockup"><span class="lockup-n">PURE</span> <em class="lockup-d">shine control</em></span> Salicylic</p>
-          <p class="est-ref">Informe M23d4747</p>
+          <details class="est-d">
+            <summary>Cómo se midió</summary>
+            <dl>
+              <dt>Instrumento</dt><dd>Sebumeter SM 815</dd>
+              <dt>Zona</dt><dd>Frente, mejillas y mentón</dd>
+              <dt>Panel</dt><dd>20 mujeres de 18 a 50 años</dd>
+              <dt>Voluntarias que mejoraron</dt><dd>65&nbsp;%</dd>
+            </dl>
+            
+            <p class="est-ref">Informe M23d4747</p>
+          </details>
+          
         </li>
-        <li class="est" style="--c:var(--blur)">
+        <li class="est" id="est-blur" style="--c:var(--blur)">
           <div class="est-img"><img src="/img/est-blur.webp" width="502" height="520" alt="BLUR dark spots Niacinamide" loading="lazy" decoding="async"></div>
           <p class="est-num">11,71&nbsp;%</p>
           <p class="est-par">Reducción de melanina<span>28 días</span></p>
           <p class="est-prod"><span class="lockup"><span class="lockup-n">BLUR</span> <em class="lockup-d">dark spots</em></span> Niacinamide</p>
-          <p class="est-ref">Informe M23d4754</p>
+          <details class="est-d">
+            <summary>Cómo se midió</summary>
+            <dl>
+              <dt>Instrumento</dt><dd>Mexameter MX 18</dd>
+              <dt>Zona</dt><dd>Rostro</dd>
+              <dt>Panel</dt><dd>20 mujeres de 37 a 70 años</dd>
+              <dt>Voluntarias que mejoraron</dt><dd>80&nbsp;%</dd>
+            </dl>
+            <p>Diferencia estadísticamente significativa según el informe.</p>
+            <p class="est-ref">Informe M23d4754</p>
+          </details>
+          
         </li>
       </ul>
-      <p class="nota">Cada estudio se hizo con 20 voluntarios adultos. La cifra es la mejora media frente al valor inicial.</p>
+      <p class="nota">Estudios abiertos, sin grupo de control. La cifra es la mejora media frente al valor inicial. En los cinco estudios ninguna voluntaria refirió irritación, enrojecimiento, picor ni sequedad.</p>
     </div>
   </section>
 
@@ -360,18 +521,19 @@
       <div class="fab-top">
         <div class="fab-txt">
           <h2 class="h-sec">Fórmulas que declaran lo que llevan</h2>
-          <p>El catálogo indica la concentración de los activos principales de cada producto: niacinamida al 13&nbsp;%, vitamina C al 15&nbsp;%, retinol al 0,3&nbsp;%.</p>
+          <p>Cada ficha indica la concentración de sus activos principales. Estas son cinco de ellas.</p>
         </div>
         <div class="vid">
         <video src="/img/marca.mp4" poster="/img/marca-poster.webp" muted loop playsinline preload="none" aria-label="Vídeo de la marca Labelist"></video>
         <button class="vid-btn" type="button" data-pausa="Pausar vídeo" data-play="Reproducir vídeo">Reproducir vídeo</button>
       </div>
       </div>
-      <ul class="tex">
-        <li><figure><img src="/img/tex-ha.webp" width="760" height="760" alt="Textura del producto con sus activos señalados: Sérum con Ácido hialurónico + B5" loading="lazy" decoding="async"><figcaption>Sérum con Ácido hialurónico + B5</figcaption></figure></li>
-        <li><figure><img src="/img/tex-niacinamida.webp" width="760" height="760" alt="Textura del producto con sus activos señalados: Sérum con Niacinamida" loading="lazy" decoding="async"><figcaption>Sérum con Niacinamida</figcaption></figure></li>
-        <li><figure><img src="/img/tex-vitc.webp" width="760" height="760" alt="Textura del producto con sus activos señalados: Sérum con Vitamina C + GAG" loading="lazy" decoding="async"><figcaption>Sérum con Vitamina C + GAG</figcaption></figure></li>
-        <li><figure><img src="/img/tex-retinol.webp" width="760" height="760" alt="Textura del producto con sus activos señalados: Retinol 0.15% Sérum" loading="lazy" decoding="async"><figcaption>Retinol 0.15% Sérum</figcaption></figure></li>
+      <ul class="act">
+        <li style="--c:var(--blur)"><span class="act-n">13&nbsp;%</span><strong>Niacinamida</strong><span>Sérum con Niacinamida</span></li>
+        <li style="--c:var(--glow)"><span class="act-n">15&nbsp;%</span><strong>Vitamina C</strong><span>Sérum C+ AGE Defense</span></li>
+        <li style="--c:var(--silk)"><span class="act-n">0,3&nbsp;%</span><strong>Retinol</strong><span>Crema con Retinol 0.3%</span></li>
+        <li style="--c:var(--pure)"><span class="act-n">2&nbsp;%</span><strong>Ácido salicílico</strong><span>Sérum con Ácido Salicílico</span></li>
+        <li style="--c:var(--pure)"><span class="act-n">8&nbsp;%</span><strong>Ácido glicólico</strong><span>Gel con Ácido Glicólico + AHAs</span></li>
       </ul>
     </div>
   </section>
@@ -392,10 +554,15 @@
       </div>
       <div class="pasos">
         <h3 class="h-sub">Cómo empezamos <span class="pend">Pendiente: confirmar condiciones publicables</span></h3>
-        <ol><li><strong>Solicitud</strong><span>Nos cuentas tu canal y tu territorio.</span></li><li><strong>Fase de entrada</strong><span>Seis meses con pedido mínimo flexible para probar el mercado.</span></li><li><strong>Exclusividad</strong><span>Un socio por territorio, con un compromiso anual.</span></li></ol>
+        <ol><li><strong>Solicitud</strong><span>Nos cuentas tu canal y tu territorio.</span></li><li><strong>Fase de entrada</strong><span>Seis meses con pedido mínimo flexible para probar el mercado.</span></li><li><strong>Exclusividad</strong><span>Un socio por territorio, con plan de crecimiento y compromiso anual.</span></li></ol>
       </div>
       <div class="dist-b">
-        <dl class="soporte"><div><dt>Formación de producto</dt><dd>Técnica y comercial, para el equipo del distribuidor.</dd></div><div><dt>Protocolos documentados</dt><dd>Paso a paso, por línea y por necesidad de la piel.</dd></div><div><dt>Materiales comerciales</dt><dd>Fichas, catálogos y argumentarios listos para usar.</dd></div><div><dt>Soporte continuo</dt><dd>Consultas científicas y comerciales durante toda la relación.</dd></div></dl>
+        <div>
+          <h3 class="h-sub">Qué recibe el distribuidor</h3>
+          <dl class="soporte"><div><dt>Formación técnica y comercial</dt><dd>Para el equipo del distribuidor, antes de salir al mercado.</dd></div><div><dt>Protocolos documentados</dt><dd>Paso a paso, por línea y por necesidad de la piel, listos para la clínica.</dd></div><div><dt>Materiales comerciales</dt><dd>Fichas de producto, catálogos y argumentarios adaptados a cada mercado.</dd></div><div><dt>Soporte continuo</dt><dd>Consultas científicas y comerciales durante toda la relación.</dd></div></dl>
+          <h3 class="h-sub h-sub2">Qué buscamos en un socio</h3>
+          <dl class="soporte"><div><dt>Acceso al canal profesional</dt><dd>Trato directo con dermatólogos, médicos estéticos y centros médicos.</dd></div><div><dt>Red de puntos de venta</dt><dd>Cobertura real en su territorio.</dd></div><div><dt>Mismo posicionamiento</dt><dd>Canal profesional y selectivo, no gran consumo.</dd></div><div><dt>Capacidad de crecer</dt><dd>Un plan de crecimiento con compromiso anual.</dd></div></dl>
+        </div>
         <form class="form" id="contacto" novalidate>
           <h3>Escríbenos</h3>
           <fieldset class="rol">
@@ -415,7 +582,7 @@
             <p class="err" id="empresa-err" hidden></p>
           </div>
           <div class="field">
-            <label for="pais">País</label>
+            <label for="pais">País o territorio de interés</label>
             <input id="pais" name="pais" type="text" required autocomplete="country-name" aria-describedby="pais-err">
             <p class="err" id="pais-err" hidden></p>
           </div>
@@ -424,6 +591,11 @@
             <input id="email" name="email" type="email" required autocomplete="email" aria-describedby="email-err">
             <p class="err" id="email-err" hidden></p>
           </div>
+          </div>
+          <div class="field">
+            <label for="web">Web de la empresa <span class="opt">Opcional</span></label>
+            <input id="web" name="web" type="url" autocomplete="url" aria-describedby="web-err">
+            <p class="err" id="web-err" hidden></p>
           </div>
           <div class="field">
             <label for="msg">Mensaje <span class="opt">Opcional</span></label>

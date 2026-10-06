@@ -357,4 +357,111 @@ Object.assign(t.en, {
   contactoH: 'Contact', horario: 'Monday to Friday, 9:00 to 15:00',
 });
 
-module.exports = { gamas, estudios, mercados, medline, prensa, t };
+
+// ---- Tercera versión de la home: datos sacados de protocolos, fichas e informes ----
+// Protocolos: "Professional & Homecare Protocols". Pendiente de validación regulatoria.
+const proto = {
+  joy: { es: 'Mesocócteles: 4 a 6 sesiones, cada 7 a 15 días. Peeling: 3 a 6 sesiones, cada 2 a 4 semanas.', en: 'Mesococktails: 4 to 6 sessions, every 7 to 15 days. Peel: 3 to 6 sessions, every 2 to 4 weeks.' },
+  glow: { es: '4 a 6 sesiones, cada 10 a 14 días.', en: '4 to 6 sessions, every 10 to 14 days.' },
+  blur: { es: 'Mesocócteles: 4 a 6 sesiones, cada 10 días. Peeling: 3 a 5 sesiones, cada 2 semanas.', en: 'Mesococktails: 4 to 6 sessions, every 10 days. Peel: 3 to 5 sessions, every 2 weeks.' },
+  silk: { es: '4 a 6 sesiones, cada 10 a 14 días.', en: '4 to 6 sessions, every 10 to 14 days.' },
+  pure: { es: 'Peeling: 3 a 5 sesiones, cada 2 semanas.', en: 'Peel: 3 to 5 sessions, every 2 weeks.' },
+  root: { es: '6 a 8 sesiones, cada 7 a 14 días.', en: '6 to 8 sessions, every 7 to 14 days.' },
+};
+gamas.forEach(g => { g.proto = proto[g.id]; });
+
+// Informes: el de GLOW da cifras de firmeza contradictorias, así que se publica la luminosidad y se marca para revisión.
+const det = {
+  silk: { ap: ['Cutometer Dual MPA580', 'Zona de patas de gallo', 'Crow\'s feet area'], edad: '38-65', mej: 70 },
+  joy: { ap: ['Corneometer', 'Frente y mejillas', 'Forehead and cheeks'], edad: '20-70', mej: 90, extra: { es: 'A las 48 horas la mejora media fue del 19,52&nbsp;%.', en: 'At 48 hours the mean improvement was 19.52%.' } },
+  glow: { ap: ['Skin-Colorimeter CL400', 'Frente, mejillas y cuello', 'Forehead, cheeks and neck'], edad: '19-40', mej: 85, pend: { es: 'Pendiente: revisar el informe', en: 'Pending: report under review' } },
+  pure: { ap: ['Sebumeter SM 815', 'Frente, mejillas y mentón', 'Forehead, cheeks and chin'], edad: '18-50', mej: 65 },
+  blur: { ap: ['Mexameter MX 18', 'Rostro', 'Face'], edad: '37-70', mej: 80, extra: { es: 'Diferencia estadísticamente significativa según el informe.', en: 'Statistically significant difference according to the report.' } },
+};
+estudios.forEach(e => { e.det = det[e.gama]; });
+Object.assign(estudios.find(e => e.gama === 'glow'), { es: 'Luminosidad', en: 'Luminosity', valor: '7,13', valorEn: '7.13' });
+
+// Concentraciones declaradas en fichas técnicas y catálogo.
+const activos = [
+  { pct: ['13', '13'], es: 'Niacinamida', en: 'Niacinamide', prod: { es: 'Sérum con Niacinamida', en: 'Niacinamide Serum' }, gama: 'blur' },
+  { pct: ['15', '15'], es: 'Vitamina C', en: 'Vitamin C', prod: { es: 'Sérum C+ AGE Defense', en: 'C+ AGE Defense Serum' }, gama: 'glow' },
+  { pct: ['0,3', '0.3'], es: 'Retinol', en: 'Retinol', prod: { es: 'Crema con Retinol 0.3%', en: '0.3% Retinol Cream' }, gama: 'silk' },
+  { pct: ['2', '2'], es: 'Ácido salicílico', en: 'Salicylic acid', prod: { es: 'Sérum con Ácido Salicílico', en: 'Salicylic Acid Serum' }, gama: 'pure' },
+  { pct: ['8', '8'], es: 'Ácido glicólico', en: 'Glycolic acid', prod: { es: 'Gel con Ácido Glicólico + AHAs', en: 'Glycolic Acid + AHA Gel' }, gama: 'pure' },
+];
+
+Object.assign(t.es, {
+  heroSub: 'Marca de dermocosmética y mesoterapia de Barcelona. Una línea profesional y una línea de casa que comparten gamas, con eficacia medida. Buscamos un distribuidor por territorio.',
+  heroPro: 'Soy profesional', heroCasa: 'Comprar para casa', heroO: 'O bien:',
+  sistemaP: 'Las dos líneas comparten gamas. Elige una necesidad para ver su tratamiento profesional, el mantenimiento en casa y lo que se ha medido.',
+  paso1: 'Se trata en cabina', paso2: 'Se mantiene en casa', paso3: 'Se ha medido',
+  protoL: 'Protocolo', verEstudio: 'Ver el estudio', sinEstudio: 'Esta gama todavía no tiene estudio publicado.',
+  proP: 'MedLine se organiza por necesidad de la piel. Cada producto tiene su protocolo de cabina y su pauta de casa. El catálogo es para profesionales y enviamos el precio a quien lo solicita.',
+  catP: 'Mesocócteles en cajas de 5 viales de 5&nbsp;ml y peelings en frasco de 50&nbsp;ml. Precio bajo solicitud.',
+  eficP: 'Tests de uso con medición instrumental antes y después, en 20 voluntarias adultas por estudio.',
+  eficNota: 'Estudios abiertos, sin grupo de control. La cifra es la mejora media frente al valor inicial. En los cinco estudios ninguna voluntaria refirió irritación, enrojecimiento, picor ni sequedad.',
+  comoH: 'Cómo se midió', dAp: 'Instrumento', dZona: 'Zona', dPanel: 'Panel', dMej: 'Voluntarias que mejoraron',
+  panelTxt: e => `20 mujeres de ${e.replace('-', ' a ')} años`,
+  fabP1: 'Cada ficha indica la concentración de sus activos principales. Estas son cinco de ellas.',
+  socioH: 'Qué buscamos en un socio',
+  socio: [
+    ['Acceso al canal profesional', 'Trato directo con dermatólogos, médicos estéticos y centros médicos.'],
+    ['Red de puntos de venta', 'Cobertura real en su territorio.'],
+    ['Mismo posicionamiento', 'Canal profesional y selectivo, no gran consumo.'],
+    ['Capacidad de crecer', 'Un plan de crecimiento con compromiso anual.'],
+  ],
+  recibeH: 'Qué recibe el distribuidor',
+  soporte: [
+    ['Formación técnica y comercial', 'Para el equipo del distribuidor, antes de salir al mercado.'],
+    ['Protocolos documentados', 'Paso a paso, por línea y por necesidad de la piel, listos para la clínica.'],
+    ['Materiales comerciales', 'Fichas de producto, catálogos y argumentarios adaptados a cada mercado.'],
+    ['Soporte continuo', 'Consultas científicas y comerciales durante toda la relación.'],
+  ],
+  pasos: [
+    ['Solicitud', 'Nos cuentas tu canal y tu territorio.'],
+    ['Fase de entrada', 'Seis meses con pedido mínimo flexible para probar el mercado.'],
+    ['Exclusividad', 'Un socio por territorio, con plan de crecimiento y compromiso anual.'],
+  ],
+  webL: 'Web de la empresa',
+});
+t.es.cifras[2] = ['20', '', 'voluntarias en cada estudio'];
+t.es.form.pais = 'País o territorio de interés';
+Object.assign(t.en, {
+  heroSub: 'A dermocosmetics and mesotherapy brand from Barcelona. A professional line and a homecare line that share the same ranges, with measured efficacy. We are looking for one distributor per territory.',
+  heroPro: 'I am a professional', heroCasa: 'Shop homecare', heroO: 'Or:',
+  sistemaP: 'Both lines share the same ranges. Pick a skin need to see its professional treatment, the homecare that maintains it and what has been measured.',
+  paso1: 'Treated in the clinic', paso2: 'Maintained at home', paso3: 'Measured',
+  protoL: 'Protocol', verEstudio: 'See the study', sinEstudio: 'This range has no published study yet.',
+  proP: 'MedLine is organised by skin need. Each product has its clinic protocol and its homecare routine. The catalogue is for professionals and we send pricing on request.',
+  catP: 'Mesococktails in boxes of 5 vials of 5 ml, and peels in 50 ml bottles. Pricing on request.',
+  eficP: 'In-use tests with instrumental measurement before and after, on 20 adult women per study.',
+  eficNota: 'Open-label studies with no control group. The figure is the mean improvement against baseline. In all five studies no volunteer reported irritation, redness, itching or dryness.',
+  comoH: 'How it was measured', dAp: 'Instrument', dZona: 'Area', dPanel: 'Panel', dMej: 'Volunteers who improved',
+  panelTxt: e => `20 women aged ${e.replace('-', ' to ')}`,
+  fabP1: 'Each product sheet states the concentration of its main actives. Here are five of them.',
+  socioH: 'What we look for in a partner',
+  socio: [
+    ['Access to the professional channel', 'Direct contact with dermatologists, aesthetic physicians and medical centres.'],
+    ['A network of points of sale', 'Real coverage in the territory.'],
+    ['The same positioning', 'Professional and selective channel, not mass market.'],
+    ['Capacity to scale', 'A growth plan with a yearly commitment.'],
+  ],
+  recibeH: 'What a distributor receives',
+  soporte: [
+    ['Technical and commercial training', 'For the distributor\'s team, before going to market.'],
+    ['Documented protocols', 'Step by step, by line and by skin need, ready for the clinic.'],
+    ['Sales materials', 'Product cards, catalogues and sales arguments adapted to each market.'],
+    ['Ongoing support', 'Scientific and commercial queries throughout the partnership.'],
+  ],
+  pasos: [
+    ['Enquiry', 'Tell us about your channel and your territory.'],
+    ['Entry phase', 'Six months with a flexible minimum order to test the market.'],
+    ['Exclusivity', 'One partner per territory, with a growth plan and a yearly commitment.'],
+  ],
+  webL: 'Company website',
+});
+t.en.cifras[2] = ['20', '', 'volunteers in each study'];
+t.en.form.pais = 'Country or territory of interest';
+
+module.exports = { gamas, estudios, mercados, medline, prensa, activos, t };
+

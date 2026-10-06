@@ -50,7 +50,11 @@
           }
         ]
       },
-      "vida": "vida-joy"
+      "vida": "vida-joy",
+      "proto": {
+        "es": "Mesocócteles: 4 a 6 sesiones, cada 7 a 15 días. Peeling: 3 a 6 sesiones, cada 2 a 4 semanas.",
+        "en": "Mesococktails: 4 to 6 sessions, every 7 to 15 days. Peel: 3 to 6 sessions, every 2 to 4 weeks."
+      }
     },
     {
       "id": "glow",
@@ -92,7 +96,11 @@
           }
         ]
       },
-      "vida": "vida-glow"
+      "vida": "vida-glow",
+      "proto": {
+        "es": "4 a 6 sesiones, cada 10 a 14 días.",
+        "en": "4 to 6 sessions, every 10 to 14 days."
+      }
     },
     {
       "id": "blur",
@@ -137,7 +145,11 @@
           }
         ]
       },
-      "vida": "vida-blur"
+      "vida": "vida-blur",
+      "proto": {
+        "es": "Mesocócteles: 4 a 6 sesiones, cada 10 días. Peeling: 3 a 5 sesiones, cada 2 semanas.",
+        "en": "Mesococktails: 4 to 6 sessions, every 10 days. Peel: 3 to 5 sessions, every 2 weeks."
+      }
     },
     {
       "id": "silk",
@@ -191,7 +203,11 @@
           }
         ]
       },
-      "vida": "vida-silk"
+      "vida": "vida-silk",
+      "proto": {
+        "es": "4 a 6 sesiones, cada 10 a 14 días.",
+        "en": "4 to 6 sessions, every 10 to 14 days."
+      }
     },
     {
       "id": "pure",
@@ -230,7 +246,11 @@
           }
         ]
       },
-      "vida": "vida-pure"
+      "vida": "vida-pure",
+      "proto": {
+        "es": "Peeling: 3 a 5 sesiones, cada 2 semanas.",
+        "en": "Peel: 3 to 5 sessions, every 2 weeks."
+      }
     },
     {
       "id": "root",
@@ -251,7 +271,11 @@
           }
         ]
       },
-      "vida": null
+      "vida": null,
+      "proto": {
+        "es": "6 a 8 sesiones, cada 7 a 14 días.",
+        "en": "6 to 8 sessions, every 7 to 14 days."
+      }
     }
   ],
   "estudios": [
@@ -269,7 +293,16 @@
         "est-silk",
         520,
         207
-      ]
+      ],
+      "det": {
+        "ap": [
+          "Cutometer Dual MPA580",
+          "Zona de patas de gallo",
+          "Crow's feet area"
+        ],
+        "edad": "38-65",
+        "mej": 70
+      }
     },
     {
       "gama": "joy",
@@ -285,15 +318,28 @@
         "est-joy",
         520,
         218
-      ]
+      ],
+      "det": {
+        "ap": [
+          "Corneometer",
+          "Frente y mejillas",
+          "Forehead and cheeks"
+        ],
+        "edad": "20-70",
+        "mej": 90,
+        "extra": {
+          "es": "A las 48 horas la mejora media fue del 19,52&nbsp;%.",
+          "en": "At 48 hours the mean improvement was 19.52%."
+        }
+      }
     },
     {
       "gama": "glow",
       "prod": "GLOW antiox · Multivitamin Cocktail",
-      "es": "Firmeza",
-      "en": "Firmness",
-      "valor": "21,00",
-      "valorEn": "21.00",
+      "es": "Luminosidad",
+      "en": "Luminosity",
+      "valor": "7,13",
+      "valorEn": "7.13",
       "plazoEs": "28 días",
       "plazoEn": "28 days",
       "informe": "M23d4752",
@@ -301,7 +347,20 @@
         "est-glow",
         346,
         520
-      ]
+      ],
+      "det": {
+        "ap": [
+          "Skin-Colorimeter CL400",
+          "Frente, mejillas y cuello",
+          "Forehead, cheeks and neck"
+        ],
+        "edad": "19-40",
+        "mej": 85,
+        "pend": {
+          "es": "Pendiente: revisar el informe",
+          "en": "Pending: report under review"
+        }
+      }
     },
     {
       "gama": "pure",
@@ -317,7 +376,16 @@
         "est-pure",
         502,
         520
-      ]
+      ],
+      "det": {
+        "ap": [
+          "Sebumeter SM 815",
+          "Frente, mejillas y mentón",
+          "Forehead, cheeks and chin"
+        ],
+        "edad": "18-50",
+        "mej": 65
+      }
     },
     {
       "gama": "blur",
@@ -333,7 +401,20 @@
         "est-blur",
         502,
         520
-      ]
+      ],
+      "det": {
+        "ap": [
+          "Mexameter MX 18",
+          "Rostro",
+          "Face"
+        ],
+        "edad": "37-70",
+        "mej": 80,
+        "extra": {
+          "es": "Diferencia estadísticamente significativa según el informe.",
+          "en": "Statistically significant difference according to the report."
+        }
+      }
     }
   ],
   "mercados": {
